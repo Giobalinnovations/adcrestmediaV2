@@ -1,13 +1,13 @@
-"use client";
+'use client';
 
-import React, { useState, useEffect } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import MenuItem from "./MenuItem";
-import MegaMenu from "./MegaMenu";
-import { menus } from "../../../libs/menus";
+import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import MenuItem from './MenuItem';
+import MegaMenu from './MegaMenu';
+import { menus } from '../../../libs/menus';
 
-import logo from "../../../public/images/logo.png";
+import logo from '../../../public/images/logo.png';
 
 const Navbar: React.FC = () => {
   const [menu, setMenu] = useState<boolean>(true);
@@ -17,22 +17,22 @@ const Navbar: React.FC = () => {
   };
 
   useEffect(() => {
-    let elementId = document.getElementById("navbar");
-    document.addEventListener("scroll", () => {
+    let elementId = document.getElementById('navbar');
+    document.addEventListener('scroll', () => {
       if (window.scrollY > 170) {
-        elementId?.classList.add("is-sticky");
+        elementId?.classList.add('is-sticky');
       } else {
-        elementId?.classList.remove("is-sticky");
+        elementId?.classList.remove('is-sticky');
       }
     });
   }, []);
 
   const classOne = menu
-    ? "collapse navbar-collapse"
-    : "collapse navbar-collapse show";
+    ? 'collapse navbar-collapse'
+    : 'collapse navbar-collapse show';
   const classTwo = menu
-    ? "navbar-toggler navbar-toggler-right collapsed"
-    : "navbar-toggler navbar-toggler-right";
+    ? 'navbar-toggler navbar-toggler-right collapsed'
+    : 'navbar-toggler navbar-toggler-right';
 
   return (
     <>
@@ -40,7 +40,8 @@ const Navbar: React.FC = () => {
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container">
             <Link href="/" className="navbar-brand">
-              <Image src={logo} alt="logo" width={150} height={40} />
+              {/* <Image src={logo} alt="logo" width={150} height={40} /> */}
+              <h5>AdcrestMedia</h5>
             </Link>
 
             {/* Toggle navigation */}
@@ -63,7 +64,7 @@ const Navbar: React.FC = () => {
               <ul className="navbar-nav">
                 <MegaMenu />
 
-                {menus.map((menuItem) => (
+                {menus.map(menuItem => (
                   <MenuItem key={menuItem.label} {...menuItem} />
                 ))}
               </ul>

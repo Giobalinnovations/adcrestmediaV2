@@ -1,43 +1,52 @@
-import Navbar from "./../components/Layouts/Navbar";
-import MainBanner from "../components/HomePages/DefaultHome/MainBanner";
-import Services from "../components/HomePages/DefaultHome/Services";
-import About from "../components/HomePages/DefaultHome/About";
-import OurWorks from "../components/HomePages/DefaultHome/OurWorks";
-import WorkProcess from "../components/HomePages/DefaultHome/WorkProcess";
-import Feedback from "../components/Common/Feedback";
-import Team from "../components/Common/Team";
-import FunFacts from "../components/Common/FunFacts";
-import LatestNewsSlider from "../components/Common/LatestNewsSlider";
-import CtaArea from "../components/Common/CtaArea";
-import Partner from "../components/Common/Partner";
-import Footer from "../components/Layouts/Footer";
+import React from 'react';
+import Navbar from '../components/Layouts/Navbar';
+import MainBanner from '../components/HomePages/DigitalMarketing/MainBanner';
+import Partner from '../components/HomePages/DigitalMarketing/Partner';
+import MarketingProcess from '../components/HomePages/DigitalMarketing/MarketingProcess';
+import AboutContent from '../components/HomePages/DigitalMarketing/AboutContent';
+import OurServices from '../components/HomePages/DigitalMarketing/OurServices';
+import FunFacts from '../components/HomePages/DigitalMarketing/FunFacts';
+import Testimonials from '../components/HomePages/DigitalMarketing/Testimonials';
+import PricingPlans from '../components/HomePages/DigitalMarketing/PricingPlans';
+import TeamMember from '../components/HomePages/DigitalMarketing/TeamMember';
+import LatestNews from '../components/HomePages/DigitalMarketing/LatestNews';
+import CtaArea from '../components/Common/CtaArea';
+import CaseStudies from '../components/HomePages/DigitalMarketing/CaseStudies';
+import Newsletter from '../components/Common/Newsletter';
+import Footer from '../components/Layouts/Footer';
 
-export default function Home() {
+export default function Page() {
   return (
     <>
       <Navbar />
 
       <MainBanner />
 
-      <Services />
+      <MarketingProcess />
 
-      <About />
+      <AboutContent />
 
-      <OurWorks />
-
-      <WorkProcess />
-
-      <Feedback />
-
-      <Team />
+      <OurServices />
 
       <FunFacts />
 
-      <LatestNewsSlider />
+      <CaseStudies />
+
+      <Testimonials />
+
+      <PricingPlans />
 
       <CtaArea />
 
+      <TeamMember />
+
+      <LatestNews />
+
       <Partner />
+
+      <div className="pb-100">
+        <Newsletter />
+      </div>
 
       <Footer />
     </>

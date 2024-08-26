@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
-import whiteLogo from "../../../public/images/logo-white.png";
+import whiteLogo from '../../../public/images/logo-white.png';
 
 const FooterDark: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -22,7 +22,8 @@ const FooterDark: React.FC = () => {
               >
                 <div className="logo">
                   <Link href="/">
-                    <Image src={whiteLogo} alt="Logo" width={150} height={40} />
+                    {/* <Image src={whiteLogo} alt="Logo" width={150} height={40} /> */}
+                    <h3>AdcrestMedia</h3>
                   </Link>
                 </div>
 
@@ -135,7 +136,9 @@ const FooterDark: React.FC = () => {
                   </li>
                   <li className="pt-2">
                     <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:hello@pungent.com">hello@pungent.com</a>
+                    <a href="mailto:hello@adcrestmediacom">
+                      hello@adcrestmediacom
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -146,10 +149,7 @@ const FooterDark: React.FC = () => {
         <div className="copyright-area">
           <div className="container">
             <p>
-              Copyright &copy; {currentYear} Pungent. All Rights Reserved By{" "}
-              <a href="https://envytheme.com" target="_blank">
-                EnvyTheme
-              </a>
+              Copyright &copy; {currentYear} adcrestmedia All Rights Reserved
             </p>
           </div>
         </div>

@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import React, { useState } from "react";
-import Image from "next/image";
+import React, { useState } from 'react';
+import Image from 'next/image';
 
-import contactImg from "../../../../public/images/personal-portfolio/contact.jpg";
+import contactImg from '../../../../public/images/personal-portfolio/contact.jpg';
 
 interface FormState {
   name: string;
@@ -15,11 +15,11 @@ interface FormState {
 
 const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState<FormState>({
-    name: "",
-    email: "",
-    number: "",
-    subject: "",
-    message: "",
+    name: '',
+    email: '',
+    number: '',
+    subject: '',
+    message: '',
   });
 
   const handleChange = (
@@ -35,11 +35,11 @@ const ContactForm: React.FC = () => {
     console.log(formData);
     // Reset form data after submission if needed
     setFormData({
-      name: "",
-      email: "",
-      number: "",
-      subject: "",
-      message: "",
+      name: '',
+      email: '',
+      number: '',
+      subject: '',
+      message: '',
     });
   };
 
@@ -65,9 +65,11 @@ const ContactForm: React.FC = () => {
                   <h2>Hire Me!</h2>
                   <p>
                     I am available for freelancing work. Please connect with me
-                    via phone:{" "}
-                    <a href="tel:+441372278462">+44 1372 278462</a> or email:{" "}
-                    <a href="mailto:hello@pungent.com">hello@pungent.com</a>
+                    via phone: <a href="tel:+441372278462">+44 1372 278462</a>{' '}
+                    or email:{' '}
+                    <a href="mailto:hello@adcrestmediacom">
+                      hello@adcrestmediacom
+                    </a>
                   </p>
                 </div>
 
@@ -144,7 +146,7 @@ const ContactForm: React.FC = () => {
                           />
                         </div>
                       </div>
-                      
+
                       <div className="col-lg-12 col-sm-12">
                         <button type="submit" className="btn btn-primary">
                           Send Message

@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 import logo from '../../../public/images/logo.png';
 
@@ -14,20 +14,16 @@ const Footer: React.FC = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-3 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget"
-                data-aos="fade-in" 
-                data-aos-duration="1000" 
+                data-aos="fade-in"
+                data-aos-duration="1000"
                 data-aos-delay="100"
               >
                 <div className="logo">
                   <Link href="/">
-                    <Image 
-                      src={logo}
-                      alt="Logo" 
-                      width={150}
-                      height={40}
-                    />
+                    {/* <Image src={logo} alt="Logo" width={150} height={40} /> */}
+                    <h3>AdcrestMedia</h3>
                   </Link>
                 </div>
 
@@ -63,107 +59,91 @@ const Footer: React.FC = () => {
             </div>
 
             <div className="col-lg-3 col-md-6 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget ml-4 pl-5"
-                data-aos="fade-in" 
-                data-aos-duration="1000" 
+                data-aos="fade-in"
+                data-aos-duration="1000"
                 data-aos-delay="200"
               >
                 <h3>Explore</h3>
 
                 <ul className="list">
                   <li>
-                    <Link href="/">
-                      Home
-                    </Link>
+                    <Link href="/">Home</Link>
                   </li>
                   <li>
-                    <Link href="/about/">
-                      About
-                    </Link>
+                    <Link href="/about/">About</Link>
                   </li>
                   <li>
-                    <Link href="/services/">
-                      Services
-                    </Link>
+                    <Link href="/services/">Services</Link>
                   </li>
                   <li>
-                    <Link href="/portfolio/">
-                      Portfolio
-                    </Link>
+                    <Link href="/portfolio/">Portfolio</Link>
                   </li>
                   <li>
-                    <Link href="/team/">
-                      Team
-                    </Link>
+                    <Link href="/team/">Team</Link>
                   </li>
                 </ul>
               </div>
             </div>
 
             <div className="col-lg-3 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget ml-4"
-                data-aos="fade-in" 
-                data-aos-duration="1000" 
+                data-aos="fade-in"
+                data-aos-duration="1000"
                 data-aos-delay="300"
               >
                 <h3>Quick Links</h3>
 
                 <ul className="list">
                   <li>
-                    <Link href="/contact-us/">
-                      Contact Us
-                    </Link>
+                    <Link href="/contact-us/">Contact Us</Link>
                   </li>
                   <li>
-                    <Link href="/pricing/">
-                      Pricing
-                    </Link>
+                    <Link href="/pricing/">Pricing</Link>
                   </li>
                   <li>
-                    <Link href="/faq/">
-                      Faq
-                    </Link>
+                    <Link href="/faq/">Faq</Link>
                   </li>
                   <li>
-                    <Link href="/privacy-policy/">
-                      Privacy Policy
-                    </Link>
+                    <Link href="/privacy-policy/">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link href="/terms-conditions/">
-                      Terms & Conditions
-                    </Link>
+                    <Link href="/terms-conditions/">Terms & Conditions</Link>
                   </li>
                 </ul>
               </div>
             </div>
 
             <div className="col-lg-3 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget"
-                data-aos="fade-in" 
-                data-aos-duration="1000" 
+                data-aos="fade-in"
+                data-aos-duration="1000"
                 data-aos-delay="400"
               >
                 <h3>Get in Touch</h3>
 
                 <ul className="get-in-touch">
                   <li>
-                    <i className="fa-solid fa-location-dot"></i> 2750 Quadra Street
-                    Victoria, Canada.
+                    <i className="fa-solid fa-location-dot"></i> 2750 Quadra
+                    Street Victoria, Canada.
                   </li>
                   <li>
                     <i className="fa-solid fa-headset"></i>
-                    <a href="tel:+324-9442-515">+324-9442-515</a> 
+                    <a href="tel:+324-9442-515">+324-9442-515</a>
                     <br />
                     <a href="tel:+324-9442-515">+324-9442-999</a>
                   </li>
                   <li>
                     <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:hello@pungent.com">hello@pungent.com</a>
-                    <a href="mailto:support@pungent.com">support@pungent.com</a>
+                    <a href="mailto:hello@adcrestmediacom">
+                      hello@adcrestmediacom
+                    </a>
+                    <a href="mailto:support@adcrestmediacom">
+                      support@adcrestmediacom
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -174,10 +154,8 @@ const Footer: React.FC = () => {
         <div className="copyright-area">
           <div className="container">
             <p>
-              Copyright &copy; {currentYear} Pungent. All Rights Reserved By{" "}
-              <a href="https://envytheme.com" target="_blank">
-                EnvyTheme
-              </a>
+              Copyright &copy; {currentYear} adcrestmedia. All Rights Reserved
+              By <a href="https:// .com" target="_blank"></a>
             </p>
           </div>
         </div>

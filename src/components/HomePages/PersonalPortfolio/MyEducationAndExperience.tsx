@@ -31,7 +31,7 @@ const myEducationData = [
 
 const myExperienceData = [
   {
-    company: "EnvyTheme",
+    company: " ",
     year: "2017 - Present",
     category: "Graphics Designer",
     shortText:

@@ -1,14 +1,14 @@
-"use client";
+'use client';
 
-import React, { useState, useEffect } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import MenuItem from "./MenuItem";
-import MegaMenu from "./MegaMenu";
-import { menus } from "../../../libs/menus";
+import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import MenuItem from './MenuItem';
+import MegaMenu from './MegaMenu';
+import { menus } from '../../../libs/menus';
 
-import logo from "../../../public/images/logo.png";
-import whiteLogo from "../../../public/images/logo-white.png";
+import logo from '../../../public/images/logo.png';
+import whiteLogo from '../../../public/images/logo-white.png';
 
 const NavbarTwo: React.FC = () => {
   const [menu, setMenu] = useState<boolean>(true);
@@ -18,22 +18,22 @@ const NavbarTwo: React.FC = () => {
   };
 
   useEffect(() => {
-    let elementId = document.getElementById("navbar");
-    document.addEventListener("scroll", () => {
+    let elementId = document.getElementById('navbar');
+    document.addEventListener('scroll', () => {
       if (window.scrollY > 170) {
-        elementId?.classList.add("is-sticky");
+        elementId?.classList.add('is-sticky');
       } else {
-        elementId?.classList.remove("is-sticky");
+        elementId?.classList.remove('is-sticky');
       }
     });
   }, []);
 
   const classOne = menu
-    ? "collapse navbar-collapse"
-    : "collapse navbar-collapse show";
+    ? 'collapse navbar-collapse'
+    : 'collapse navbar-collapse show';
   const classTwo = menu
-    ? "navbar-toggler navbar-toggler-right collapsed"
-    : "navbar-toggler navbar-toggler-right";
+    ? 'navbar-toggler navbar-toggler-right collapsed'
+    : 'navbar-toggler navbar-toggler-right';
 
   return (
     <>
@@ -41,7 +41,7 @@ const NavbarTwo: React.FC = () => {
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container-fluid">
             <Link href="/" className="navbar-brand">
-              <Image
+              {/* <Image
                 src={logo}
                 className="black-logo"
                 alt="logo"
@@ -54,7 +54,9 @@ const NavbarTwo: React.FC = () => {
                 alt="logo"
                 width={150}
                 height={40}
-              />
+              /> */}
+              <h3 className="black-logo">Adcrestmedia</h3>
+              <h3 className="white-logo">Adcrestmedia</h3>
             </Link>
 
             {/* Toggle navigation */}
@@ -77,7 +79,7 @@ const NavbarTwo: React.FC = () => {
               <ul className="navbar-nav">
                 <MegaMenu />
 
-                {menus.map((menuItem) => (
+                {menus.map(menuItem => (
                   <MenuItem key={menuItem.label} {...menuItem} />
                 ))}
               </ul>

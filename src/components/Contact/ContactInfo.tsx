@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import React from "react";
+import React from 'react';
 
 const ContactInfo: React.FC = () => {
   return (
@@ -15,10 +15,12 @@ const ContactInfo: React.FC = () => {
                 </div>
                 <h3>Mail Here</h3>
                 <p>
-                  <a href="mailto:admin@pungent.com">admin@pungent.com</a>
+                  <a href="mailto:admin@adcrestmediacom">
+                    admin@adcrestmediacom
+                  </a>
                 </p>
                 <p>
-                  <a href="mailto:info@pungent.com">info@pungent.com</a>
+                  <a href="mailto:info@adcrestmediacom">info@adcrestmediacom</a>
                 </p>
               </div>
             </div>
