@@ -1,0 +1,28 @@
+{
+  "subtitle": "MARKETING PROCESS",
+  "title": "Our Marketing Process: Driving Success Every Step of the Way",
+  "description": "At Adcrest Media, we advocate a methodical approach to marketing that guarantees every campaign is painstakingly designed, skilfully carried out, and always evolving for advancement. Here is the breakdown of our procedure:",
+  "cards": [
+    {
+      "title": " Marketing Plan",
+      "description": " We begin by creating a thorough marketing strategy fit for your company objectives. Our staff looks at your industry, target market, and competitive scene in great detail. Every one of our marketing initiatives is based on this strategic road plan, which guarantees our alignment with your goals and vision.",
+      "shortText": "We begin by creating a thorough marketing strategy fit for your company objectives. Our staff looks at your industry, target market, and competitive scene in great detail. Every one of our marketing initiatives is based on this strategic road plan, which guarantees our alignment with your goals and vision.",
+      "image": "/images/digital-marketing/process1.png",
+      "aosDelay": "100"
+    },
+    {
+      "title": "Marketing Implementation",
+      "description": "We enter the execution stage when the plan is in place. Here is where our experience and inventiveness combine to realise your plan. From developing interesting material and running interesting social media campaigns to improving your online profile and running focused advertisements, we manage every element of the execution with accuracy and care.",
+      "shortText": "We enter the execution stage when the plan is in place. Here is where our experience and inventiveness combine to realise your plan. From developing interesting material and running interesting social media campaigns to improving your online profile and running focused advertisements, we manage every element of the execution with accuracy and care.",
+      "image": "/images/digital-marketing/process2.png",
+      "aosDelay": "200"
+    },
+    {
+      "title": "Growth & Scale",
+      "description": "We do not stop there after the first execution. We track and evaluate your campaigns constantly, using the data to make informed changes meant to maximise outcomes. We scale our activities to guarantee ongoing success as your company expands, therefore enabling you to soar in your sector.",
+      "shortText": "We do not stop there after the first execution. We track and evaluate your campaigns constantly, using the data to make informed changes meant to maximise outcomes. We scale our activities to guarantee ongoing success as your company expands, therefore enabling you to soar in your sector.",
+      "image": "/images/digital-marketing/process3.png",
+      "aosDelay": "300"
+    }
+  ]
+}

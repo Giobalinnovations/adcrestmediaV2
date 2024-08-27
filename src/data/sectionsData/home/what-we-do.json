@@ -1,0 +1,29 @@
+{
+  "subtitle": "WHAT WE DO",
+  "title": "Provide Complete Services Customised to Your Success",
+  "description": "At Adcrest Media, we take great satisfaction in providing the greatest digital marketing solutions available worldwide meant to improve your brand and provide observable outcomes. Passionate about invention and committed to quality, we provide customised solutions fit for your particular company requirements. Combining creativity, strategy, and data-driven insights will enable you to succeed in the digital sphere.",
+  "cards": [
+    {
+      "title": " Digital Marketing",
+      "shortText": "Our digital marketing solutions are designed to link your business with the correct audience at the correct moment. From focused social media campaigns to successful email marketing, we create approaches that appeal, interact, and translate. Whether your goals are greater recognition of your brand or increased sales, our creative approach guarantees that your company distinguishes itself in a saturated market.",
+      "viewDetailsLink": "/services/digital-marketing",
+      "image": "/images/digital-marketing/services-img1.jpg",
+      "aosDelay": "100"
+    },
+    {
+      "title": "Strategy & Planning",
+      "shortText": "In digital marketing, success begins with a good strategy. At Adcrest Media, we create tailored plans fit for your target market and corporate objectives. Working directly with you, our knowledgeable team generates a thorough road map that guarantees every campaign is carefully designed and expertly executed. We emphasise sustainable growth, thus offering you a competitive advantage in your chosen field.",
+      "viewDetailsLink": "/services/strategy-planning",
+
+      "image": "/images/digital-marketing/services-img2.jpg",
+      "aosDelay": "200"
+    },
+    {
+      "title": "Search Engine Optimisation - SEO",
+      "shortText": "Our SEO services concentrate on making sure your company is seen. We maximise your website to show better on search engines, therefore increasing natural traffic and raising your online profile. Employing keyword research, on-page optimisation, and link-building techniques, we enable your website to realise its maximum potential so that, if your audience looks for for relevant goods or services, they first come across you.",
+      "viewDetailsLink": "/services/seo",
+      "image": "/images/digital-marketing/services-img3.jpg",
+      "aosDelay": "300"
+    }
+  ]
+}

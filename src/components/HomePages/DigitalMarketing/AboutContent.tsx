@@ -1,12 +1,13 @@
-"use client";
+'use client';
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
-import aboutImg from "../../../../public/images/digital-marketing/about-img.png";
-
+import aboutUsData from '@/data/sectionsData/home/about-us.json';
 const AboutContent: React.FC = () => {
+  const { image, subtitle, title, description, listItems, button } =
+    aboutUsData;
   return (
     <>
       <div className="marketing-about-area overflow-hidden pb-100">
@@ -19,77 +20,35 @@ const AboutContent: React.FC = () => {
                 data-aos-duration="1000"
                 data-aos-delay="100"
               >
-                <Image
-                  src={aboutImg}
-                  alt="image"
-                  width={658}
-                  height={591}
-                />
+                <Image src={image} alt="image" width={658} height={591} />
               </div>
             </div>
 
             <div className="col-lg-6 col-md-12">
-              <div 
+              <div
                 className="marketing-about-content"
                 data-aos="fade-in"
                 data-aos-duration="1000"
                 data-aos-delay="200"
               >
-                <span className="sub-title">ABOUT US</span>
-                <h2>
-                  We offer the World&apos;s Best <b>Digital Marketing</b> Services!
-                </h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
+                <span className="sub-title">{subtitle}</span>
+                <h2 dangerouslySetInnerHTML={{ __html: title }} />
+                <p>{description}</p>
 
                 <div className="row">
-                  <div className="col-lg-6">
-                    <div className="box">
-                      <i className="fa-solid fa-check"></i>
-                      <h3>Global Reach</h3>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      </p>
+                  {listItems?.map((item, index) => (
+                    <div className="col-lg-6" key={index}>
+                      <div className="box">
+                        <i className="fa-solid fa-check"></i>
+                        <h3>{item?.title}</h3>
+                        <p>{item?.description}</p>
+                      </div>
                     </div>
-                  </div>
-                  
-                  <div className="col-lg-6">
-                    <div className="box">
-                      <i className="fa-solid fa-check"></i>
-                      <h3>Excellence Track Record</h3>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-6">
-                    <div className="box">
-                      <i className="fa-solid fa-check"></i>
-                      <h3>High-End Anaylizing</h3>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-6">
-                    <div className="box">
-                      <i className="fa-solid fa-check"></i>
-                      <h3>Our Dedicated Support</h3>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      </p>
-                    </div>
-                  </div>
+                  ))}
                 </div>
 
-                <Link href="/about" className="default-btn-two">
-                  Learn More <i className="fas fa-chevron-right"></i>
+                <Link href={button?.link} className="default-btn-two">
+                  {button?.label} <i className="fas fa-chevron-right"></i>
                 </Link>
               </div>
             </div>

@@ -1,0 +1,15 @@
+{
+  "subtitle": "MARKETING AGENCY",
+  "title": "We Help You Take Your Business to The Next Level",
+  "description": "Igniting your brand's expansion with professional marketing strategies.",
+  "banner": {
+    "bannerImage": "/images/digital-marketing/banner-img.png",
+    "bannerImageAlt": "banner image",
+    "shapeImage": "/images/digital-marketing/shape1.png",
+    "shapeImageAlt": "shape image"
+  },
+  "button": {
+    "label": "Contact Us!",
+    "link": "/contact"
+  }
+}

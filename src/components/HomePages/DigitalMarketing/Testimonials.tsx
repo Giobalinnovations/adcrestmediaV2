@@ -1,71 +1,21 @@
-"use client";
+'use client';
 
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper/modules";
-import Image from "next/image";
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Navigation } from 'swiper/modules';
+import Image from 'next/image';
 
-const feedbacskData = [
-  {
-    image: "/images/digital-marketing/testimonials-img1.jpg",
-    name: "Sarah Taylor",
-    designation: "Director",
-    feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-
-    rating: [
-      {
-        iconName: "fa-solid fa-star",
-      },
-      {
-        iconName: "fa-solid fa-star",
-      },
-      {
-        iconName: "fa-solid fa-star",
-      },
-      {
-        iconName: "fa-solid fa-star",
-      },
-      {
-        iconName: "fa-solid fa-star",
-      },
-    ],
-  },
-  {
-    image: "/images/digital-marketing/testimonials-img2.jpg",
-    name: "Richard Turner",
-    designation: "CEO & Founder",
-    feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-
-    rating: [
-      {
-        iconName: "fa-solid fa-star",
-      },
-      {
-        iconName: "fa-solid fa-star",
-      },
-      {
-        iconName: "fa-solid fa-star",
-      },
-      {
-        iconName: "fa-solid fa-star",
-      },
-      {
-        iconName: "fa-solid fa-star",
-      },
-    ],
-  },
-];
+import feedbackData from '@/data/testimonials.json';
 
 const Testimonials: React.FC = () => {
+  const { testimonials, title, subtitle } = feedbackData;
   return (
     <>
       <div className="marketing-testimonials-area ptb-100">
         <div className="container">
           <div className="section-title">
-            <span className="sub-title">TESTIMONIALS</span>
-            <h2>What Our Customers Say</h2>
+            <span className="sub-title">{subtitle}</span>
+            <h2>{title}</h2>
           </div>
 
           <Swiper
@@ -79,8 +29,8 @@ const Testimonials: React.FC = () => {
             modules={[Autoplay, Navigation]}
             className="marketing-testimonials-slides"
           >
-            {feedbacskData &&
-              feedbacskData.map((value, i) => (
+            {testimonials &&
+              testimonials?.map((value, i) => (
                 <SwiperSlide key={i}>
                   <div className="row align-items-center">
                     <div className="col-lg-6 col-md-6">
@@ -109,7 +59,7 @@ const Testimonials: React.FC = () => {
 
                         <div className="info">
                           <h3>{value.name}</h3>
-                          <span>{value.designation}</span>
+                          <span>{value.position}</span>
                         </div>
                       </div>
                     </div>

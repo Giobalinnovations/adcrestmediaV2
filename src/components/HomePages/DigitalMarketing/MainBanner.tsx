@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
-
-import bannerImg from "../../../../public/images/digital-marketing/banner-img.png";
-import shapeImg from "../../../../public/images/digital-marketing/shape1.png";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import heroData from '@/data/sectionsData/home/hero.json';
+import bannerImg from '../../../../public/images/digital-marketing/banner-img.png';
+import shapeImg from '../../../../public/images/digital-marketing/shape1.png';
 
 const MainBanner: React.FC = () => {
   return (
@@ -21,7 +21,7 @@ const MainBanner: React.FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="100"
                 >
-                  MARKETING AGENCY
+                  {heroData?.subtitle}
                 </span>
 
                 <h1
@@ -29,7 +29,7 @@ const MainBanner: React.FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="200"
                 >
-                  We Help You Take Your Business to The Next Level
+                  {heroData?.title}
                 </h1>
 
                 <p
@@ -37,18 +37,18 @@ const MainBanner: React.FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="300"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  {heroData?.description}
                 </p>
 
                 <Link
-                  href="/contact-us/"
+                  href={heroData?.button?.link}
                   className="default-btn-two"
                   data-aos="fade-in"
                   data-aos-duration="1000"
                   data-aos-delay="400"
                 >
-                  Contact Us <i className="fas fa-chevron-right"></i>
+                  {heroData?.button?.label}{' '}
+                  <i className="fas fa-chevron-right"></i>
                 </Link>
               </div>
             </div>
@@ -59,14 +59,24 @@ const MainBanner: React.FC = () => {
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
-                <Image src={bannerImg} alt="image" width={703} height={652} />
+                <Image
+                  src={heroData?.banner?.bannerImage ?? ''}
+                  alt={heroData?.banner?.bannerImageAlt ?? ''}
+                  width={703}
+                  height={652}
+                />
               </div>
             </div>
           </div>
         </div>
 
         <div className="dm-shape1">
-          <Image src={shapeImg} alt="image" width={600} height={533} />
+          <Image
+            src={heroData?.banner?.shapeImage ?? ''}
+            alt={heroData?.banner?.shapeImageAlt ?? ''}
+            width={600}
+            height={533}
+          />
         </div>
       </div>
     </>

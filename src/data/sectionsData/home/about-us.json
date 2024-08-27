@@ -1,0 +1,28 @@
+{
+  "subtitle": "ABOUT US",
+  "title": "Leading the way in <b>Digital Marketing</b> Excellence, we turn your vision into reality.",
+  "description": "At Adcrest Media, we take great satisfaction in providing the greatest digital marketing solutions available worldwide meant to improve your brand and provide observable outcomes. Passionate about invention and committed to quality, we provide customised solutions fit for your particular company requirements. Combining creativity, strategy, and data-driven insights will enable you to succeed in the digital sphere.",
+  "image": "/images/digital-marketing/about-img.png",
+  "button": {
+    "label": "Learn More",
+    "link": "/about"
+  },
+  "listItems": [
+    {
+      "title": " Global Reach",
+      "description": "Our digital marketing solutions are meant to link your brand with people all across the globe. Whether your goal is to increase your visibility in current areas or enter new ones, our worldwide reach guarantees that your message will be heard by the appropriate people anywhere."
+    },
+    {
+      "title": "Track Record of Excellence",
+      "description": "Our record speaks for itself; we are known for turning out outstanding work. We have helped businesses in many different fields to reach their marketing goals using strategic planning, innovative campaigns, and continuous optimisation. At Adcrest Media, quality is our norm rather than just a goal."
+    },
+    {
+      "title": "High-end Analysis",
+      "description": "Data is the centre of our operations. Our premium analysing tools and methods provide us with a thorough understanding of your campaigns, which helps us to decide on wise actions to improve output. From audience behaviour to campaign statistics, we use data to make sure your marketing initiatives are constantly one ,step ahead."
+    },
+    {
+      "title": "Our Personalised Support",
+      "description": "At Adcrest Media, we serve your marketing partner rather than just a service provider. Always here to help you, our committed support staff makes sure you have the tools and direction need to achieve. Our staff is available to assist you at any level of your marketing process whether you have questions, need guidance, or need to talk about fresh ideas."
+    }
+  ]
+}

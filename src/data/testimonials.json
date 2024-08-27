@@ -1,0 +1,53 @@
+{
+  "subtitle": "TESTIMONIALS",
+  "title": "What Our Clients Say",
+  "description": "Hear from Those Who’ve Experienced the Adcrest Media Difference",
+  "testimonials": [
+    {
+      "name": "Sarah Taylor",
+      "position": "Director",
+      "feedbackText": "For our company, Adcrest Media has completely changed everything. Their creative digital marketing plans have greatly raised our web visibility, increasing visitors and thereby improving our revenues. We couldn't be happier with the results!",
+      "image": "/images/digital-marketing/testimonials-img1.jpg",
+      "rating": [
+        {
+          "iconName": "fa-solid fa-star"
+        },
+        {
+          "iconName": "fa-solid fa-star"
+        },
+        {
+          "iconName": "fa-solid fa-star"
+        },
+        {
+          "iconName": "fa-solid fa-star"
+        },
+        {
+          "iconName": "fa-solid fa-star"
+        }
+      ]
+    },
+    {
+      "name": "Richard Turner",
+      "position": "CEO & Founder",
+      "feedbackText": "The staff at Adcrest Media gets our brand and objectives. Their deliberate approach to SEO has raised our whole digital presence in addition to our search engine results. For everything digital, they are our first choice partners.",
+      "image": "/images/digital-marketing/testimonials-img2.jpg",
+      "rating": [
+        {
+          "iconName": "fa-solid fa-star"
+        },
+        {
+          "iconName": "fa-solid fa-star"
+        },
+        {
+          "iconName": "fa-solid fa-star"
+        },
+        {
+          "iconName": "fa-solid fa-star"
+        },
+        {
+          "iconName": "fa-solid fa-star"
+        }
+      ]
+    }
+  ]
+}

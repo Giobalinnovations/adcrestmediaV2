@@ -1,31 +1,9 @@
-"use client";
+'use client';
 
-import React from "react";
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
 
-const marketingProcessData = [
-  {
-    image: "/images/digital-marketing/process1.png",
-    title: "Marketing Plan",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.",
-    aosDelay: "100",
-  },
-  {
-    image: "/images/digital-marketing/process2.png",
-    title: "Marketing Execution",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.",
-    aosDelay: "200",
-  },
-  {
-    image: "/images/digital-marketing/process3.png",
-    title: "Growth & Scale",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.",
-    aosDelay: "300",
-  },
-];
+import marketingProcessData from '@/data/sectionsData/home/marketing-process.json';
 
 const MarketingProcess: React.FC = () => {
   return (
@@ -38,8 +16,8 @@ const MarketingProcess: React.FC = () => {
           </div>
 
           <div className="row justify-content-center">
-            {marketingProcessData &&
-              marketingProcessData.slice(0, 3).map((value, i) => (
+            {marketingProcessData?.cards &&
+              marketingProcessData?.cards?.slice(0, 3)?.map((value, i) => (
                 <div className="col-lg-4 col-md-6 col-sm-6" key={i}>
                   <div
                     className="dm-process-box"

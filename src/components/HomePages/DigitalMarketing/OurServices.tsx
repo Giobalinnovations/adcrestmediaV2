@@ -1,49 +1,25 @@
-"use client";
+'use client';
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
-const ourServicesData = [
-  {
-    image: "/images/digital-marketing/services-img1.jpg",
-    title: "Digital Marketing",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur elit adipiscing labore et dolore magna aliqua.",
-    viewDetailsLink: "/services/service-details/",
-    aosDelay: "100",
-  },
-  {
-    image: "/images/digital-marketing/services-img2.jpg",
-    title: "Strategy & Planning",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur elit adipiscing labore et dolore magna aliqua.",
-    viewDetailsLink: "/services/service-details/",
-    aosDelay: "200",
-  },
-  {
-    image: "/images/digital-marketing/services-img3.jpg",
-    title: "Search Engine Optimization",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur elit adipiscing labore et dolore magna aliqua.",
-    viewDetailsLink: "/services/service-details/",
-    aosDelay: "300",
-  },
-];
+import ourServicesData from '@/data/sectionsData/home/what-we-do.json';
 
 const OurServices: React.FC = () => {
+  const { cards, subtitle, title } = ourServicesData;
   return (
     <>
       <div className="pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <span className="sub-title">WHAT WE DO</span>
-            <h2>All The Services That We Provide to Our Clients</h2>
+            <span className="sub-title">{subtitle}</span>
+            <h2>{title}</h2>
           </div>
 
           <div className="row justify-content-center">
-            {ourServicesData &&
-              ourServicesData.slice(0, 3).map((value, i) => (
+            {cards &&
+              cards?.slice(0, 3)?.map((value, i) => (
                 <div className="col-lg-4 col-md-6" key={i}>
                   <div
                     className="dm-services-item"

@@ -8,7 +8,7 @@ import MegaMenu from './MegaMenu';
 import { menus } from '../../../libs/menus';
 
 import logo from '../../../public/images/logo.png';
-
+import appData from '@/data/appData.json';
 const Navbar: React.FC = () => {
   const [menu, setMenu] = useState<boolean>(true);
 
@@ -62,10 +62,8 @@ const Navbar: React.FC = () => {
 
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav">
-                <MegaMenu />
-
-                {menus.map(menuItem => (
-                  <MenuItem key={menuItem.label} {...menuItem} />
+                {appData?.menu?.items?.map(menuItem => (
+                  <MenuItem key={menuItem.id} {...menuItem} />
                 ))}
               </ul>
 

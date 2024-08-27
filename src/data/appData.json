@@ -1,0 +1,87 @@
+{
+  "app": {
+    "name": "AdcrestMedia",
+    "version": "1.0.0"
+  },
+
+  "siteSettings": {
+    "siteName": "AdcrestMedia",
+    "siteDescription": "AdcrestMedia",
+    "bgImage": "/img/bg.jpg",
+    "maintenanceMode": false,
+    "features": {
+      "darkMode": true,
+      "newsletter": true,
+      "blog": true
+    },
+    "socialMedia": {
+      "facebook": "https://facebook.com/::APP_NAME::",
+      "twitter": "https://twitter.com/::APP_NAME::",
+      "linkedin": "https://linkedin.com/company/::APP_NAME::"
+    },
+    "contactInfo": {
+      "email": "contact@::APP_NAME::.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Web Dev Street, Tech City, 12345"
+    }
+  },
+  "branding": {
+    "logo": {
+      "src": "/images/logo.png",
+      "alt": "::APP_NAME:: Logo",
+      "width": 150,
+      "height": 50
+    }
+  },
+  "menu": {
+    "items": [
+      {
+        "id": "home",
+        "label": "Home",
+        "link": "/"
+      },
+      {
+        "id": "services",
+        "label": "Services",
+        "link": "/services"
+      },
+      {
+        "id": "about",
+        "label": "About Us",
+        "link": "/about"
+      },
+      {
+        "id": "portfolio",
+        "label": "Portfolio",
+        "link": "/portfolio"
+      },
+      {
+        "id": "blog",
+        "label": "Blog",
+        "link": "/blog"
+      },
+      {
+        "id": "contact",
+        "label": "Contact",
+        "link": "/contact-us"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2023 ::APP_NAME::. All rights reserved.",
+    "socialLinks": [
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/::APP_NAME::"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://twitter.com/::APP_NAME::"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/company/::APP_NAME::"
+      }
+    ]
+  }
+}
