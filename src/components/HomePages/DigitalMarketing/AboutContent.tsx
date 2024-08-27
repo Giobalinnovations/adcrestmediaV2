@@ -1,13 +1,22 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-
 import aboutUsData from '@/data/sectionsData/home/about-us.json';
 const AboutContent: React.FC = () => {
   const { image, subtitle, title, description, listItems, button } =
     aboutUsData;
+  const [expandedItems, setExpandedItems] = useState<number[]>([]);
+
+  const toggleItemExpansion = (index: number) => {
+    setExpandedItems(prev =>
+      prev.includes(index) ? prev.filter(i => i !== index) : [...prev, index]
+    );
+  };
+
+  console.log(expandedItems);
+
   return (
     <>
       <div className="marketing-about-area overflow-hidden pb-100">
@@ -41,7 +50,14 @@ const AboutContent: React.FC = () => {
                       <div className="box">
                         <i className="fa-solid fa-check"></i>
                         <h3>{item?.title}</h3>
-                        <p>{item?.description}</p>
+                        <p
+                          onClick={() => toggleItemExpansion(index)}
+                          style={{ cursor: 'pointer' }}
+                        >
+                          {expandedItems.includes(index)
+                            ? item?.description
+                            : `${item?.description.slice(0, 60)}...`}
+                        </p>
                       </div>
                     </div>
                   ))}
