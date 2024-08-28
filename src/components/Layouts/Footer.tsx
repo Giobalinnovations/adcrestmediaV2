@@ -85,21 +85,12 @@ const Footer: React.FC = () => {
                 <h3>Quick Links</h3>
 
                 <ul className="list">
-                  <li>
-                    <Link href="/contact-us/">Contact Us</Link>
-                  </li>
-                  <li>
-                    <Link href="/pricing/">Pricing</Link>
-                  </li>
-                  <li>
-                    <Link href="/faq/">Faq</Link>
-                  </li>
-                  <li>
-                    <Link href="/privacy-policy/">Privacy Policy</Link>
-                  </li>
-                  <li>
-                    <Link href="/terms-conditions/">Terms & Conditions</Link>
-                  </li>
+                  {footer &&
+                    footer?.menu?.quickLinks?.map(item => (
+                      <li key={item.label}>
+                        <Link href={item?.link ?? '#'}>{item?.label}</Link>
+                      </li>
+                    ))}
                 </ul>
               </div>
             </div>
