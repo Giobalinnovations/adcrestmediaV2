@@ -5,8 +5,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import logo from '../../../public/images/logo.png';
-
+import appData from '@/data/appData.json';
 const Footer: React.FC = () => {
+  const { footer } = appData;
   const currentYear = new Date().getFullYear();
   return (
     <>
@@ -27,11 +28,7 @@ const Footer: React.FC = () => {
                   </Link>
                 </div>
 
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam.
-                </p>
+                <p>{appData?.footer?.about?.description}</p>
 
                 <ul className="social-links">
                   <li>
@@ -68,21 +65,12 @@ const Footer: React.FC = () => {
                 <h3>Explore</h3>
 
                 <ul className="list">
-                  <li>
-                    <Link href="/">Home</Link>
-                  </li>
-                  <li>
-                    <Link href="/about/">About</Link>
-                  </li>
-                  <li>
-                    <Link href="/services/">Services</Link>
-                  </li>
-                  <li>
-                    <Link href="/portfolio/">Portfolio</Link>
-                  </li>
-                  <li>
-                    <Link href="/team/">Team</Link>
-                  </li>
+                  {footer &&
+                    footer?.menu?.explore.map(item => (
+                      <li key={item.label}>
+                        <Link href={item?.link ?? '#'}>{item?.label}</Link>
+                      </li>
+                    ))}
                 </ul>
               </div>
             </div>
@@ -127,22 +115,22 @@ const Footer: React.FC = () => {
 
                 <ul className="get-in-touch">
                   <li>
-                    <i className="fa-solid fa-location-dot"></i> 2750 Quadra
-                    Street Victoria, Canada.
+                    <i className="fa-solid fa-location-dot"></i>
+                    {appData?.siteSettings?.contactInfo?.address}
                   </li>
                   <li>
                     <i className="fa-solid fa-headset"></i>
-                    <a href="tel:+324-9442-515">+324-9442-515</a>
+                    <a href="tel:+324-9442-515">
+                      {appData?.siteSettings?.contactInfo?.phone}
+                    </a>
                     <br />
-                    <a href="tel:+324-9442-515">+324-9442-999</a>
                   </li>
                   <li>
                     <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:hello@adcrestmediacom">
-                      hello@adcrestmediacom
-                    </a>
-                    <a href="mailto:support@adcrestmediacom">
-                      support@adcrestmediacom
+                    <a
+                      href={`mailto:${appData?.siteSettings?.contactInfo?.email}`}
+                    >
+                      {appData?.siteSettings?.contactInfo?.email}
                     </a>
                   </li>
                 </ul>
@@ -154,8 +142,7 @@ const Footer: React.FC = () => {
         <div className="copyright-area">
           <div className="container">
             <p>
-              Copyright &copy; {currentYear} adcrestmedia. All Rights Reserved
-              By <a href="https:// .com" target="_blank"></a>
+              Copyright &copy; {currentYear} adcrestmedia. All Rights Reserved{' '}
             </p>
           </div>
         </div>

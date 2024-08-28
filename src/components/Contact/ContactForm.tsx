@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import React, { useState } from "react";
-
+import React, { useState } from 'react';
+import contactData from '@/data/sectionsData/contact/contact.json';
 interface FormState {
   name: string;
   email: string;
@@ -12,11 +12,11 @@ interface FormState {
 
 const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState<FormState>({
-    name: "",
-    email: "",
-    number: "",
-    subject: "",
-    message: "",
+    name: '',
+    email: '',
+    number: '',
+    subject: '',
+    message: '',
   });
 
   const handleChange = (
@@ -32,11 +32,11 @@ const ContactForm: React.FC = () => {
     console.log(formData);
     // Reset form data after submission if needed
     setFormData({
-      name: "",
-      email: "",
-      number: "",
-      subject: "",
-      message: "",
+      name: '',
+      email: '',
+      number: '',
+      subject: '',
+      message: '',
     });
   };
 
@@ -44,11 +44,8 @@ const ContactForm: React.FC = () => {
     <>
       <div className="contact-form">
         <div className="contact-title">
-          <h2>Get In Touch</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+          <h2>{contactData?.contactInfo?.title}</h2>
+          <p>{contactData?.contactInfo?.description}</p>
         </div>
 
         <form onSubmit={handleSubmit}>

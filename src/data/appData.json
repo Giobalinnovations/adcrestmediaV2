@@ -20,7 +20,7 @@
       "linkedin": "https://linkedin.com/company/::APP_NAME::"
     },
     "contactInfo": {
-      "email": "contact@::APP_NAME::.com",
+      "email": "info@adcrestmedia.com",
       "phone": "+1 (555) 123-4567",
       "address": "123 Web Dev Street, Tech City, 12345"
     }
@@ -51,11 +51,6 @@
         "link": "/about"
       },
       {
-        "id": "portfolio",
-        "label": "Portfolio",
-        "link": "/portfolio"
-      },
-      {
         "id": "blog",
         "label": "Blog",
         "link": "/blog"
@@ -68,7 +63,40 @@
     ]
   },
   "footer": {
-    "copyright": "© 2023 ::APP_NAME::. All rights reserved.",
+    "about": {
+      "description": "At Adcrest Media, we take great satisfaction in providing the greatest digital marketing solutions available worldwide meant to improve your brand and provide observable outcomes. Passionate about invention and committed to quality, we provide customised solutions fit for your particular company requirements. Combining creativity, strategy, and data-driven insights will enable you to succeed in the digital sphere."
+    },
+    "menu": {
+      "explore": [
+        {
+          "label": "Home",
+          "link": "/"
+        },
+        {
+          "label": "About",
+          "link": "/about/"
+        },
+        {
+          "label": "Services",
+          "link": "/services/"
+        }
+      ],
+      "quickLinks": [
+        {
+          "label": "Contact Us",
+          "link": "/contact-us/"
+        },
+        {
+          "label": "Privacy Policy",
+          "link": "/privacy-policy/"
+        },
+        {
+          "label": "Terms & Conditions",
+          "link": "/terms-conditions/"
+        }
+      ]
+    },
+    "copyright": "© 2024 AdcrestMedia. All rights reserved.",
     "socialLinks": [
       {
         "platform": "Facebook",

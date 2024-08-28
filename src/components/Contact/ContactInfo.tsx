@@ -1,8 +1,11 @@
 'use client';
 
 import React from 'react';
-
+import contactData from '@/data/sectionsData/contact/contact.json';
 const ContactInfo: React.FC = () => {
+  const {
+    contactInfo: { title, description, address, phone, email },
+  } = contactData;
   return (
     <>
       <div className="contact-info-area pt-100 pb-70">
@@ -15,12 +18,7 @@ const ContactInfo: React.FC = () => {
                 </div>
                 <h3>Mail Here</h3>
                 <p>
-                  <a href="mailto:admin@adcrestmediacom">
-                    admin@adcrestmediacom
-                  </a>
-                </p>
-                <p>
-                  <a href="mailto:info@adcrestmediacom">info@adcrestmediacom</a>
+                  <a href="mailto:admin@adcrestmediacom">{email}</a>
                 </p>
               </div>
             </div>
@@ -31,9 +29,7 @@ const ContactInfo: React.FC = () => {
                   <i className="pe-7s-map-2"></i>
                 </div>
                 <h3>Visit Here</h3>
-                <p>
-                  27 Division St, New York, <br /> NY 10002, USA
-                </p>
+                <p>{address}</p>
               </div>
             </div>
 
@@ -44,10 +40,7 @@ const ContactInfo: React.FC = () => {
                 </div>
                 <h3>Call Here</h3>
                 <p>
-                  <a href="tel:+1234567890">+123 456 7890</a>
-                </p>
-                <p>
-                  <a href="tel:+2414524526">+241 452 4526</a>
+                  <a href="tel:+1234567890">{phone}</a>
                 </p>
               </div>
             </div>
