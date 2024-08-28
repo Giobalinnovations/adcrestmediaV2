@@ -21,7 +21,7 @@ export default function Page() {
 
       <FunFactsTwo />
 
-      <TeamStyleThree />
+      {/* <TeamStyleThree /> */}
 
       <Feedback />
 

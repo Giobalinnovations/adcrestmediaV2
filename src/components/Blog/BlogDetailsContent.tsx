@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import React from "react";
-import Link from "next/link";
-import BlogSidebar from "./BlogSidebar";
-import BlogComments from "./BlogComments";
-import Image from "next/image";
+import React from 'react';
+import Link from 'next/link';
+import BlogSidebar from './BlogSidebar';
+import BlogComments from './BlogComments';
+import Image from 'next/image';
 
-import blogDetailsImg from "../../../public/images/blog/blog-details.jpg";
+import blogDetailsImg from '../../../public/images/blog/blog-details.jpg';
 
 const BlogRightSidebar: React.FC = () => {
   return (
@@ -126,8 +126,6 @@ const BlogRightSidebar: React.FC = () => {
                   <Link href="#">Next Post</Link>
                 </div>
               </div>
-
-              <BlogComments />
             </div>
 
             <div className="col-lg-4 col-md-12">

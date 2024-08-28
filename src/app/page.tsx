@@ -30,15 +30,15 @@ export default function Page() {
 
       <FunFacts />
 
-      <CaseStudies />
+      {/* <CaseStudies /> */}
 
       <Testimonials />
 
-      <PricingPlans />
+      {/* <PricingPlans /> */}
 
       <CtaArea />
 
-      <TeamMember />
+      {/* <TeamMember /> */}
 
       <LatestNews />
 
