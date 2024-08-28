@@ -7,9 +7,9 @@ import MenuItem from './MenuItem';
 import MegaMenu from './MegaMenu';
 import { menus } from '../../../libs/menus';
 
-import logo from '../../../public/images/logo.png';
-import whiteLogo from '../../../public/images/logo-white.png';
-
+// import logo from '../../../public/images/logo.png';
+// import whiteLogo from '../../../public/images/logo-white.png';
+import appData from '@/data/appData.json';
 const NavbarTwo: React.FC = () => {
   const [menu, setMenu] = useState<boolean>(true);
 
@@ -77,9 +77,7 @@ const NavbarTwo: React.FC = () => {
 
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav">
-                <MegaMenu />
-
-                {menus.map(menuItem => (
+                {appData?.menu?.items?.map(menuItem => (
                   <MenuItem key={menuItem.label} {...menuItem} />
                 ))}
               </ul>

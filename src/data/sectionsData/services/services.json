@@ -1,0 +1,89 @@
+{
+  "pageTitle": "Services",
+  "mainHeading": "Our Services",
+  "subHeading": "Complete Solutions Customised for Your Company Requirements",
+  "bgImage": "/images/page-banner1.jpg",
+  "services": [
+    {
+      "id": "business-consultancy",
+      "title": "Business Consultancy",
+      "subtitle": "Strategic Insight for Sustainable Growth",
+      "shortText": "Our company consulting services are meant to provide you with strategic insights and professional advice guiding development. Working closely with you, we help you identify possibilities and difficulties and guide you towards wise choices resulting in long-term success.",
+      "viewDetails": "/services/service-details/",
+      "iconName": "pe-7s-comment bg-13c4a1",
+      "aosDelay": "100"
+    },
+    {
+      "id": "web-development",
+      "title": "Web Development",
+      "subtitle": "Creating Responsive and Dynamic Websites",
+      "shortText": "Our area of expertise is designing very beautiful and highly useful websites to improve your internet profile. From unique designs to faultless user experiences, our web development staff guarantees your site not only looks amazing but also runs well on all devices.",
+      "viewDetails": "/services/service-details/",
+      "iconName": "pe-7s-display2 bg-6610f2",
+      "aosDelay": "200"
+    },
+    {
+      "id": "digital-marketing",
+      "title": "Digital Marketing",
+      "subtitle": "Maximising Your Online Influence",
+      "shortText": "Our digital marketing offerings centre on creatively linking your brand with your target demographic. From SEO and PPC to social media and content marketing, we customise our strategy to generate traffic, raise interaction, and improve conversions.",
+      "viewDetails": "/services/service-details/",
+      "iconName": "pe-7s-light bg-ffb700",
+      "aosDelay": "300"
+    },
+    {
+      "id": "mobile-app-development",
+      "title": "Mobile App Development",
+      "subtitle": "Modern Apps Designed for a Mobile-First World",
+      "shortText": "In the mobile-driven world of today, a strong app is very vital. Whether on iOS, Android, or cross-platform, our mobile app development team crafts simple, user-friendly applications that captivate your audience and provide flawless experiences.",
+      "viewDetails": "/services/service-details/",
+      "iconName": "pe-7s-phone bg-fc3549",
+      "aosDelay": "400"
+    },
+    {
+      "id": "ecommerce-development",
+      "title": "eCommerce Development",
+      "subtitle": "Building Strong Online Systems",
+      "shortText": "Our areas of expertise include creating easily managed, scalable, secure eCommerce systems. Our solutions are meant to improve the shopping experience and increase sales, whether your new online business is starting from nothing or you are updating an old one.",
+      "viewDetails": "/services/service-details/",
+      "iconName": "pe-7s-cart bg-00d280",
+      "aosDelay": "500"
+    },
+    {
+      "id": "marketing-and-reporting",
+      "title": "Marketing and Reporting",
+      "subtitle": "Data-Driven Strategies for Significant Outcomes",
+      "shortText": "Our reporting and marketing tools guarantee that your efforts are quantifiable and successful. We provide comprehensive analytics and reporting so you may understand precisely how your marketing initiatives are working and where changes would be most likely to produce the best results.",
+      "viewDetails": "/services/service-details/",
+      "iconName": "pe-7s-users bg-ff612f",
+      "aosDelay": "600"
+    },
+    {
+      "id": "it-consultancy",
+      "title": "IT Consultancy",
+      "subtitle": "Expert IT Solutions for Your Company Problems",
+      "shortText": "Our IT consulting services provide professional guidance and solutions to let you negotiate the challenging terrain of technology. From cybersecurity to system integration, we help you keep your operations operating safely and without hiccups.",
+      "viewDetails": "/services/service-details/",
+      "iconName": "pe-7s-headphones bg-6610f2",
+      "aosDelay": "700"
+    },
+    {
+      "id": "social-marketing",
+      "title": "Social Marketing",
+      "subtitle": "Creating Communities and Captivating Audiences",
+      "shortText": "Our social marketing services focus on developing and running campaigns relevant to your audience. We assist you in creating powerful online communities, boosting brand loyalty, and generating significant participation on every social media channel.",
+      "viewDetails": "/services/service-details/",
+      "iconName": "pe-7s-users bg-13c4a1",
+      "aosDelay": "800"
+    },
+    {
+      "id": "administrative-support",
+      "title": "Administrative Support",
+      "subtitle": "Effective Solutions for Your Company",
+      "shortText": "We provide thorough administrative support services meant to simplify your business processes. From performing daily chores to managing challenging projects, our staff guarantees that your company works effectively so you can concentrate on what is important.",
+      "viewDetails": "/services/service-details/",
+      "iconName": "pe-7s-comment bg-fc3549",
+      "aosDelay": "900"
+    }
+  ]
+}

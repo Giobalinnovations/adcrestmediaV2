@@ -4,18 +4,17 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import aboutUsData from '@/data/sectionsData/home/about-us.json';
+import toggleItemExpansion from '@/utils/toggleText';
 const AboutContent: React.FC = () => {
   const { image, subtitle, title, description, listItems, button } =
     aboutUsData;
   const [expandedItems, setExpandedItems] = useState<number[]>([]);
 
-  const toggleItemExpansion = (index: number) => {
-    setExpandedItems(prev =>
-      prev.includes(index) ? prev.filter(i => i !== index) : [...prev, index]
-    );
-  };
-
-  console.log(expandedItems);
+  // const toggleItemExpansion = (index: number) => {
+  //   setExpandedItems(prev =>
+  //     prev.includes(index) ? prev.filter(i => i !== index) : [...prev, index]
+  //   );
+  // };
 
   return (
     <>
@@ -51,7 +50,9 @@ const AboutContent: React.FC = () => {
                         <i className="fa-solid fa-check"></i>
                         <h3>{item?.title}</h3>
                         <p
-                          onClick={() => toggleItemExpansion(index)}
+                          onClick={() =>
+                            toggleItemExpansion(index, setExpandedItems)
+                          }
                           style={{ cursor: 'pointer' }}
                         >
                           {expandedItems.includes(index)
