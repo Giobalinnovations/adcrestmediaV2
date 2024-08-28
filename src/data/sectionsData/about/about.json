@@ -1,0 +1,58 @@
+{
+  "mainHeading": "About Us",
+  "bgImage": "/images/page-banner1.jpg",
+  "sections": {
+    "aboutUs": {
+      "bgImage": "/images/about-img2.jpg",
+      "title": "About Us",
+      "subtitle": "Constructing Success with Dedication and Creativity",
+      "description": "Our mission at Adcrest Media is to provide companies with creative digital solutions promoting development and success. Our knowledgeable staff is driven to provide outcomes that surpass expectations and enable our customers to confidently and creatively negotiate the constantly evolving digital terrain.",
+      "whoWeAre": {
+        "title": "Who We Are",
+        "subtitle": "Your Digital Excellence Trusted Partner",
+        "description": "Adcrest Media is your strategic partner in realising greatness, not just a digital marketing agency. Professionals from the industry make up our team; their motivation stems from a dedication to providing first-rate services supporting company success. Combining technology, data-driven insights, and imagination produces strategies that appeal to your readers and enhance your brand."
+      },
+      "history": {
+        "title": "Our History",
+        "subtitle": "Pioneering Success Since Our Founding",
+        "description": "Originally founded to change the scene in digital marketing, Adcrest Media has developed from a small group of driven marketers into a major player in the field. Our path started with the intention of giving companies the tools and approaches required to thrive in the digital age. We have developed our knowledge over time, broadened our offerings, and established a name for producing observable outcomes."
+      },
+      "mission": {
+        "title": "Our mission",
+        "subtitle": "Empowering Companies with Creative Digital Solutions",
+        "description": "Our goal is straightforward: to enable companies by offering creative digital marketing solutions that propel success and expansion. Every company, in our opinion, has immense potential; it is our responsibility to assist you realise that potential. Focussing on your particular objectives and difficulties helps us to develop customised plans that not only satisfy but beyond your expectations."
+      }
+    },
+    "userExpectations": {
+      "title": "Understanding User Expectations is Our #1 Priority at All Times",
+      "subtitle": "Customer-Centric Method for Respected Relationships",
+      "description": "At Adcrest Media, we think that achieving outstanding outcomes depends mostly on knowing our clients and their consumers. We invest time to find out about your company, objectives, and audience. This thorough knowledge enables us to design plans not just that are successful but also exactly complement the concept of your company. Our customer-centric strategy guarantees that we are constantly in sync with your demands, therefore enabling us to create trusting partnerships based on mutual success.",
+      "funFacts": [
+        {
+          "iconName": "fa-solid fa-circle-check",
+          "number": "980+",
+          "shortText": "Completed Projects",
+          "aosDelay": "100"
+        },
+        {
+          "iconName": "fa-solid fa-heart",
+          "number": "950+",
+          "shortText": "Happy Clients",
+          "aosDelay": "200"
+        },
+        {
+          "iconName": "fa-solid fa-list-check",
+          "number": "780+",
+          "shortText": "Ongoing Projects",
+          "aosDelay": "300"
+        },
+        {
+          "iconName": "fa-solid fa-trophy",
+          "number": "70+",
+          "shortText": "Winning Awards",
+          "aosDelay": "400"
+        }
+      ]
+    }
+  }
+}

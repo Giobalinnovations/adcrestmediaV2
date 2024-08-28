@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
-import Image from "next/image";
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination } from 'swiper/modules';
+import Image from 'next/image';
 
 import clientImg1 from '../../../public/images/clients/client1.png';
 import clientImg2 from '../../../public/images/clients/client2.png';
@@ -22,28 +22,10 @@ interface FeedbackItem {
   feedbacskText: string;
 }
 
-const feedbacskData: FeedbackItem[] = [
-  {
-    name: "John Smith",
-    designation: "CEO & Founder, Envato",
-    feedbacskText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-  },
-  {
-    name: "Oliver Smith",
-    designation: "React JS Specialist",
-    feedbacskText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-  },
-  {
-    name: "Thomas John",
-    designation: "Angular JS Specialist",
-    feedbacskText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-  },
-];
+import testimonialsData from '@/data/testimonials.json';
 
-const Feedback: React.FC = () => {
+const Feedback = () => {
+  const { title, subtitle, description, testimonials } = testimonialsData;
   return (
     <>
       <div className="feedback-area ptb-100">
@@ -68,16 +50,18 @@ const Feedback: React.FC = () => {
               modules={[Autoplay, Pagination]}
               className="feedback-slides"
             >
-              {feedbacskData &&
-                feedbacskData.map((value, i) => (
+              {testimonials &&
+                testimonials.map((value, i) => (
                   <SwiperSlide key={i}>
                     <div className="single-feedback">
-                      <p><q>{value.feedbacskText}</q></p>
+                      <p>
+                        <q>{value.feedbackText}</q>
+                      </p>
 
                       <div className="bar"></div>
 
                       <h3>{value.name}</h3>
-                      <span>{value.designation}</span>
+                      <span>{value.position}</span>
                     </div>
                   </SwiperSlide>
                 ))}
@@ -86,7 +70,7 @@ const Feedback: React.FC = () => {
         </div>
 
         {/* Client image */}
-        <div className="client-image-box">
+        {/* <div className="client-image-box">
           <Image
             src={clientImg1}
             className="client1"
@@ -174,7 +158,7 @@ const Feedback: React.FC = () => {
             width={218}
             height={218}
           />
-        </div>
+        </div> */}
       </div>
     </>
   );

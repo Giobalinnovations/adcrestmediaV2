@@ -1,164 +1,21 @@
-"use client";
+'use client';
 
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper/modules";
-import Image from "next/image";
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Navigation } from 'swiper/modules';
+import Image from 'next/image';
 
-const teamMemberData = [
-  {
-    image: "/images/team/team9.jpg",
-    name: "James White",
-    designation: "CEO & Founder",
-
-    socialLinks: [
-      {
-        iconName: "fa-brands fa-linkedin-in",
-        url: "https://linkedin.com/",
-      },
-      {
-        iconName: "fa-brands fa-twitter",
-        url: "https://twitter.com/",
-      },
-      {
-        iconName: "fa-brands fa-facebook-f",
-        url: "https://facebook.com/",
-      },
-      {
-        iconName: "fa-brands fa-instagram",
-        url: "https://instagram.com/",
-      },
-      {
-        iconName: "fa-brands fa-dribbble",
-        url: "https://dribbble.com/",
-      },
-    ],
-  },
-  {
-    image: "/images/team/team10.jpg",
-    name: "Johnson Lee",
-    designation: "Backend Specialist",
-
-    socialLinks: [
-      {
-        iconName: "fa-brands fa-linkedin-in",
-        url: "https://linkedin.com/",
-      },
-      {
-        iconName: "fa-brands fa-twitter",
-        url: "https://twitter.com/",
-      },
-      {
-        iconName: "fa-brands fa-facebook-f",
-        url: "https://facebook.com/",
-      },
-      {
-        iconName: "fa-brands fa-instagram",
-        url: "https://instagram.com/",
-      },
-      {
-        iconName: "fa-brands fa-dribbble",
-        url: "https://dribbble.com/",
-      },
-    ],
-  },
-  {
-    image: "/images/team/team11.jpg",
-    name: "Williams Smith",
-    designation: "Front-end Specialist",
-
-    socialLinks: [
-      {
-        iconName: "fa-brands fa-linkedin-in",
-        url: "https://linkedin.com/",
-      },
-      {
-        iconName: "fa-brands fa-twitter",
-        url: "https://twitter.com/",
-      },
-      {
-        iconName: "fa-brands fa-facebook-f",
-        url: "https://facebook.com/",
-      },
-      {
-        iconName: "fa-brands fa-instagram",
-        url: "https://instagram.com/",
-      },
-      {
-        iconName: "fa-brands fa-dribbble",
-        url: "https://dribbble.com/",
-      },
-    ],
-  },
-  {
-    image: "/images/team/team12.jpg",
-    name: "David Miller",
-    designation: "Reactjs Specialist",
-
-    socialLinks: [
-      {
-        iconName: "fa-brands fa-linkedin-in",
-        url: "https://linkedin.com/",
-      },
-      {
-        iconName: "fa-brands fa-twitter",
-        url: "https://twitter.com/",
-      },
-      {
-        iconName: "fa-brands fa-facebook-f",
-        url: "https://facebook.com/",
-      },
-      {
-        iconName: "fa-brands fa-instagram",
-        url: "https://instagram.com/",
-      },
-      {
-        iconName: "fa-brands fa-dribbble",
-        url: "https://dribbble.com/",
-      },
-    ],
-  },
-  {
-    image: "/images/team/team13.jpg",
-    name: "Thomas",
-    designation: "Office Manager",
-
-    socialLinks: [
-      {
-        iconName: "fa-brands fa-linkedin-in",
-        url: "https://linkedin.com/",
-      },
-      {
-        iconName: "fa-brands fa-twitter",
-        url: "https://twitter.com/",
-      },
-      {
-        iconName: "fa-brands fa-facebook-f",
-        url: "https://facebook.com/",
-      },
-      {
-        iconName: "fa-brands fa-instagram",
-        url: "https://instagram.com/",
-      },
-      {
-        iconName: "fa-brands fa-dribbble",
-        url: "https://dribbble.com/",
-      },
-    ],
-  },
-];
+import teamMemberData from '@/data/team.json';
 
 const TeamStyleThree: React.FC = () => {
+  const { title, description, members } = teamMemberData;
   return (
     <>
       <div className="pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <h2>Our Expert Team</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <h2>{title}</h2>
+            <p>{description}</p>
           </div>
 
           <Swiper
@@ -184,8 +41,8 @@ const TeamStyleThree: React.FC = () => {
             modules={[Autoplay, Navigation]}
             className="team-slider"
           >
-            {teamMemberData &&
-              teamMemberData.map((value, i) => (
+            {members &&
+              members.map((value, i) => (
                 <SwiperSlide key={i}>
                   <div className="team-card text-center">
                     <div className="team-img">
@@ -215,7 +72,7 @@ const TeamStyleThree: React.FC = () => {
 
                     <div className="team-caption">
                       <h3>{value.name}</h3>
-                      <p>{value.designation}</p>
+                      <p>{value.position}</p>
                     </div>
                   </div>
                 </SwiperSlide>

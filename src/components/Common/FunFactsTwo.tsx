@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
-import map from "../../../public/images/map.png";
-
+import map from '../../../public/images/map.png';
+import aboutData from '@/data/sectionsData/about/about.json';
 interface FunFact {
   iconName: string;
   number: string;
@@ -15,47 +15,47 @@ interface FunFact {
 
 const funFactsData: FunFact[] = [
   {
-    iconName: "fa-solid fa-circle-check",
-    number: "980+",
-    shortText: "Completed Projects",
-    aosDelay: "100",
+    iconName: 'fa-solid fa-circle-check',
+    number: '980+',
+    shortText: 'Completed Projects',
+    aosDelay: '100',
   },
   {
-    iconName: "fa-solid fa-heart",
-    number: "950+",
-    shortText: "Happy Clients",
-    aosDelay: "200",
+    iconName: 'fa-solid fa-heart',
+    number: '950+',
+    shortText: 'Happy Clients',
+    aosDelay: '200',
   },
   {
-    iconName: "fa-solid fa-list-check",
-    number: "780+",
-    shortText: "Ongoing Projects",
-    aosDelay: "300",
+    iconName: 'fa-solid fa-list-check',
+    number: '780+',
+    shortText: 'Ongoing Projects',
+    aosDelay: '300',
   },
   {
-    iconName: "fa-solid fa-trophy",
-    number: "70+",
-    shortText: "Winning Awards",
-    aosDelay: "400",
+    iconName: 'fa-solid fa-trophy',
+    number: '70+',
+    shortText: 'Winning Awards',
+    aosDelay: '400',
   },
 ];
 
-const FunFactsTwo: React.FC = () => {
+const FunFactsTwo = () => {
+  const {
+    sections: { userExpectations },
+  } = aboutData;
   return (
     <>
       <div className="funfacts-area ptb-100 bg-fcfbfb">
         <div className="container">
           <div className="section-title">
-            <h2>We always try to understand users expectation</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <h2>{userExpectations?.title}</h2>
+            <p>{userExpectations?.description}</p>
           </div>
 
           <div className="row justify-content-center">
-            {funFactsData &&
-              funFactsData.slice(0, 4).map((value, i) => (
+            {userExpectations?.funFacts &&
+              userExpectations?.funFacts?.slice(0, 4).map((value, i) => (
                 <div className="col-lg-3 col-sm-6" key={i}>
                   <div
                     className="funfact"

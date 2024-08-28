@@ -1,0 +1,146 @@
+{
+  "title": "Our Expert Team",
+  "description": "Meet the creative brains propelling your success. Our staff of talented experts at Adcrest Media is committed to providing quality in every project by combining knowledge with imagination to produce remarkable outcomes.",
+  "members": [
+    {
+      "name": "James White",
+      "position": "Director and CEO",
+      "description": "The visionary leader behind Adcrest Media is James White. Having years of expertise in business planning and digital marketing, James has led the firm towards industry leadership. His love of creativity and dedication to quality propel the team forward as well as the clientele they assist.",
+      "image": "/images/team/team9.jpg",
+      "socialLinks": [
+        {
+          "iconName": "fa-brands fa-linkedin-in",
+          "url": "https://linkedin.com/"
+        },
+        {
+          "iconName": "fa-brands fa-twitter",
+          "url": "https://twitter.com/"
+        },
+        {
+          "iconName": "fa-brands fa-facebook-f",
+          "url": "https://facebook.com/"
+        },
+        {
+          "iconName": "fa-brands fa-instagram",
+          "url": "https://instagram.com/"
+        },
+        {
+          "iconName": "fa-brands fa-dribbble",
+          "url": "https://dribbble.com/"
+        }
+      ]
+    },
+    {
+      "name": "Johnson Lee",
+      "position": "Backend Specialist",
+      "description": "The backbone of our programming team, Johnson Lee specialises in building scalable, strong backend systems. Johnson guarantees that every project is based on a strong foundation employing a great eye for detail and a strong awareness of server-side technology, therefore providing flawless and effective digital experiences.",
+      "image": "/images/team/team10.jpg",
+      "socialLinks": [
+        {
+          "iconName": "fa-brands fa-linkedin-in",
+          "url": "https://linkedin.com/"
+        },
+        {
+          "iconName": "fa-brands fa-twitter",
+          "url": "https://twitter.com/"
+        },
+        {
+          "iconName": "fa-brands fa-facebook-f",
+          "url": "https://facebook.com/"
+        },
+        {
+          "iconName": "fa-brands fa-instagram",
+          "url": "https://instagram.com/"
+        },
+        {
+          "iconName": "fa-brands fa-dribbble",
+          "url": "https://dribbble.com/"
+        }
+      ]
+    },
+    {
+      "name": "Williams Smith",
+      "position": "Front-end Specialist",
+      "description": "Our user interfaces are creatively driven by Williams Smith. Williams creates visually striking and very responsive websites as a front-end expert by combining aesthetics with utility. His knowledge of HTML, CSS, and JavaScript guarantees that every site offers an outstanding user experience in addition to looking amazing.",
+      "image": "/images/team/team11.jpg",
+      "socialLinks": [
+        {
+          "iconName": "fa-brands fa-linkedin-in",
+          "url": "https://linkedin.com/"
+        },
+        {
+          "iconName": "fa-brands fa-twitter",
+          "url": "https://twitter.com/"
+        },
+        {
+          "iconName": "fa-brands fa-facebook-f",
+          "url": "https://facebook.com/"
+        },
+        {
+          "iconName": "fa-brands fa-instagram",
+          "url": "https://instagram.com/"
+        },
+        {
+          "iconName": "fa-brands fa-dribbble",
+          "url": "https://dribbble.com/"
+        }
+      ]
+    },
+    {
+      "name": "David Miller",
+      "position": "Reactjs Specialist",
+      "description": "Our ReactJS master, David Miller brings dynamic, interactive web apps to life. David's work guarantees that our customers' online platforms are both modern and user-friendly, thereby offering a smooth experience across all devices. He pays great attention to speed and usability.",
+      "image": "/images/team/team12.jpg",
+      "socialLinks": [
+        {
+          "iconName": "fa-brands fa-linkedin-in",
+          "url": "https://linkedin.com/"
+        },
+        {
+          "iconName": "fa-brands fa-twitter",
+          "url": "https://twitter.com/"
+        },
+        {
+          "iconName": "fa-brands fa-facebook-f",
+          "url": "https://facebook.com/"
+        },
+        {
+          "iconName": "fa-brands fa-instagram",
+          "url": "https://instagram.com/"
+        },
+        {
+          "iconName": "fa-brands fa-dribbble",
+          "url": "https://dribbble.com/"
+        }
+      ]
+    },
+    {
+      "name": "Thomas",
+      "position": "Office Manager",
+      "description": "For Adcrest Media, Thomas is its organising pulse. He makes sure our operations function effectively and seamlessly as the office manager to free our technical and creative teams to concentrate on their strongest areas of expertise. Our success depends much on his will to maintain a good and efficient workplace.",
+      "image": "/images/team/team13.jpg",
+      "socialLinks": [
+        {
+          "iconName": "fa-brands fa-linkedin-in",
+          "url": "https://linkedin.com/"
+        },
+        {
+          "iconName": "fa-brands fa-twitter",
+          "url": "https://twitter.com/"
+        },
+        {
+          "iconName": "fa-brands fa-facebook-f",
+          "url": "https://facebook.com/"
+        },
+        {
+          "iconName": "fa-brands fa-instagram",
+          "url": "https://instagram.com/"
+        },
+        {
+          "iconName": "fa-brands fa-dribbble",
+          "url": "https://dribbble.com/"
+        }
+      ]
+    }
+  ]
+}
