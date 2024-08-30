@@ -28,6 +28,8 @@ import '../../public/styles/cyber-security-agency-home-page.css';
 // Global Style
 import '../../public/styles/style.css';
 import '../../public/styles/responsive.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './globals.css';
 
 import type { Metadata } from 'next';
@@ -68,6 +70,7 @@ export default function RootLayout({
         <AosAnimation />
 
         <GoTop />
+        <ToastContainer />
       </body>
     </html>
   );

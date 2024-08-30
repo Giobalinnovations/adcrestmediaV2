@@ -4,8 +4,6 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import MenuItem from './MenuItem';
-import MegaMenu from './MegaMenu';
-import { menus } from '../../../libs/menus';
 
 // import logo from '../../../public/images/logo.png';
 // import whiteLogo from '../../../public/images/logo-white.png';
@@ -56,7 +54,9 @@ const NavbarTwo: React.FC = () => {
                 height={40}
               /> */}
               <h3 className="black-logo">Adcrestmedia</h3>
-              <h3 className="white-logo">Adcrestmedia</h3>
+              <h3 className="white-logo" style={{ color: 'white' }}>
+                Adcrestmedia
+              </h3>
             </Link>
 
             {/* Toggle navigation */}
