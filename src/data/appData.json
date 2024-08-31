@@ -50,11 +50,7 @@
         "label": "About Us",
         "link": "/about"
       },
-      {
-        "id": "blog",
-        "label": "Blog",
-        "link": "/blog"
-      },
+
       {
         "id": "contact",
         "label": "Contact",
