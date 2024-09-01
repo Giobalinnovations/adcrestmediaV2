@@ -25,7 +25,7 @@ export default function Page() {
 
       <Feedback />
 
-      <Partner />
+      {/* <Partner /> */}
 
       <CtaAreaTwo />
 

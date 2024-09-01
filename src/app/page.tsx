@@ -31,13 +31,13 @@ export default function Page() {
 
       <CtaArea />
 
-      <LatestNews />
+      {/* <LatestNews /> */}
 
-      <Partner />
+      {/* <Partner /> */}
 
-      <div className="pb-100">
+      {/* <div className="pb-100">
         <Newsletter />
-      </div>
+      </div> */}
 
       <Footer />
     </>
