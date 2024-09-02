@@ -5,19 +5,19 @@
   "cards": [
     {
       "image": "/images/services/service1.jpg",
-      "iconName": "pe-7s-search",
-      "title": "SEO (Search Engine Optimization)",
-      "shortText": "Through search engine optimization, your site will be more visible and will get more free traffic. Our marketing team adjusts your search engine rankings and brings your target audience through in-depth keyword research, proper on-page optimization, and quality backlink building.",
+      "iconName": "pe-7s-network",
+      "title": "Affiliate Marketing",
+      "shortText": "Gain the competitive advantage of performance-based marketing with our Affiliate Marketing services. We connect you with premium affiliates who are boosting your brand on various channels, accelerating sales, and increasing your ROI. Through the use of a network of industry professionals and top publishers, we make sure that your products and services go to the right people. Our strategy consists of focused relationships, real-time data tracking, and perpetual revision to efficiently utilize your affiliate campaigns.",
       "detailsLink": "/services/service-details/",
       "aosDelay": 100
     },
     {
-      "image": "/images/services/service2.jpg",
-      "iconName": "pe-7s-mouse",
-      "title": "PPC (Pay-Per-Click Advertising)",
-      "shortText": "PPC (Pay-Per-Click Advertising): Maximize your ROI with our tailored PPC campaigns. We design targeted ads to ensure that your customers will see them and buy from you. This way you get optimal return on each ad spend.",
+      "image": "/images/services/service1.jpg",
+      "iconName": "pe-7s-display1",
+      "title": "Website Design and Development",
+      "shortText": "Your website is beyond just a digital identity; it encapsulates your brand's position in the digital space. Our Website Design and Development services involve the production of beautiful graphics, easy-to-use, functional, and visually appealing websites that will attract your audience and maintain their interest. Whether you want a stylish corporate site or a powerful e-commerce website, we create fast, mobile-friendly, and search engine-optimized ones. Our team integrates state-of-the-art technology with artful design in order to provide websites that not only please the eye but also attract customers.",
       "detailsLink": "/services/service-details/",
-      "aosDelay": 100
+      "aosDelay": 200
     },
     {
       "image": "/images/services/service3.jpg",
@@ -25,15 +25,39 @@
       "title": "Social Media Marketing",
       "shortText": "Involve your viewers and cultivate them as loyal members of your community using our dynamic social media strategies. We provide assistance in crafting posts as well as in promoting you on platforms such as Facebook, Instagram, LinkedIn, and Twitter through paid social ads.",
       "detailsLink": "/services/service-details/",
-      "aosDelay": 100
+      "aosDelay": 300
+    },
+    {
+      "image": "/images/services/service1.jpg",
+      "iconName": "pe-7s-search",
+      "title": "SEO (Search Engine Optimization)",
+      "shortText": "Through search engine optimization, your site will be more visible and will get more free traffic. Our marketing team adjusts your search engine rankings and brings your target audience through in-depth keyword research, proper on-page optimization, and quality backlink building.",
+      "detailsLink": "/services/service-details/",
+      "aosDelay": 400
+    },
+    {
+      "image": "/images/services/service2.jpg",
+      "iconName": "pe-7s-cash",
+      "title": "PPC (Pay-Per-Click Advertising)",
+      "shortText": "PPC (Pay-Per-Click Advertising): Maximize your ROI with our tailored PPC campaigns. We design targeted ads to ensure that your customers will see them and buy from you. This way you get optimal return on each ad spend.",
+      "detailsLink": "/services/service-details/",
+      "aosDelay": 500
+    },
+    {
+      "image": "/images/services/service3.jpg",
+      "iconName": "pe-7s-share",
+      "title": "Social Media Marketing",
+      "shortText": "Involve your viewers and cultivate them as loyal members of your community using our dynamic social media strategies. We provide assistance in crafting posts as well as in promoting you on platforms such as Facebook, Instagram, LinkedIn, and Twitter through paid social ads.",
+      "detailsLink": "/services/service-details/",
+      "aosDelay": 600
     },
     {
       "image": "/images/services/service4.jpg",
-      "iconName": "pe-7s-note2",
+      "iconName": "pe-7s-pen",
       "title": "Content Marketing",
       "shortText": "Through content marketing services, you can share your brand story and win your audience over. We develop captivating blogs, videos, and infographics that are not only engaging but also get the customer to take action, thus improving your brand's authority and visibility on the internet.",
       "detailsLink": "/services/service-details/",
-      "aosDelay": 100
+      "aosDelay": 700
     },
     {
       "image": "/images/services/service4.jpg",
@@ -41,7 +65,15 @@
       "title": "Email Marketing",
       "shortText": "Keep your audience informed and engaged with our personalized email marketing campaigns. We design and execute strategies that nurture leads and drive repeat business, turning prospects into loyal customers.",
       "detailsLink": "/services/service-details/",
-      "aosDelay": 100
+      "aosDelay": 800
+    },
+    {
+      "image": "/images/services/service4.jpg",
+      "iconName": "pe-7s-star",
+      "title": "Influencer Marketing",
+      "shortText": "With our Influencer Marketing services, you can totally give your company a fresh look by joining forces with celebrities who set the brand image. We make sure to connect you with personalities whose values are in line with those of your brand, as well as those who have a significant number of followers in your field. Using their reputation and power, we help you generate genuine content that is not only popular among the audience but also appeals to them. Starting from choosing the right influencers to executing collaborations and tracking the progress, we deliver comprehensive solutions that boost your brand awareness and help you meet your objectives.",
+      "detailsLink": "/services/service-details/",
+      "aosDelay": 900
     }
   ]
 }

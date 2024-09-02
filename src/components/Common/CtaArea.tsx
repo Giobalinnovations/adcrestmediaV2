@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 const CtaArea: React.FC = () => {
   return (
@@ -10,14 +10,16 @@ const CtaArea: React.FC = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-7 col-md-8">
-              <div 
+              <div
                 className="cta-content"
                 data-aos="fade-in"
                 data-aos-duration="1000"
                 data-aos-delay="200"
               >
-                <h3>Have a project in mind?</h3>
-                <p>Let&apos;s get to work</p>
+                <h3>
+                  Ready to grow your business with expert digital marketing??
+                </h3>
+                <p>Contact Us Today</p>
               </div>
             </div>
 
