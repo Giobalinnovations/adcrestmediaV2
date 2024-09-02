@@ -12,15 +12,15 @@ const AboutContent = () => {
 
   return (
     <>
-      <FsLightbox
+      {/* <FsLightbox
         toggler={toggler}
         sources={['https://www.youtube.com/embed/bk7McNUjWgw']}
-      />
+      /> */}
 
       <div className="about-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-5 col-md-12">
+            {/* <div className="col-lg-5 col-md-12">
               <div className="about-image">
                 <Image
                   src={aboutUs?.bgImage ?? ''}
@@ -39,9 +39,9 @@ const AboutContent = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-7 col-md-12">
+            <div className="col-lg-12 col-md-12">
               <div className="about-content about-content-two">
                 <div className="section-title">
                   <h2>{aboutUs?.title}</h2>
@@ -49,12 +49,12 @@ const AboutContent = () => {
                 </div>
 
                 <div className="about-text">
-                  <h4>{aboutUs?.whoWeAre?.title}</h4>
-                  <p>{aboutUs?.whoWeAre?.description}</p>
+                  <h4>{aboutUs?.ourStory?.title}</h4>
+                  <p>{aboutUs?.ourStory?.description}</p>
                 </div>
                 <div className="about-text">
-                  <h4>{aboutUs?.history?.title}</h4>
-                  <p>{aboutUs?.history?.description}</p>
+                  <h4>{aboutUs?.ourTeam?.title}</h4>
+                  <p>{aboutUs?.ourTeam?.description}</p>
                 </div>
 
                 <div className="about-text">

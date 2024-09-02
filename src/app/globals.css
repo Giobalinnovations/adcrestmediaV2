@@ -1,0 +1,41 @@
+.solutions-area {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.solutions-area h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(2fr));
+  gap: 20px;
+}
+
+.solution-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.solution-card .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.solution-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.solution-card p {
+  font-size: 1em;
+  color: #666;
+}

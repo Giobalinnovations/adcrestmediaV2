@@ -15,9 +15,10 @@
       "blog": true
     },
     "socialMedia": {
-      "facebook": "https://facebook.com/::APP_NAME::",
-      "twitter": "https://twitter.com/::APP_NAME::",
-      "linkedin": "https://linkedin.com/company/::APP_NAME::"
+      "facebook": "https://www.facebook.com/people/Adcrest-Media/61564646192912/",
+      "twitter": "https://x.com/adcrestmedia/status/1828692390640755104",
+      "linkedin": "https://www.linkedin.com/posts/adcrest-media-235234324_affiliatemarketing-businessgrowth-marketingstrategy-activity-7234458248978845697-0zov?utm_source=share&utm_medium=member_desktop",
+      "instagram": "https://www.instagram.com/p/C_NGy5fyR-s/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
     },
     "contactInfo": {
       "email": "info@adcrestmedia.com",
@@ -46,24 +47,37 @@
         "link": "/services",
         "submenu": [
           {
-            "label": "Services Style 1",
-            "link": "/services/"
+            "label": "Affiliate Marketing",
+            "link": "/services/affiliate-marketing"
           },
           {
-            "label": "Services Style 2",
-            "link": "/services/2/"
+            "label": "Website Design and Development",
+            "link": "/services/website-design-and-development"
           },
           {
-            "label": "Services Style 3",
-            "link": "/services/3/"
+            "label": "Social Media Marketing",
+            "link": "/services/social-media-marketing"
           },
           {
-            "label": "Services Style 4",
-            "link": "/services/4/"
+            "label": "SEO (Search Engine Optimization)",
+            "link": "/services/seo-search-engine-optimization"
           },
           {
-            "label": "Service Details",
-            "link": "/services/service-details/"
+            "label": "PPC (Pay-Per-Click Advertising)",
+            "link": "/services/ppc-pay-per-click-advertising"
+          },
+
+          {
+            "label": "Content Marketing",
+            "link": "/services/content-marketing/"
+          },
+          {
+            "label": "Email Marketing",
+            "link": "/services/email-marketing/"
+          },
+          {
+            "label": "Influencer Marketing",
+            "link": "/services/influencer-marketing/"
           }
         ]
       },
@@ -118,15 +132,19 @@
     "socialLinks": [
       {
         "platform": "Facebook",
-        "url": "https://facebook.com/::APP_NAME::"
+        "url": "https://www.facebook.com/people/Adcrest-Media/61564646192912/"
       },
       {
         "platform": "Twitter",
-        "url": "https://twitter.com/::APP_NAME::"
+        "url": "https://x.com/adcrestmedia/status/1828692390640755104"
       },
       {
         "platform": "LinkedIn",
-        "url": "https://linkedin.com/company/::APP_NAME::"
+        "url": "https://www.linkedin.com/posts/adcrest-media-235234324_affiliatemarketing-businessgrowth-marketingstrategy-activity-7234458248978845697-0zov?utm_source=share&utm_medium=member_desktop"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.instagram.com/p/C_NGy5fyR-s/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
       }
     ]
   }

@@ -19,12 +19,6 @@ export default function Page() {
 
       <AboutContent />
 
-      <FunFactsTwo />
-
-      {/* <TeamStyleThree /> */}
-
-      <Feedback />
-
       {/* <Partner /> */}
 
       <CtaAreaTwo />

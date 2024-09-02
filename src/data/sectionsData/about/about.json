@@ -6,21 +6,22 @@
       "bgImage": "/images/about-img2.jpg",
       "title": "About Us",
       "subtitle": "Constructing Success with Dedication and Creativity",
-      "description": "Our mission at Adcrest Media is to provide companies with creative digital solutions promoting development and success. Our knowledgeable staff is driven to provide outcomes that surpass expectations and enable our customers to confidently and creatively negotiate the constantly evolving digital terrain.",
-      "whoWeAre": {
-        "title": "Who We Are",
-        "subtitle": "Your Digital Excellence Trusted Partner",
-        "description": "Adcrest Media is your strategic partner in realising greatness, not just a digital marketing agency. Professionals from the industry make up our team; their motivation stems from a dedication to providing first-rate services supporting company success. Combining technology, data-driven insights, and imagination produces strategies that appeal to your readers and enhance your brand."
-      },
-      "history": {
-        "title": "Our History",
-        "subtitle": "Pioneering Success Since Our Founding",
-        "description": "Originally founded to change the scene in digital marketing, Adcrest Media has developed from a small group of driven marketers into a major player in the field. Our path started with the intention of giving companies the tools and approaches required to thrive in the digital age. We have developed our knowledge over time, broadened our offerings, and established a name for producing observable outcomes."
-      },
+      "description": "At Adcrest Media, we launch your brand's digital journey with unique techniques that generate quantifiable results and build enduring relationships. Adcrest Media turns your idea into digital reality using creativity and analytics.",
+
       "mission": {
         "title": "Our mission",
-        "subtitle": "Empowering Companies with Creative Digital Solutions",
-        "description": "Our goal is straightforward: to enable companies by offering creative digital marketing solutions that propel success and expansion. Every company, in our opinion, has immense potential; it is our responsibility to assist you realise that potential. Focussing on your particular objectives and difficulties helps us to develop customised plans that not only satisfy but beyond your expectations."
+        "subtitle": "",
+        "description": "Our Mission at Adcrest Media is very clear: we want to provide creative digital marketing solutions that produce quantifiable outcomes and build enduring partnerships. We think that data-driven strategies, creative ideas, and customised techniques together will enable companies to realise their greatest potential in the digital sphere. Whether it's raising brand awareness, generating sales, or improving consumer involvement, our goal is to help our clients to succeed."
+      },
+      "ourStory": {
+        "title": "Our Story",
+        "subtitle": "",
+        "description": "Established in 2015, Adcrest Media started with a simple but strong goal: to provide companies with the tools and ideas required for digital era success. Originally a small team driven by digital marketing, it has developed into a full-service firm working with businesses in many sectors to accomplish amazing online success. Driven by our will to produce outstanding achievements, our path has been one of ongoing development and creativity."
+      },
+      "ourTeam": {
+        "title": "Our Team",
+        "subtitle": "",
+        "description": "Meet the spirit and heart of Adcrest Media—our staff of digital marketing professionals committed to your success. Having years of experience in the field, our staff combines technical knowledge with artistic ability to provide outcomes beyond expectations. From strategists and designers to content producers and analysts, every member of our team is essential in developing customised solutions that appeal to your audience and help you to meet corporate objectives. At Adcrest Media, we work with you not just for you. In whatever we do, we respect honesty, openness, and teamwork; hence, your trip with us will be not only successful but also fulfilling."
       }
     },
     "userExpectations": {

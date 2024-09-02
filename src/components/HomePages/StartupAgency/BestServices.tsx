@@ -23,12 +23,12 @@ const BestServices: React.FC = () => {
                   <div className="bar"></div>
                   <p>{description}</p>
 
-                  <Image
+                  {/* <Image
                     src={womenWithTable}
                     alt="Women"
                     width={353}
                     height={303}
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
@@ -62,14 +62,17 @@ const BestServices: React.FC = () => {
                     cards.map((value, i) => (
                       <SwiperSlide key={i}>
                         <div className="single-services">
-                          <Image
+                          {/* <Image
                             src={value.image}
                             alt="image"
                             className="w-100"
                             width={330}
                             height={450}
-                          />
-
+                          /> */}
+                          <div
+                            className="w-100"
+                            style={{ width: '330px', height: '450px' }}
+                          ></div>
                           <div className="content">
                             <div className="icon">
                               <i className={value.iconName}></i>

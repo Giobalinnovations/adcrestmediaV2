@@ -4,13 +4,11 @@ import React from 'react';
 import Link from 'next/link';
 
 type servicesData = {
-  id: string;
   title: string;
-  subtitle: string;
   shortText: string;
-  viewDetails: string;
+  detailsLink: string;
   iconName: string;
-  aosDelay: string;
+  aosDelay: Number;
 };
 
 const ServicesStyleOne = ({
@@ -34,9 +32,17 @@ const ServicesStyleOne = ({
                   >
                     <i className={value.iconName}></i>
                     <h3>
-                      <Link href={value.viewDetails}>{value.title}</Link>
+                      <Link href={value.detailsLink}>{value.title}</Link>
                     </h3>
-                    <p>{value.shortText}</p>
+                    {/* <p>{value.shortText}</p> */}
+                    <p>
+                      {value.shortText.split(' ').slice(0, 25).join(' ')}
+                      {value.shortText.split(' ').length > 25 ? '...' : ''}
+                    </p>
+
+                    <Link href={value.detailsLink} className="read-more-btn">
+                      Read More
+                    </Link>
                   </div>
                 </div>
               ))}

@@ -18,7 +18,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ label, link, submenu }) => {
         <Link
           href={link}
           className="nav-link"
-          onClick={e => e.preventDefault()}
+          // onClick={e => e.preventDefault()}
         >
           {label} <i className="fa-solid fa-angle-down"></i>
         </Link>

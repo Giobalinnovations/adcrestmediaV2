@@ -2,6 +2,7 @@
 
 import React from 'react';
 import contactData from '@/data/sectionsData/contact/contact.json';
+import Link from 'next/link';
 const ContactInfo: React.FC = () => {
   const {
     contactInfo: { title, description, address, phone, email },
@@ -18,7 +19,7 @@ const ContactInfo: React.FC = () => {
                 </div>
                 <h3>Mail Here</h3>
                 <p>
-                  <a href="mailto:admin@adcrestmediacom">{email}</a>
+                  <Link href={`mailto:${email}`}>{email}</Link>
                 </p>
               </div>
             </div>
@@ -40,7 +41,7 @@ const ContactInfo: React.FC = () => {
                 </div>
                 <h3>Call Here</h3>
                 <p>
-                  <a href="tel:+1234567890">{phone}</a>
+                  <Link href={`tel:${phone}`}>{phone}</Link>
                 </p>
               </div>
             </div>

@@ -11,15 +11,15 @@ export default function Page() {
     <>
       <NavbarTwo />
 
-      <PageBanner pageTitle="Contact Us" BGImage="/images/page-banner1.jpg" />
+      <PageBanner pageTitle="Contact Us" BGImage="/images/contact-us.webp" />
 
       <ContactInfo />
 
       <ContactForm />
 
-      <div className="ptb-100">
+      {/* <div className="ptb-100">
         <Newsletter />
-      </div>
+      </div> */}
 
       <Footer />
     </>

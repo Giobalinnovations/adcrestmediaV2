@@ -62,6 +62,7 @@ const MainBanner: React.FC = () => {
                   alt={heroData?.banner?.bannerImageAlt ?? ''}
                   width={703}
                   height={652}
+                  loading="lazy"
                 />
               </div>
             </div>

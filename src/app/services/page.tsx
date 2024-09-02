@@ -4,16 +4,16 @@ import PageBanner from '../../components/Common/PageBanner';
 import ServicesStyleOne from '../../components/Services/ServicesStyleOne';
 import CtaAreaTwo from '../../components/Common/CtaAreaTwo';
 import Footer from '../../components/Layouts/Footer';
-import servicesData from '@/data/sectionsData/services/services.json';
+import bestServicesData from '@/data/sectionsData/home/what-we-do.json';
 export default function Page() {
-  const { services, mainHeading, bgImage } = servicesData;
+  const { cards, subtitle, title, description, bgImage } = bestServicesData;
   return (
     <>
       <NavbarTwo />
 
-      <PageBanner pageTitle={mainHeading} BGImage={bgImage} />
+      <PageBanner pageTitle={title} BGImage={bgImage} />
 
-      <ServicesStyleOne servicesData={services} />
+      <ServicesStyleOne servicesData={cards} />
 
       <CtaAreaTwo />
 
