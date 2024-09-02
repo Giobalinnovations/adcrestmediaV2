@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import React, { useState } from "react";
-import FsLightbox from "fslightbox-react";
-import Link from "next/link";
-import Image from "next/image";
+import React, { useState } from 'react';
+import FsLightbox from 'fslightbox-react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 import bannerImg from '../../../../public/images/banner-img2.png';
 
@@ -13,7 +13,7 @@ const MainBanner: React.FC = () => {
     <>
       <FsLightbox
         toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
+        sources={['https://www.youtube.com/embed/bk7McNUjWgw']}
       />
 
       <div className="main-banner startup-agency">
@@ -28,7 +28,7 @@ const MainBanner: React.FC = () => {
                       data-aos-duration="1000"
                       data-aos-delay="200"
                     >
-                      Start your startup agency with Pungent
+                      Start your startup agency with adcrestmedia
                     </h1>
 
                     <p
@@ -37,12 +37,12 @@ const MainBanner: React.FC = () => {
                       data-aos-delay="300"
                     >
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore
-                      magna aliqua.
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
                     </p>
 
-                    <Link 
-                      href="/contact-us/" 
+                    <Link
+                      href="/contact-us/"
                       className="btn btn-primary"
                       data-aos="fade-in"
                       data-aos-duration="1000"
@@ -70,7 +70,12 @@ const MainBanner: React.FC = () => {
                     data-aos-duration="1000"
                     data-aos-delay="600"
                   >
-                    <Image src={bannerImg} alt="image" width={700} height={436} />
+                    <Image
+                      src={bannerImg}
+                      alt="image"
+                      width={700}
+                      height={436}
+                    />
                   </div>
                 </div>
               </div>
@@ -79,7 +84,7 @@ const MainBanner: React.FC = () => {
         </div>
       </div>
     </>
-  )
-}
-  
+  );
+};
+
 export default MainBanner;

@@ -4,8 +4,6 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import heroData from '@/data/sectionsData/home/hero.json';
-import bannerImg from '../../../../public/images/digital-marketing/banner-img.png';
-import shapeImg from '../../../../public/images/digital-marketing/shape1.png';
 
 const MainBanner: React.FC = () => {
   return (

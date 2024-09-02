@@ -27,7 +27,7 @@ const OurServices: React.FC = () => {
                     data-aos-duration="1000"
                     data-aos-delay={value.aosDelay}
                   >
-                    <Link href={value.viewDetailsLink}>
+                    <Link href={value.detailsLink}>
                       <Image
                         src={value.image}
                         alt="image"
@@ -37,7 +37,7 @@ const OurServices: React.FC = () => {
                     </Link>
                     <div className="content">
                       <h3>
-                        <Link href={value.viewDetailsLink}>{value.title}</Link>
+                        <Link href={value.detailsLink}>{value.title}</Link>
                       </h3>
                       <p>{value.shortText}</p>
                     </div>

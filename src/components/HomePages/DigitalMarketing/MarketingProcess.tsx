@@ -7,13 +7,6 @@ import marketingProcessData from '@/data/sectionsData/home/marketing-process.jso
 
 const MarketingProcess: React.FC = () => {
   const { cards, title, subtitle } = marketingProcessData;
-  const [expandedCards, setExpandedCards] = useState<number[]>([]);
-
-  const toggleCardExpansion = (index: number) => {
-    setExpandedCards(prev =>
-      prev.includes(index) ? prev.filter(i => i !== index) : [...prev, index]
-    );
-  };
 
   return (
     <>
@@ -26,10 +19,13 @@ const MarketingProcess: React.FC = () => {
 
           <div className="row justify-content-center">
             {cards &&
-              cards?.slice(0, 3)?.map((value, i) => (
-                <div className="col-lg-4 col-md-6 col-sm-6" key={i}>
+              cards?.slice(0, 4)?.map((value, i) => (
+                <div
+                  className="col-lg-6 col-md-6 col-sm-6 d-flex flex-direction-column"
+                  key={i}
+                >
                   <div
-                    className="dm-process-box"
+                    className="dm-process-box flex-grow-1"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay={value.aosDelay}
@@ -41,19 +37,7 @@ const MarketingProcess: React.FC = () => {
                       height={228}
                     />
                     <h3>{value.title}</h3>
-                    <p>
-                      {expandedCards.includes(i)
-                        ? value.shortText
-                        : `${value.shortText.slice(0, 150)}...`}
-                    </p>
-                    {value.shortText.length > 150 && (
-                      <button
-                        className="default-btn-two"
-                        onClick={() => toggleCardExpansion(i)}
-                      >
-                        {expandedCards.includes(i) ? 'Read Less' : 'Read More'}
-                      </button>
-                    )}
+                    <p>{value?.shortText}</p>
                   </div>
                 </div>
               ))}

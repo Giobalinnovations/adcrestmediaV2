@@ -1,7 +1,7 @@
 {
-  "subtitle": "MARKETING AGENCY",
-  "title": "We Help You Take Your Business to The Next Level",
-  "description": "Igniting your brand's expansion with professional marketing strategies.",
+  "subtitle": "LEAD THE DIGITAL WAVE",
+  "title": "Unlock Your Business Potential with Expert Digital Marketing Solutions.",
+  "description": "At Adcrest Media, we drive growth and maximize ROI through innovative, data-driven marketing strategies tailored just for you.",
   "banner": {
     "bannerImage": "/images/digital-marketing/banner-img.png",
     "bannerImageAlt": "banner image",
@@ -10,6 +10,6 @@
   },
   "button": {
     "label": "Contact Us!",
-    "link": "/contact"
+    "link": "/contact-us"
   }
 }

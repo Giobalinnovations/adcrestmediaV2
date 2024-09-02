@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
-import bannerImg from "../../../../public/images/software/banner-img.png";
+import bannerImg from '../../../../public/images/software/banner-img.png';
 
 const Banner: React.FC = () => {
   return (
@@ -28,7 +28,7 @@ const Banner: React.FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="200"
                 >
-                  Manage All of Your Stuff Using a Pungent
+                  Manage All of Your Stuff Using a adcrestmedia
                 </h1>
 
                 <p

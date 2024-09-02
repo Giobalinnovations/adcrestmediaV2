@@ -1,29 +1,47 @@
 {
   "subtitle": "WHAT WE DO",
-  "title": "Provide Complete Services Customised to Your Success",
-  "description": "At Adcrest Media, we take great satisfaction in providing the greatest digital marketing solutions available worldwide meant to improve your brand and provide observable outcomes. Passionate about invention and committed to quality, we provide customised solutions fit for your particular company requirements. Combining creativity, strategy, and data-driven insights will enable you to succeed in the digital sphere.",
+  "title": "Unlock Your Full Potential with Tailored Services Designed for Your Success!",
+  "description": "At Adcrest Media, we not only have a passion for innovation but also a commitment to quality that drives us to provide the best digital marketing solutions to elevate your brand and deliver tangible results worldwide. We take pride in the creation of solutions that are customized to meet your unique business requirements. By the combination of creativity, strategy, and data insights, we make you strong in the fast-changing digital environment. At Adcrest Media, your success is our top priority.",
   "cards": [
     {
-      "title": " Digital Marketing",
-      "shortText": "Our digital marketing solutions are designed to link your business with the correct audience at the correct moment. From focused social media campaigns to successful email marketing, we create approaches that appeal, interact, and translate. Whether your goals are greater recognition of your brand or increased sales, our creative approach guarantees that your company distinguishes itself in a saturated market.",
-      "viewDetailsLink": "/services/digital-marketing",
-      "image": "/images/digital-marketing/services-img1.jpg",
-      "aosDelay": "100"
+      "image": "/images/services/service1.jpg",
+      "iconName": "pe-7s-search",
+      "title": "SEO (Search Engine Optimization)",
+      "shortText": "Through search engine optimization, your site will be more visible and will get more free traffic. Our marketing team adjusts your search engine rankings and brings your target audience through in-depth keyword research, proper on-page optimization, and quality backlink building.",
+      "detailsLink": "/services/service-details/",
+      "aosDelay": 100
     },
     {
-      "title": "Strategy & Planning",
-      "shortText": "In digital marketing, success begins with a good strategy. At Adcrest Media, we create tailored plans fit for your target market and corporate objectives. Working directly with you, our knowledgeable team generates a thorough road map that guarantees every campaign is carefully designed and expertly executed. We emphasise sustainable growth, thus offering you a competitive advantage in your chosen field.",
-      "viewDetailsLink": "/services/strategy-planning",
-
-      "image": "/images/digital-marketing/services-img2.jpg",
-      "aosDelay": "200"
+      "image": "/images/services/service2.jpg",
+      "iconName": "pe-7s-mouse",
+      "title": "PPC (Pay-Per-Click Advertising)",
+      "shortText": "PPC (Pay-Per-Click Advertising): Maximize your ROI with our tailored PPC campaigns. We design targeted ads to ensure that your customers will see them and buy from you. This way you get optimal return on each ad spend.",
+      "detailsLink": "/services/service-details/",
+      "aosDelay": 100
     },
     {
-      "title": "Search Engine Optimisation - SEO",
-      "shortText": "Our SEO services concentrate on making sure your company is seen. We maximise your website to show better on search engines, therefore increasing natural traffic and raising your online profile. Employing keyword research, on-page optimisation, and link-building techniques, we enable your website to realise its maximum potential so that, if your audience looks for for relevant goods or services, they first come across you.",
-      "viewDetailsLink": "/services/seo",
-      "image": "/images/digital-marketing/services-img3.jpg",
-      "aosDelay": "300"
+      "image": "/images/services/service3.jpg",
+      "iconName": "pe-7s-share",
+      "title": "Social Media Marketing",
+      "shortText": "Involve your viewers and cultivate them as loyal members of your community using our dynamic social media strategies. We provide assistance in crafting posts as well as in promoting you on platforms such as Facebook, Instagram, LinkedIn, and Twitter through paid social ads.",
+      "detailsLink": "/services/service-details/",
+      "aosDelay": 100
+    },
+    {
+      "image": "/images/services/service4.jpg",
+      "iconName": "pe-7s-note2",
+      "title": "Content Marketing",
+      "shortText": "Through content marketing services, you can share your brand story and win your audience over. We develop captivating blogs, videos, and infographics that are not only engaging but also get the customer to take action, thus improving your brand's authority and visibility on the internet.",
+      "detailsLink": "/services/service-details/",
+      "aosDelay": 100
+    },
+    {
+      "image": "/images/services/service4.jpg",
+      "iconName": "pe-7s-mail",
+      "title": "Email Marketing",
+      "shortText": "Keep your audience informed and engaged with our personalized email marketing campaigns. We design and execute strategies that nurture leads and drive repeat business, turning prospects into loyal customers.",
+      "detailsLink": "/services/service-details/",
+      "aosDelay": 100
     }
   ]
 }

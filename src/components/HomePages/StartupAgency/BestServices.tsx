@@ -1,49 +1,16 @@
-"use client";
+'use client';
 
-import React from "react";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper/modules";
-import Image from "next/image";
+import React from 'react';
+import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Navigation } from 'swiper/modules';
+import Image from 'next/image';
 
-import womenWithTable from "../../../../public/images/women-with-table.png";
-
-const bestServicesData = [
-  {
-    image: "/images/services/service1.jpg",
-    iconName: "pe-7s-magnet",
-    title: "UX Design",
-    shortText:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-    detailsLink: "/services/service-details/",
-  },
-  {
-    image: "/images/services/service2.jpg",
-    iconName: "pe-7s-vector",
-    title: "UI Design",
-    shortText:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-    detailsLink: "/services/service-details/",
-  },
-  {
-    image: "/images/services/service3.jpg",
-    iconName: "pe-7s-scissors",
-    title: "Digital Product Design",
-    shortText:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-    detailsLink: "/services/service-details/",
-  },
-  {
-    image: "/images/services/service4.jpg",
-    iconName: "pe-7s-comment",
-    title: "Business Consultancy",
-    shortText:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-    detailsLink: "/services/service-details/",
-  },
-];
+import womenWithTable from '../../../../public/images/women-with-table.png';
+import bestServicesData from '@/data/sectionsData/home/what-we-do.json';
 
 const BestServices: React.FC = () => {
+  const { cards, subtitle, title, description } = bestServicesData;
   return (
     <>
       <section className="services-area">
@@ -52,13 +19,9 @@ const BestServices: React.FC = () => {
             <div className="col-lg-5 p-0">
               <div className="services-inner">
                 <div className="services-section-title">
-                  <h2>Offering The Best of Services</h2>
+                  <h2>{title}</h2>
                   <div className="bar"></div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis ipsum suspendisse ultrices gravida.
-                  </p>
+                  <p>{description}</p>
 
                   <Image
                     src={womenWithTable}
@@ -95,8 +58,8 @@ const BestServices: React.FC = () => {
                   modules={[Autoplay, Navigation]}
                   className="services-slides"
                 >
-                  {bestServicesData &&
-                    bestServicesData.map((value, i) => (
+                  {cards &&
+                    cards.map((value, i) => (
                       <SwiperSlide key={i}>
                         <div className="single-services">
                           <Image
@@ -113,7 +76,15 @@ const BestServices: React.FC = () => {
                             </div>
 
                             <h3>{value.title}</h3>
-                            <p>{value.shortText}</p>
+                            <p>
+                              {value.shortText
+                                .split(' ')
+                                .slice(0, 30)
+                                .join(' ')}
+                              {value.shortText.split(' ').length > 30
+                                ? '...'
+                                : ''}
+                            </p>
 
                             <Link
                               href={value.detailsLink}

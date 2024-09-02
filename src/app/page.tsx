@@ -11,23 +11,25 @@ import LatestNews from '../components/HomePages/DigitalMarketing/LatestNews';
 import CtaArea from '../components/Common/CtaArea';
 import Newsletter from '../components/Common/Newsletter';
 import Footer from '../components/Layouts/Footer';
+import BestServices from '@/components/HomePages/StartupAgency/BestServices';
 
-export default function Page() {
+export default function HomePage() {
   return (
     <>
       <Navbar />
 
       <MainBanner />
 
-      <MarketingProcess />
-
       <AboutContent />
 
-      <OurServices />
+      {/* <OurServices /> */}
+      <BestServices />
+
+      <MarketingProcess />
 
       <FunFacts />
 
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       <CtaArea />
 

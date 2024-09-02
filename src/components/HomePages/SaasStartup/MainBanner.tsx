@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
-import bannerImg from "../../../../public/images/saas-startup/saas-banner.png";
+import bannerImg from '../../../../public/images/saas-startup/saas-banner.png';
 
 const MainBanner: React.FC = () => {
   return (
@@ -19,9 +19,9 @@ const MainBanner: React.FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="100"
                 >
-                  Pungent is Most Powerful SaaS Solution
+                  adcrestmedia is Most Powerful SaaS Solution
                 </h1>
-                
+
                 <p
                   data-aos="fade-in"
                   data-aos-duration="1000"
@@ -50,12 +50,7 @@ const MainBanner: React.FC = () => {
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
-                <Image
-                  src={bannerImg}
-                  alt="image"
-                  width={928}
-                  height={502}
-                />
+                <Image src={bannerImg} alt="image" width={928} height={502} />
               </div>
             </div>
           </div>

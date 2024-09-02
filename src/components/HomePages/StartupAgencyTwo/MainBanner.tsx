@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import React, { useState } from "react";
-import FsLightbox from "fslightbox-react";
-import Link from "next/link";
-import Image from "next/image";
+import React, { useState } from 'react';
+import FsLightbox from 'fslightbox-react';
+import Link from 'next/link';
+import Image from 'next/image';
 
-import bannerImg from "../../../../public/images/banner-img2.png";
+import bannerImg from '../../../../public/images/banner-img2.png';
 
 const MainBanner: React.FC = () => {
   const [toggler, setToggler] = useState(false);
@@ -13,7 +13,7 @@ const MainBanner: React.FC = () => {
     <>
       <FsLightbox
         toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
+        sources={['https://www.youtube.com/embed/bk7McNUjWgw']}
       />
 
       <div className="main-banner startup-agency startup-agency2">
@@ -28,7 +28,7 @@ const MainBanner: React.FC = () => {
                       data-aos-duration="1000"
                       data-aos-delay="200"
                     >
-                      Start your startup agency with Pungent
+                      Start your startup agency with adcrestmedia
                     </h1>
 
                     <p
