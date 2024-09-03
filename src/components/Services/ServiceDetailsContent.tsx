@@ -1,8 +1,4 @@
-import React, { useState } from 'react';
-import FsLightbox from 'fslightbox-react';
-import Image from 'next/image';
-
-import singleServiceImg from '../../../public/images/services/single-service.jpg';
+import React from 'react';
 import WhyChooseUs from '../HomePages/DigitalMarketing/WhyChooseUs';
 
 const ServiceDetailsContent = ({ service }: any) => {
@@ -12,8 +8,14 @@ const ServiceDetailsContent = ({ service }: any) => {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div className="services-details-desc"></div>
+              <div className="services-details-desc">
+                <div className="section-title mb-0">
+                  <h2>{service?.approach?.title}</h2>
+                </div>
+                <p>{service?.approach?.description}</p>
+              </div>
             </div>
+
             <div className="col-md-12">
               <div className="services-details-desc">
                 <ServiceSolutions expertise={service?.expertise} />

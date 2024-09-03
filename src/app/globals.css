@@ -39,3 +39,46 @@
   font-size: 1em;
   color: #666;
 }
+
+/* top navbar */
+.top-header {
+  font-size: 14px;
+}
+
+.top-header a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.top-header a:hover {
+  text-decoration: underline;
+}
+
+.top-header a {
+  color: #f9004d !important;
+}
+
+.top-header svg {
+  margin-right: 5px;
+}
+
+@media (max-width: 767px) {
+  .top-header .col-md-6 {
+    text-align: center !important;
+    margin-bottom: 10px;
+  }
+
+  .top-header .col-md-6:last-child {
+    margin-bottom: 0;
+  }
+
+  .top-header a {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .top-header a:last-child {
+    margin-bottom: 0;
+  }
+}

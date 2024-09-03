@@ -9,6 +9,7 @@ import { menus } from '../../../libs/menus';
 
 import logo from '../../../public/images/logo.png';
 import appData from '@/data/appData.json';
+import HighlightText from '../Common/HighlightText';
 const Navbar: React.FC = () => {
   const [menu, setMenu] = useState<boolean>(true);
 
@@ -37,10 +38,36 @@ const Navbar: React.FC = () => {
   return (
     <>
       <div id="navbar" className="navbar-area">
+        <div className="top-header text-white border-bottom d-none d-md-block">
+          <div className="container py-3">
+            <div className="row align-items-center">
+              <div className="col-md-6"></div>
+              <div className="col-md-6 text-end">
+                <Link
+                  href={`mailto:${appData?.siteSettings?.contactInfo?.email}`}
+                  className="text-white me-3"
+                >
+                  <HighlightText>
+                    <i className="fa fa-envelope me-1" />
+                    {appData?.siteSettings?.contactInfo?.email}
+                  </HighlightText>
+                </Link>
+                <Link
+                  href={`tel:${appData?.siteSettings?.contactInfo?.phone}`}
+                  className="text-white"
+                >
+                  <HighlightText>
+                    <i className="fa fa-phone me-1" />
+                    {appData?.siteSettings?.contactInfo?.phone}
+                  </HighlightText>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container">
             <Link href="/" className="navbar-brand">
-              {/* <Image src={logo} alt="logo" width={150} height={40} /> */}
               <h5>AdcrestMedia</h5>
             </Link>
 
