@@ -78,7 +78,86 @@
       "title": "Website Design and Development",
       "shortText": "Your website is beyond just a digital identity; it encapsulates your brand's position in the digital space. Our Website Design and Development services involve the production of beautiful graphics, easy-to-use, functional, and visually appealing websites that will attract your audience and maintain their interest. Whether you want a stylish corporate site or a powerful e-commerce website, we create fast, mobile-friendly, and search engine-optimized ones. Our team integrates state-of-the-art technology with artful design in order to provide websites that not only please the eye but also attract customers.",
       "detailsLink": "/services/website-design-and-development/",
-      "aosDelay": 200
+      "aosDelay": 200,
+      "servicesDetailsPageContent": {
+        "slug": "website-design-and-development",
+        "heroTitle": "Transforming Ideas into High-Performance, Responsive Digital Experiences",
+        "heroBanner": "/images/page-banner1.jpg",
+        "approach": {
+          "title": "Our Approach to Website Design and Development",
+          "description": "At Adcrest, we think that each website must be an exact representation of the brand. Our approach to the design and development of websites is based on getting to know your business and your goals along with your audience. We dedicate the time to get to know your idea and convert that into a digital solution that is a pleasure to look at and works seamlessly. Through this synergy between designing and effective UX/UI techniques, we make websites that are both visually impressive and functional with high performance and user friendliness. A group of expert designers and developers is working closely together with you, ensuring that the clarity of your vision is translated into a final product tailored to the particular needs of your business, enhancing the interactivity and user-friendliness of the website."
+        },
+        "expertise": {
+          "title": "Our Expertise in Website Design and Development: What We Do",
+          "listItems": [
+            {
+              "title": "Custom Website Design",
+              "description": "We produce custom-made websites that align with your brand identity and business goals. Our designs are not just beautiful but also strategically created to improve the user experience and bring in traffic.",
+              "aosDelay": 100
+            },
+            {
+              "title": "Responsive Web Development",
+              "description": "In a mobile-first world, digital success needs responsive websites. Through our inclusive, one-size-fits-all responsive websites, no matter what device or screen resolution you are using, you still have the same fast and consistent experience.",
+              "aosDelay": 200
+            },
+            {
+              "title": "E-commerce Solutions",
+              "description": "We are the best at creating an e-commerce platform that is safe, scalable, and user-friendly. Our software application integrates features that improve the ease of shopping and hence raise your online sales.",
+              "aosDelay": 300
+            },
+            {
+              "title": "Content Management Systems",
+              "description": "We offer flexible CMS solutions that allow you to easily update and manage your website content. Whether you need a simple blog or a complex site with dynamic content, we have the expertise to build a CMS that fits your needs.",
+              "aosDelay": 400
+            },
+            {
+              "title": "UI/UX Design",
+              "description": "Our UI/UX design is dedicated to making the web more engaging, easy to use, and stay for a longer time. Our approach to web design includes data analysis and the implementation of the best practices to ensure the websites are user-friendly and can transform visitors into customers.",
+              "aosDelay": 500
+            },
+            {
+              "title": "SEO-Optimized Development",
+              "description": "A fantastic website is useless if it cannot reach your ideal customers. We guarantee that all our sites are made in conformity with the latest covenants of SEO, thus resulting in your web pages indexing more of your search engine results and receiving more organic visitors.",
+              "aosDelay": 600
+            },
+            {
+              "title": "Website Maintenance and Support",
+              "description": "Any website cannot be successful only with a launch. We continue to take care of the website and offer support so that your site will always be current, secure, and operating at full capacity.",
+              "aosDelay": 700
+            },
+            {
+              "title": "Performance Optimization",
+              "description": "With our expertise in speeding up the SEO of your site, we guarantee that your site loads in no time and that it works perfectly for your users. Through effective SEO, not only do you get happier users, but you also rank higher on Google.",
+              "aosDelay": 800
+            }
+          ]
+        },
+        "whyChooseUs": {
+          "title": "Why Choose Us for Your Website Design and Development Needs?",
+          "listItems": [
+            {
+              "title": "Tailored Solutions",
+              "description": "We are not in the habit of promoting a uniform solution for all. Every website we create is unique to our client's needs and aims. It is a perfect match for your brand."
+            },
+            {
+              "title": "Experienced Team",
+              "description": "Our design and development crew has the most professional and quality people who have been in operation for many years in a variety of industries. Following modern trends allows us to ensure you're getting solutions adapted to the needs of the times."
+            },
+            {
+              "title": "Client-Centric Approach",
+              "description": "Our clients are the center of our business, and we are dedicated to providing them with outstanding service. From the first point of contact to the last step, we work hand in hand with them routinely and at every step."
+            },
+            {
+              "title": "Quality Assurance",
+              "description": "Our devotion to each detail and our adherence to quality are the points at which we excel. Each website we design is put through thorough testing to guarantee that it corresponds to our high standards regarding performance, functionality, and design."
+            }
+          ]
+        },
+        "callToAction": {
+          "title": "Ready to Transform Your Online Presence?",
+          "buttonText": "Contact Us Now"
+        }
+      }
     },
     {
       "image": "/images/services/service3.jpg",

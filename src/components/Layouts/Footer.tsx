@@ -5,7 +5,10 @@ import Link from 'next/link';
 
 import appData from '@/data/appData.json';
 const Footer: React.FC = () => {
-  const { footer } = appData;
+  const {
+    footer,
+    siteSettings: { socialMedia },
+  } = appData;
   const currentYear = new Date().getFullYear();
   return (
     <>
@@ -29,38 +32,13 @@ const Footer: React.FC = () => {
                 <p>{appData?.footer?.about?.description}</p>
 
                 <ul className="social-links">
-                  <li>
-                    <Link
-                      href="https://www.facebook.com/permalink.php?story_fbid=pfbid0igLzCTfN6iz8NxbUGFyyL4uHi3VL1JToYU87Lx8UxYKN3DhjoHxqJ7ZxwvSRjaDcl&id=61564646192912"
-                      target="_blank"
-                    >
-                      <i className="fa-brands fa-facebook-f"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="https://x.com/adcrestmedia/status/1828692390640755104"
-                      target="_blank"
-                    >
-                      <i className="fa-brands fa-twitter"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="https://www.linkedin.com/posts/adcrest-media-235234324_affiliatemarketing-businessgrowth-marketingstrategy-activity-7234458248978845697-0zov?utm_source=share&utm_medium=member_desktop"
-                      target="_blank"
-                    >
-                      <i className="fa-brands fa-linkedin-in"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="https://www.instagram.com/p/C_NGy5fyR-s/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-                      target="_blank"
-                    >
-                      <i className="fa-brands fa-instagram"></i>
-                    </Link>
-                  </li>
+                  {appData?.footer?.socialLinks.map((item: any) => (
+                    <li key={item.platform}>
+                      <Link href={item.url} target="_blank">
+                        <i className={item.icon}></i>
+                      </Link>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>

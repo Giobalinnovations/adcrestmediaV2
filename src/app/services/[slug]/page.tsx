@@ -32,7 +32,7 @@ export default function ServicesDetailsPage({
 
       <PageBanner
         pageTitle={servicesDetailsPageContent?.heroTitle ?? ''}
-        BGImage={servicesDetailsPageContent?.heroBanner ?? ''}
+        BGImage={service?.image ?? ''}
       />
 
       <ServiceDetailsContent service={servicesDetailsPageContent} />
