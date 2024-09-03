@@ -1,34 +1,28 @@
-"use client";
+'use client';
 
-import React from "react";
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
 
-import borderImg from "../../../../public/images/digital-marketing/border1.png";
+import borderImg from '../../../../public/images/digital-marketing/border1.png';
 
 const funFactsData = [
   {
-    iconName: "fa-solid fa-list-check",
-    number: "2546",
-    title: "Project Complate",
-    aosDelay: "100",
+    iconName: 'fa-solid fa-list-check',
+    number: '2546',
+    title: 'Project complete',
+    aosDelay: '100+',
   },
   {
-    iconName: "fa-solid fa-users",
-    number: "2495",
-    title: "Happy Clients",
-    aosDelay: "200",
+    iconName: 'fa-solid fa-users',
+    number: '60+',
+    title: 'Happy Clients',
+    aosDelay: '200',
   },
   {
-    iconName: "fa-solid fa-people-group",
-    number: "172",
-    title: "Qualified Staffs",
-    aosDelay: "300",
-  },
-  {
-    iconName: "fa-solid fa-trophy",
-    number: "07",
-    title: "Winning Awards",
-    aosDelay: "400",
+    iconName: 'fa-solid fa-people-group',
+    number: '',
+    title: 'Qualified Staffs',
+    aosDelay: '15',
   },
 ];
 

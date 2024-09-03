@@ -86,7 +86,7 @@ const Navbar: React.FC = () => {
               <span className="icon-bar bottom-bar"></span>
             </button>
 
-            <div className={classOne} id="navbarSupportedContent">
+            <div className={`${classOne} bg-white`} id="navbarSupportedContent">
               <ul className="navbar-nav">
                 {appData?.menu?.items?.map(menuItem => (
                   <MenuItem key={menuItem.id} {...menuItem} />
