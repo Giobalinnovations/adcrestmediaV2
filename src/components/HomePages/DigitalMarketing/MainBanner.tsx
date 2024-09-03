@@ -8,7 +8,7 @@ import heroData from '@/data/sectionsData/home/hero.json';
 const MainBanner: React.FC = () => {
   return (
     <>
-      <div className="marketing-banner-area">
+      <div className="marketing-banner-area mt-4">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">

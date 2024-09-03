@@ -45,10 +45,10 @@ This files table contents are outlined below >>>>>
 
 // Global Variable
 
-$main-color: #ff2c9c;
+$main-color: #e08c8c;
 $gradient-color: linear-gradient(
   to left top,
-  #ff2c9c,
+  #e08c8c,
   #ff287b,
   #ff395a,
   #ff5137,
@@ -304,9 +304,10 @@ a {
 }
 
 .default-btn-two {
-  border: 2px solid #f9004d;
-  background: #f9004d;
+  border: 2px solid #e08c8c;
+  background: #e08c8c;
   color: #fff;
+  display: none;
   border-radius: 6px;
   text-align: center;
   padding: 13px 30px;
@@ -322,8 +323,8 @@ a {
   }
 }
 .default-btn-two-transparent {
-  border: 2px solid #f9004d;
-  background: #f9004d;
+  border: 2px solid #e08c8c;
+  background: #e08c8c;
   color: #fff;
   border-radius: 6px;
   text-align: center;
@@ -1161,7 +1162,7 @@ Main Banner CSS
       opacity: 1;
       &.swiper-pagination-bullet-active {
         background: $gradient-color;
-        border: 1px solid #ff2c9c;
+        border: 1px solid #e08c8c;
       }
     }
   }
@@ -2101,7 +2102,7 @@ Case Studies CSS
       opacity: 1;
       &.swiper-pagination-bullet-active {
         background: $gradient-color;
-        border: 1px solid #ff2c9c;
+        border: 1px solid #e08c8c;
       }
     }
   }
@@ -2736,7 +2737,7 @@ Feedback CSS
       opacity: 1;
       &.swiper-pagination-bullet-active {
         background: $gradient-color;
-        border: 1px solid #ff2c9c;
+        border: 1px solid #e08c8c;
       }
     }
   }
@@ -3714,8 +3715,8 @@ CTA CSS
     }
     .default-btn-two {
       &:hover {
-        border: 2px solid #c90f48;
-        background: #c90f48;
+        border: 2px solid #e08c8c;
+        background: #e08c8c;
       }
     }
   }
@@ -4302,7 +4303,7 @@ Blog CSS
       opacity: 1;
       &.swiper-pagination-bullet-active {
         background: $gradient-color;
-        border: 1px solid #ff2c9c;
+        border: 1px solid #e08c8c;
       }
     }
   }
@@ -6149,7 +6150,7 @@ span.new {
       opacity: 1;
       &.swiper-pagination-bullet-active {
         background: $gradient-color;
-        border: 1px solid #ff2c9c;
+        border: 1px solid #e08c8c;
       }
     }
   }

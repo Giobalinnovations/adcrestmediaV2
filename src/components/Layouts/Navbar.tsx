@@ -4,8 +4,6 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import MenuItem from './MenuItem';
-import MegaMenu from './MegaMenu';
-import { menus } from '../../../libs/menus';
 
 import logo from '../../../public/images/logo.png';
 import appData from '@/data/appData.json';
@@ -66,8 +64,19 @@ const Navbar: React.FC = () => {
         </div>
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container">
-            <Link href="/" className="navbar-brand">
-              <h5>AdcrestMedia</h5>
+            <Link
+              href="/"
+              className="navbar-brand"
+              style={{ width: '135px', height: 'auto' }}
+            >
+              <Image
+                src={logo}
+                alt="logo"
+                // width={140}
+                // height={30}
+
+                style={{ objectFit: 'cover' }}
+              />
             </Link>
 
             {/* Toggle navigation */}

@@ -1,5 +1,5 @@
 .bg-1F1F22 {
-  background-color: #1F1F22;
+  background-color: #1f1f22;
 }
 
 /* Cyber Security Banner Area CSS */
@@ -13,10 +13,10 @@
 }
 .cs-banner-section::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 348px;
   height: 100%;
-  background-color: #1F1F22;
+  background-color: #1f1f22;
   right: 0;
   top: 0;
   z-index: -1;
@@ -129,7 +129,7 @@
 }
 .cs-card-content h3::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 100%;
   height: 1px;
   left: 0;
@@ -138,7 +138,7 @@
 }
 .cs-card-content h3::after {
   position: absolute;
-  content: "";
+  content: '';
   width: 115px;
   height: 1px;
   left: 0;
@@ -166,24 +166,36 @@
   transition: all 0.6s ease;
 }
 .cs-features-item::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, rgba(31, 31, 34, 0.96) 0%, rgba(31, 31, 34, 0.9) 58.33%, rgba(22, 22, 24, 0.6) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(31, 31, 34, 0.96) 0%,
+    rgba(31, 31, 34, 0.9) 58.33%,
+    rgba(22, 22, 24, 0.6) 100%
+  );
   transition: all 0.6s ease;
   z-index: -1;
 }
 .cs-features-item::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(
+    to left top,
+    #e08c8c,
+    #ff287b,
+    #ff395a,
+    #ff5137,
+    #ff6a00
+  );
   transition: all 0.6s ease;
   z-index: -1;
   opacity: 0;
@@ -208,7 +220,7 @@
 }
 .cs-features-item .content .get-started-btn::before {
   position: absolute;
-  content: "";
+  content: '';
   height: 30px;
   width: 30px;
   background-color: #f9004d;
@@ -262,7 +274,7 @@
 }
 .cs-about-area::before {
   position: absolute;
-  content: "";
+  content: '';
   height: 100%;
   width: 51%;
   background-color: #161618;
@@ -292,16 +304,23 @@
 }
 .cs-about-content h3 span::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   bottom: 12px;
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(
+    to left top,
+    #e08c8c,
+    #ff287b,
+    #ff395a,
+    #ff5137,
+    #ff6a00
+  );
   height: 5px;
   width: 100%;
   z-index: -1;
 }
 .cs-about-content p {
-  color: #F4F5F8;
+  color: #f4f5f8;
   margin-bottom: 0;
 }
 .cs-about-content .cs-about-card {
@@ -324,7 +343,7 @@
 }
 .cs-about-content .cs-about-card .icon::before {
   position: absolute;
-  content: "";
+  content: '';
   display: inline-block;
   height: 85px;
   width: 85px;
@@ -332,7 +351,14 @@
   left: 0;
   right: 0;
   top: 0;
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(
+    to left top,
+    #e08c8c,
+    #ff287b,
+    #ff395a,
+    #ff5137,
+    #ff6a00
+  );
   z-index: -1;
   transition: all 0.6s ease;
   opacity: 0;
@@ -349,7 +375,7 @@
 }
 .cs-about-content .cs-about-card h4::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 100%;
   height: 1px;
   left: 0;
@@ -358,7 +384,7 @@
 }
 .cs-about-content .cs-about-card h4::after {
   position: absolute;
-  content: "";
+  content: '';
   width: 115px;
   height: 1px;
   left: 0;
@@ -392,7 +418,7 @@
 }
 .cs-choose-content p {
   margin-bottom: 0;
-  color: #F4F5F8;
+  color: #f4f5f8;
 }
 .cs-choose-content .list {
   padding: 0;
@@ -403,7 +429,7 @@
   list-style-type: none;
   font-size: 16px;
   font-weight: bold;
-  color: #F4F5F8;
+  color: #f4f5f8;
   margin-bottom: 15px;
   position: relative;
   padding-left: 25px;
@@ -436,14 +462,21 @@
 }
 .cs-services-card::before {
   position: absolute;
-  content: "";
+  content: '';
   display: inline-block;
   height: 100%;
   width: 100%;
   left: 0;
   right: 0;
   top: 0;
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(
+    to left top,
+    #e08c8c,
+    #ff287b,
+    #ff395a,
+    #ff5137,
+    #ff6a00
+  );
   z-index: -1;
   transition: all 0.6s ease;
   opacity: 0;
@@ -454,7 +487,7 @@
   height: 100px;
   width: 100px;
   line-height: 100px;
-  background: #1F1F22;
+  background: #1f1f22;
   box-shadow: 0px 4px 20px rgba(26, 137, 185, 0.09);
   text-align: center;
   border-radius: 50%;
@@ -472,7 +505,7 @@
   color: #ffffff;
 }
 .cs-services-card p {
-  color: #F4F5F8;
+  color: #f4f5f8;
 }
 .cs-services-card:hover {
   transform: translateY(-5px);
@@ -492,7 +525,7 @@
 }
 .cs-fun-facts-area::before {
   position: absolute;
-  content: "";
+  content: '';
   height: 100%;
   width: 360px;
   background-color: #161618;
@@ -508,7 +541,7 @@
 }
 .cs-single-fun-facts::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 100px;
   height: 3.2px;
   left: 0;
@@ -538,7 +571,7 @@
 .cs-single-fun-facts p {
   line-height: initial;
   margin-top: 12px;
-  color: #F4F5F8;
+  color: #f4f5f8;
   font-size: 16.8px;
   font-weight: 500;
 }
@@ -566,23 +599,30 @@
 }
 .leading-technology-content h3 span::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   bottom: 12px;
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(
+    to left top,
+    #e08c8c,
+    #ff287b,
+    #ff395a,
+    #ff5137,
+    #ff6a00
+  );
   height: 5px;
   width: 100%;
   z-index: -1;
 }
 .leading-technology-content p {
   margin-bottom: 0;
-  color: #F4F5F8;
+  color: #f4f5f8;
 }
 .leading-technology-content .features-list {
   border-radius: 5px;
   font-size: 15.5px;
   font-weight: 600;
-  color: #F4F5F8;
+  color: #f4f5f8;
   margin-top: 15px;
   position: relative;
   border: 1px solid rgba(203, 220, 221, 0.06);
@@ -591,16 +631,24 @@
 }
 .leading-technology-content .features-list::before {
   position: absolute;
-  content: "";
+  content: '';
   height: 10px;
   width: 10px;
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(
+    to left top,
+    #e08c8c,
+    #ff287b,
+    #ff395a,
+    #ff5137,
+    #ff6a00
+  );
   border-radius: 50px;
   left: 15px;
   top: 16px;
 }
 .leading-technology-content .features-list:hover {
-  border: 1px solid linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  border: 1px solid
+    linear-gradient(to left top, #e08c8c, #ff287b, #ff395a, #ff5137, #ff6a00);
   transform: translateY(-2px);
 }
 
@@ -628,7 +676,7 @@
 }
 .cs-overview-item .cs-overview-content .get-started-btn::before {
   position: absolute;
-  content: "";
+  content: '';
   height: 25px;
   width: 25px;
   background-color: #f9004d;
@@ -659,7 +707,7 @@
   background-color: #ffffff;
   box-shadow: 0px 6px 20px rgba(26, 137, 185, 0.07);
   padding: 40px 45px;
-  border: 1px solid #F9F9F9;
+  border: 1px solid #f9f9f9;
   border-radius: 5px;
   transition: all 0.6s ease;
   position: relative;
@@ -679,7 +727,7 @@
 }
 .cs-single-feedback .rating li i {
   font-size: 18px;
-  color: #FFB820;
+  color: #ffb820;
 }
 .cs-single-feedback .client-info {
   margin-top: 30px;
@@ -720,13 +768,13 @@
   border: 1px solid #161618;
 }
 .cs-single-feedback.with-black-color p {
-  color: #F4F5F8;
+  color: #f4f5f8;
 }
 .cs-single-feedback.with-black-color .client-info h3 {
-  color: #F4F5F8;
+  color: #f4f5f8;
 }
 .cs-single-feedback.with-black-color .client-info span {
-  color: #F4F5F8;
+  color: #f4f5f8;
 }
 .cs-single-feedback.with-black-color .quote {
   top: unset;
@@ -747,13 +795,22 @@
 .cs-feedback-slides .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background: #D6D6D6;
+  background: #d6d6d6;
   border: 1px solid #b7b7b7;
   opacity: 1;
 }
-.cs-feedback-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
-  border: 1px solid #ff2c9c;
+.cs-feedback-slides
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: linear-gradient(
+    to left top,
+    #e08c8c,
+    #ff287b,
+    #ff395a,
+    #ff5137,
+    #ff6a00
+  );
+  border: 1px solid #e08c8c;
 }
 
 .cs-feedback-line-bg {
@@ -767,10 +824,10 @@
 
 /* Blog Area CSS */
 .cs-blog-card {
-  background: #F4FAFD;
+  background: #f4fafd;
   padding: 30px;
   border-radius: 5px;
-  border: 1px solid #F4FAFD;
+  border: 1px solid #f4fafd;
   transition: all 0.6s ease;
   margin-bottom: 30px;
 }
@@ -855,25 +912,25 @@
   background-color: transparent;
 }
 .cs-blog-card.with-black-color .post-meta li {
-  color: #F4F5F8;
+  color: #f4f5f8;
 }
 .cs-blog-card.with-black-color .post-meta li i {
-  background: linear-gradient(90deg, #D3064E -0.61%, #FE5B67 100%);
+  background: linear-gradient(90deg, #d3064e -0.61%, #fe5b67 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 .cs-blog-card.with-black-color h3 a {
-  color: #F4F5F8;
+  color: #f4f5f8;
 }
 .cs-blog-card.with-black-color p {
-  color: #F4F5F8;
+  color: #f4f5f8;
 }
 .cs-blog-card.with-black-color .info h3 {
-  color: #F4F5F8;
+  color: #f4f5f8;
 }
 .cs-blog-card.with-black-color .info span {
-  color: #F4F5F8;
+  color: #f4f5f8;
 }
 .cs-blog-card.with-black-color:hover {
   border: 1px solid #161618;
@@ -894,7 +951,7 @@
   color: #f9004d;
 }
 
-/* Responsive CSS 
+/* Responsive CSS
 ==============================*/
 @media only screen and (max-width: 767px) {
   .cs-banner-section {
@@ -1095,4 +1152,4 @@
   .cs-blog-card h3 {
     font-size: 20px;
   }
-}/*# sourceMappingURL=cyber-security-agency-home-page.css.map */
+} /*# sourceMappingURL=cyber-security-agency-home-page.css.map */

@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import MenuItem from './MenuItem';
 
-// import logo from '../../../public/images/logo.png';
+import logo from '../../../public/images/logo.png';
 // import whiteLogo from '../../../public/images/logo-white.png';
 import appData from '@/data/appData.json';
 const NavbarTwo: React.FC = () => {
@@ -38,25 +38,23 @@ const NavbarTwo: React.FC = () => {
       <div id="navbar" className="navbar-area navbar-style-2">
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container-fluid">
-            <Link href="/" className="navbar-brand">
-              {/* <Image
+            <Link
+              href="/"
+              className="navbar-brand"
+              style={{ width: '135px', height: 'auto' }}
+            >
+              <Image
+                src={logo}
+                alt="logo"
+                className="white-logo"
+                style={{ objectFit: 'cover' }}
+              />
+              <Image
                 src={logo}
                 className="black-logo"
                 alt="logo"
-                width={150}
-                height={40}
+                style={{ objectFit: 'cover' }}
               />
-              <Image
-                src={whiteLogo}
-                className="white-logo"
-                alt="logo"
-                width={150}
-                height={40}
-              /> */}
-              <h3 className="black-logo">Adcrestmedia</h3>
-              <h3 className="white-logo" style={{ color: 'white' }}>
-                Adcrestmedia
-              </h3>
             </Link>
 
             {/* Toggle navigation */}

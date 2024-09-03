@@ -2,8 +2,9 @@
 
 import React from 'react';
 import Link from 'next/link';
-
+import logo from '../../../public/images/logo.png';
 import appData from '@/data/appData.json';
+import Image from 'next/image';
 const Footer: React.FC = () => {
   const {
     footer,
@@ -24,8 +25,7 @@ const Footer: React.FC = () => {
               >
                 <div className="logo">
                   <Link href="/">
-                    {/* <Image src={logo} alt="Logo" width={150} height={40} /> */}
-                    <h3>AdcrestMedia</h3>
+                    <Image src={logo} alt="Logo" width={150} height={40} />
                   </Link>
                 </div>
 

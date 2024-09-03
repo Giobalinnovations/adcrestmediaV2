@@ -15,7 +15,7 @@
   top: 50%;
   width: 70px;
   height: 1px;
-  content: "";
+  content: '';
   position: absolute;
   transform: translateY(-50%);
   background-color: #111;
@@ -48,10 +48,10 @@
   top: 50%;
   width: 50px;
   height: 1px;
-  content: "";
+  content: '';
   position: absolute;
   transform: translateY(-50%);
-  background-color: #ff2c9c;
+  background-color: #e08c8c;
 }
 .personal-portfolio-banner-content h1 {
   margin-bottom: 15px;
@@ -219,7 +219,9 @@
 .short-brief-content .timeline-item:last-child .timeline-content {
   padding-bottom: 0;
 }
-.short-brief-content .timeline-item:not(.period):hover .timeline-marker::before {
+.short-brief-content
+  .timeline-item:not(.period):hover
+  .timeline-marker::before {
   background: transparent;
   border: 3px solid var(--blackColor);
 }
@@ -239,7 +241,7 @@
   display: block;
   height: 15px;
   width: 15px;
-  content: "";
+  content: '';
   top: 4px;
   left: 0;
 }
@@ -247,7 +249,7 @@
   background: #eeeeee;
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   top: 24px;
   bottom: 0;
   left: 6px;
@@ -360,7 +362,7 @@
 }
 .pp-testimonials-slides .swiper-button-prev::after {
   font-family: FontAwesome;
-  content: "\f060";
+  content: '\f060';
   color: #18181b;
   font-size: 18px;
 }
@@ -375,14 +377,16 @@
 }
 .pp-testimonials-slides .swiper-button-next::after {
   font-family: FontAwesome;
-  content: "\f061";
+  content: '\f061';
   color: #18181b;
   font-size: 18px;
 }
-.pp-testimonials-slides .swiper-button-prev:hover, .pp-testimonials-slides .swiper-button-next:hover {
-  background-color: #ff2c9c;
+.pp-testimonials-slides .swiper-button-prev:hover,
+.pp-testimonials-slides .swiper-button-next:hover {
+  background-color: #e08c8c;
 }
-.pp-testimonials-slides .swiper-button-prev:hover::after, .pp-testimonials-slides .swiper-button-next:hover::after {
+.pp-testimonials-slides .swiper-button-prev:hover::after,
+.pp-testimonials-slides .swiper-button-next:hover::after {
   color: #fff;
 }
 
@@ -448,7 +452,7 @@
   color: #111;
 }
 .pp-post-item .post-content h3 a:hover {
-  color: #ff2c9c;
+  color: #e08c8c;
 }
 .pp-post-item .post-content .link-btn {
   font-weight: 600;
@@ -464,7 +468,7 @@
   font-size: 12px;
 }
 .pp-post-item .post-content .link-btn::before {
-  content: "";
+  content: '';
   position: absolute;
   right: 0;
   bottom: 0;
@@ -500,10 +504,10 @@
   font-weight: 600;
 }
 .pp-contact-area .contact-title p a:hover {
-  color: #ff2c9c;
+  color: #e08c8c;
 }
 
-/* Responsive CSS 
+/* Responsive CSS
 ========================*/
 @media only screen and (max-width: 767px) {
   .pp-shape1 img {
@@ -575,4 +579,4 @@
   .personal-portfolio-banner-content h4 {
     font-size: 25px;
   }
-}/*# sourceMappingURL=personal-portfolio-home-page.css.map */
+} /*# sourceMappingURL=personal-portfolio-home-page.css.map */

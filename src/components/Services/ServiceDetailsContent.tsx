@@ -56,7 +56,7 @@ export const ServiceSolutions = ({ expertise }: any) => {
             <div
               className="icon"
               style={{
-                backgroundColor: '#ff2c9c',
+                backgroundColor: '#e08c8c',
                 borderRadius: '50%',
                 width: '40px',
                 height: '40px',

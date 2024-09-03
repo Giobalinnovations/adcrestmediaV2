@@ -12,7 +12,7 @@ const HighlightText: React.FC<HighlightTextProps> = ({
   return (
     <strong>
       {text ? (
-        <span className={`${className}`} style={{ color: '#f9004dQ' }}>
+        <span className={`${className}`} style={{ color: '#e08c8c' }}>
           {text}
         </span>
       ) : (

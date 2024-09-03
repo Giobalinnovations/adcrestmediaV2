@@ -53,8 +53,8 @@ const saira = Saira({
 });
 
 export const metadata: Metadata = {
-  title: 'Adcrrestmedia',
-  description: 'Adcrrestmedia',
+  title: 'Adcrest Media',
+  description: 'Adcrest Media',
 };
 
 export default function RootLayout({
