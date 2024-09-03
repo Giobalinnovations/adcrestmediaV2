@@ -51,20 +51,20 @@
             "link": "/services/affiliate-marketing"
           },
           {
+            "label": "Lead Generation",
+            "link": "/services/lead-generation"
+          },
+          {
+            "label": "PPC (Pay-Per-Call)",
+            "link": "/services/ppc-pay-per-call"
+          },
+          {
             "label": "Website Design and Development",
             "link": "/services/website-design-and-development"
           },
           {
-            "label": "Social Media Marketing",
-            "link": "/services/social-media-marketing"
-          },
-          {
             "label": "SEO (Search Engine Optimization)",
             "link": "/services/seo-search-engine-optimization"
-          },
-          {
-            "label": "PPC (Pay-Per-Click Advertising)",
-            "link": "/services/ppc-pay-per-click-advertising"
           },
 
           {

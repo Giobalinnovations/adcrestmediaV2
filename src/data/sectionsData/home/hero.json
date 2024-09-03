@@ -1,7 +1,7 @@
 {
   "subtitle": "LEAD THE DIGITAL WAVE",
   "title": "Unlock Your Business Potential with Expert Digital Marketing Solutions.",
-  "description": "At Adcrest Media, we drive growth and maximize ROI through innovative, data-driven marketing strategies tailored just for you.",
+  "description": "At <strong> <span class='primary-text'  style={{ color: '#f9004dQ!important' }}>Adcrest Media</span> </strong>, we drive growth and maximize ROI through innovative, data-driven marketing strategies tailored just for you.",
   "banner": {
     "bannerImage": "/images/services/digital-marketing-solutions.webp",
     "bannerImageAlt": "banner image",
@@ -10,6 +10,8 @@
   },
   "button": {
     "label": "Contact Us!",
-    "link": "/contact-us"
+    "link": "/contact-us",
+    "labelTwo": "View Services",
+    "linkTwo": "/services"
   }
 }

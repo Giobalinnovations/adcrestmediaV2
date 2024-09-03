@@ -21,7 +21,7 @@ const BestServices: React.FC = () => {
                 <div className="services-section-title">
                   <h2>{title}</h2>
                   <div className="bar"></div>
-                  <p>{description}</p>
+                  <p dangerouslySetInnerHTML={{ __html: description }} />
 
                   {/* <Image
                     src={womenWithTable}

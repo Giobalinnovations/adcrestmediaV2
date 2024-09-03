@@ -1,7 +1,7 @@
 {
   "subtitle": "ABOUT US",
-  "title": "Introduction to Adcrest Media",
-  "description": "Adcrest Media is the partner you need to help you through the digital world that is changing all the time. Since we set up, we have been creating custom digital marketing strategies that make businesses successful in the online world. Our team of dedicated professionals mixes creativity with state-of-the-art technology to provide you with quantitative success, making sure your brand is the only one that people can recognize in the sea of digital.",
+  "title": "Introduction to <strong> <span class='primary-text'  style={{ color: '#f9004dQ!important' }}>Adcrest Media</span> </strong>",
+  "description": "<strong> <span  class='primary-text' style='color: '#f9004dQ!important'>Adcrest Media</span> </strong> is the partner you need to help you through the digital world that is changing all the time. Since we set up, we have been creating custom digital marketing strategies that make businesses successful in the online world. Our team of dedicated professionals mixes creativity with state-of-the-art technology to provide you with quantitative success, making sure your brand is the only one that people can recognize in the sea of digital.",
   "image": "/images/digital-marketing/introduction-to-adcrest-media.webp",
   "button": {
     "label": "Learn More",

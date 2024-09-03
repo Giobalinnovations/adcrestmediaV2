@@ -34,20 +34,33 @@ const MainBanner: React.FC = () => {
                   data-aos="fade-in"
                   data-aos-duration="1000"
                   data-aos-delay="300"
+                  dangerouslySetInnerHTML={{ __html: heroData?.description }}
                 >
-                  {heroData?.description}
+                  {/* {heroData?.description} */}
                 </p>
 
-                <Link
-                  href={heroData?.button?.link}
-                  className="default-btn-two"
-                  data-aos="fade-in"
-                  data-aos-duration="1000"
-                  data-aos-delay="400"
-                >
-                  {heroData?.button?.label}{' '}
-                  <i className="fas fa-chevron-right"></i>
-                </Link>
+                <div className="d-flex flex-column flex-md-row gap-2 gap-md-3">
+                  <Link
+                    href={heroData?.button?.linkTwo}
+                    className="default-btn-two"
+                    data-aos="fade-in"
+                    data-aos-duration="1000"
+                    data-aos-delay="400"
+                  >
+                    {heroData?.button?.labelTwo}
+                    <i className="fas fa-chevron-right"></i>
+                  </Link>
+                  <Link
+                    href={heroData?.button?.link}
+                    className="default-btn-two"
+                    data-aos="fade-in"
+                    data-aos-duration="1000"
+                    data-aos-delay="400"
+                  >
+                    {heroData?.button?.label}{' '}
+                    <i className="fas fa-chevron-right"></i>
+                  </Link>
+                </div>
               </div>
             </div>
 

@@ -37,7 +37,7 @@ const AboutContent: React.FC = () => {
               >
                 <span className="sub-title">{subtitle}</span>
                 <h2 dangerouslySetInnerHTML={{ __html: title }} />
-                <p>{description}</p>
+                <p dangerouslySetInnerHTML={{ __html: description }} />
 
                 <div className="row">
                   {listItems?.map((item, index) => (

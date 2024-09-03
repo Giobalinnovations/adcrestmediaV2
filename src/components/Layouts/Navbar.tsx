@@ -41,8 +41,7 @@ const Navbar: React.FC = () => {
         <div className="top-header text-white border-bottom d-none d-md-block">
           <div className="container py-3">
             <div className="row align-items-center">
-              <div className="col-md-6"></div>
-              <div className="col-md-6 text-end">
+              <div className="col-md-12 text-end">
                 <Link
                   href={`mailto:${appData?.siteSettings?.contactInfo?.email}`}
                   className="text-white me-3"

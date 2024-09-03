@@ -1,14 +1,14 @@
 {
   "subtitle": "WHAT WE DO",
   "title": "Unlock Your Full Potential with Tailored Services Designed for Your Success!",
-  "description": "At Adcrest Media, we not only have a passion for innovation but also a commitment to quality that drives us to provide the best digital marketing solutions to elevate your brand and deliver tangible results worldwide. We take pride in the creation of solutions that are customized to meet your unique business requirements. By the combination of creativity, strategy, and data insights, we make you strong in the fast-changing digital environment. At Adcrest Media, your success is our top priority.",
+  "description": "At <strong> <span class='font-bold'  style={{ color: '#000000!important' }}>Adcrest Media</span> </strong>, we not only have a passion for innovation but also a commitment to quality that drives us to provide the best digital marketing solutions to elevate your brand and deliver tangible results worldwide. We take pride in the creation of solutions that are customized to meet your unique business requirements. By the combination of creativity, strategy, and data insights, we make you strong in the fast-changing digital environment. At Adcrest Media, your success is our top priority.",
   "bgImage": "/images/page-banner1.jpg",
   "cards": [
     {
       "image": "/images/services/affiliate-marketing.webp",
       "iconName": "pe-7s-network bg-13c4a1",
       "title": "Affiliate Marketing",
-      "shortText": "Gain the competitive advantage of performance-based marketing with our Affiliate Marketing services. We connect you with premium affiliates who are boosting your brand on various channels, accelerating sales, and increasing your ROI. Through the use of a network of industry professionals and top publishers, we make sure that your products and services go to the right people. Our strategy consists of focused relationships, real-time data tracking, and perpetual revision to efficiently utilize your affiliate campaigns.",
+      "shortText": "At Adcrest Media, our team works closely with you to develop a customized affiliate marketing strategy that aligns with your business goals and target audience. We handle every aspect of your affiliate program, from recruiting top-performing affiliates to managing relationships and optimizing performance.",
       "detailsLink": "/services/affiliate-marketing/",
       "aosDelay": 100,
       "servicesDetailsPageContent": {
@@ -17,7 +17,7 @@
         "heroBanner": "/images/page-banner1.jpg",
         "approach": {
           "title": "Our Approach to Affiliate Marketing",
-          "description": "At Adcrest, we strive to make affiliate marketing strategies that reflect your brand's personality. We partner with you to identify your business objectives and target audience, thus developing a tailored affiliate program that guarantees results. We emphasize the development of a strong network of trusted affiliates, choosing partners who not only add your brand's credibility but also bring quality traffic to your site. By means of strategic alliances, advanced technology, and regular improvement, we make sure your affiliate program is prepared for a long and successful time."
+          "description": "At Adcrest Media, our team works closely with you to develop a customized affiliate marketing strategy that aligns with your business goals and target audience. We handle every aspect of your affiliate program, from recruiting top-performing affiliates to managing relationships and optimizing performance."
         },
         "expertise": {
           "title": "We deliver expertise",
@@ -68,6 +68,149 @@
 
         "callToAction": {
           "title": "Ready to Elevate Your Marketing Strategy?",
+          "buttonText": "Contact Us Now"
+        }
+      }
+    },
+    {
+      "image": "/images/services/pay-per-click-new-banner.webp",
+      "iconName": "pe-7s-cash bg-00d280",
+      "title": "Lead Generation",
+      "shortText": "Lead Generation: Maximize your ROI with our tailored Lead Generation campaigns. We design targeted ads to ensure that your customers will see them and buy from you. This way you get optimal return on each ad spend.",
+      "detailsLink": "/services/lead-generation/",
+      "aosDelay": 500,
+      "servicesDetailsPageContent": {
+        "slug": "lead-generation",
+        "heroTitle": "Maximize your Return on Investment with strategic Lead Generation advertising. Utilize Lead Generation marketing to attract targeted traffic and achieve measurable outcomes.",
+
+        "approach": {
+          "title": "Our Approach to Lead Generation",
+          "description": "Lead Generation at Adcrest is about sending the proper message to the proper audience at the proper moment, not just about running advertisements. Our method includes a thorough investigation of your target audience, corporate objectives, and competitive environment. We then create a thorough Lead Generation plan using the capabilities of every advertising platform and your company's goals to get the best return on investment. From keyword research to campaign optimisation, our whole strategy guarantees that your Lead Generation campaigns are successful and constantly changing to fit your company's requirements."
+        },
+        "expertise": {
+          "title": "Our Expertise in Lead Generation: What We Do",
+          "listItems": [
+            {
+              "title": "Lead Generation Strategy Development",
+              "description": "We develop custom Lead Generation plans that fit your company's objectives, target market, and brand character. Our plans are tailored for every platform so your adverts find the correct audience and encourage significant interaction."
+            },
+            {
+              "title": "Keyword Search and Optimisation",
+              "description": "Any successful Lead Generation campaign is built on keywords. To guarantee optimum relevance and reach, we investigate thoroughly to find high-performance keywords that appeal to your target and then optimise them throughout your campaigns."
+            },
+            {
+              "title": "Ad Creation and Copywriting",
+              "description": "Strong ad text is crucial for attracting attention and increasing clicks. Our staff creates on-brand, on-target, compelling ad language that appeals to your audience's demands and forces them to act. We produce material that converts, whether it's search, display, or video advertisements."
+            },
+            {
+              "title": "Campaign Planning",
+              "description": "Managing Lead Generation advertising may take time and be difficult. We manage everything from launching ads to tracking results and applying data-driven changes. Our staff makes sure your initiatives provide consistent results and go smoothly."
+            },
+            {
+              "title": "Optimisation of Landing Pages",
+              "description": "A Lead Generation campaign's success continues well beyond the click. We maximise your landing pages so they line up with your adverts, thereby offering a flawless user experience that raises the possibility of conversion."
+            },
+            {
+              "title": "Conversion Tracking and Reporting",
+              "description": "Knowing how your campaigns turn out is really vital. We monitor the success of your Lead Generation ads using strong conversion tracking and give thorough reports with performance analysis to guide your choices."
+            }
+          ]
+        },
+        "whyChooseUs": {
+          "title": "Why Choose Us for Your Lead Generation Needs?",
+          "listItems": [
+            {
+              "title": "Comprehensive Expertise",
+              "description": "Our staff of Lead Generation professionals offers a great range of industry knowledge on several platforms. We are aware of the subtleties of Lead Generation marketing and know how to create plans that show real results."
+            },
+            {
+              "title": "Creative Ad Copy",
+              "description": "We take pride in producing engaging, high-impact ad text that generates clicks and conversions. To keep your Lead Generation campaigns innovative and successful, our creative staff is always investigating novel concepts and formats."
+            },
+            {
+              "title": "Data-Driven Strategies",
+              "description": "Data has a great ability to propel achievement. Our method is based on analytics, so every choice we make is based on facts and aimed at reaching your company's objectives."
+            },
+            {
+              "title": "Customised Solutions",
+              "description": "Our Lead Generation approaches, and no two companies are exactly alike. We provide tailored Lead Generation solutions that fit your audience, brand, and goals."
+            }
+          ]
+        },
+        "callToAction": {
+          "title": "Ready to Elevate Your Lead Generation?",
+          "buttonText": "Contact Us"
+        }
+      }
+    },
+    {
+      "image": "/images/services/social-media-marketing.webp",
+      "iconName": "pe-7s-share bg-ffb700",
+      "title": "PPC (Pay-Per-Call)",
+      "shortText": "Pay Per Call marketing is effective in directly connecting with people and making your brand look better. Adcrest develops a dynamic Pay Per Call campaign to facilitate brand engagement, increase awareness, and promote customer loyalty.",
+      "detailsLink": "/services/social-media-marketing/",
+      "aosDelay": 300,
+      "servicesDetailsPageContent": {
+        "slug": "ppc-pay-per-call",
+        "heroTitle": "Amplify Your Brand’s Voice with Strategic Pay Per Call Marketing",
+        "heroBanner": "/images/page-banner1.jpg",
+        "approach": {
+          "title": "Our Approach to Pay Per Call Marketing",
+          "description": "At Adcrest, we see that Pay Per Call marketing is more than just managing phone calls; it's about creating a community around your brand. Our approach involves a detailed analysis of your business goals, target audience demographics, and industry landscape. We then develop a comprehensive PPC strategy that aligns with your brand's voice and values, aiming for maximum reach and engagement. Through consistent interaction with targeted communities, we ensure your PPC channels are always informative, interactive, and impactful, translating into tangible results for your business."
+        },
+        "expertise": {
+          "title": "Our Expertise in Pay Per Call: What We Do",
+          "listItems": [
+            {
+              "title": "PPC Strategy Development",
+              "description": "We create personalized solutions for PPC marketing that are in line with your business's goals, the target market, and the business's distinctive branding. Our plans are custom-fitted for each type of business, making your brand highly appealing to the audience and thus ensuring their active involvement.",
+              "aosDelay": 100
+            },
+            {
+              "title": "Platform Management",
+              "description": "Pay Per Call network management can become a burden. From calling schedules and constant engagement, we take care of all your business, and we also engage the audience and moderate the comments. Our team makes sure that your brand's information is uniform, clear, and integrates with the rest of the marketing strategy.",
+              "aosDelay": 200
+            },
+            {
+              "title": "Pay Per Call Marketing",
+              "description": "Strengthen your outreach using Pay Per Call marketing. We build, maintain, and promote PPC campaigns through various social media platforms also, so that you get the traffic you need and convert it in the most efficient manner.",
+              "aosDelay": 300
+            },
+            {
+              "title": "Community Building and Engagement",
+              "description": "The construction of a brand-loyal community is the main point of the brand's success in the long run. We connect with your followers by directly connecting over calls and messages, and we instigate significant discussions that help build your brand image and grow your company's loyalty.",
+              "aosDelay": 400
+            },
+            {
+              "title": "Social Listening and Monitoring",
+              "description": "Knowing your audience's opinion about your brand is important. We use the latest AI-driven social listening methods to keep track of the brand mentions to get insights that will inform your services and help you stay ahead of trends.",
+              "aosDelay": 500
+            }
+          ]
+        },
+        "whyChooseUs": {
+          "title": "Why Choose Us for Your Pay Per Call Marketing Needs?",
+          "listItems": [
+            {
+              "title": "Comprehensive Expertise",
+              "description": "Our crew of Pay Per Call has a considerable amount of experience across different businesses and industries. We study the intricacies of each and every platform and know how to develop strategies that will appeal to your audience."
+            },
+            {
+              "title": "Creative Engagement",
+              "description": "We boast of having exclusive, high-value engagement that attracts people's attention and makes them interact with us. The engagement team, for their part, is always on the lookout for new concepts and formats to keep interaction channels vibrant and exciting."
+            },
+            {
+              "title": "Data-Driven Strategies",
+              "description": "We have faith in the call data that can produce results. Our philosophy is to base our decisions on analytics, the way to ensure that all goal achievement decisions are guided by data."
+            },
+            {
+              "title": "Customized Solutions",
+              "description": "There are a number of companies that are similar and a number of companies that are different. Therefore, we provide Pay Per Call strategies that match your brand's distinct characteristics, aims, and target audience to a great degree."
+            }
+          ]
+        },
+        "callToAction": {
+          "title": "Ready to Elevate Your Pay Per Call Game?",
           "buttonText": "Contact Us Now"
         }
       }
@@ -159,83 +302,7 @@
         }
       }
     },
-    {
-      "image": "/images/services/social-media-marketing.webp",
-      "iconName": "pe-7s-share bg-ffb700",
-      "title": "Social Media Marketing",
-      "shortText": "Involve your viewers and cultivate them as loyal members of your community using our dynamic social media strategies. We provide assistance in crafting posts as well as in promoting you on platforms such as Facebook, Instagram, LinkedIn, and Twitter through paid social ads.",
-      "detailsLink": "/services/social-media-marketing/",
-      "aosDelay": 300,
-      "servicesDetailsPageContent": {
-        "slug": "social-media-marketing",
-        "heroTitle": "Amplify Your Brand's Voice with Strategic Social Media Marketing",
-        "heroBanner": "/images/page-banner1.jpg",
-        "approach": {
-          "title": "Our Approach to Social Media Marketing",
-          "description": "At Adcrest, we see that social media marketing is the creation of the community around your brand rather than just the publishing of content. Our approach is to examine the enterprise goals, the audience's demographics, and the industry landscape in detail. We then develop a comprehensive social media strategy that includes your brand's voice and values, using the different features of each outlet to gain maximum reach and interaction. Through content design to community management, our holistic approach guarantees that your social media channels are always active, interactive, and empowering, turning into real results for your business."
-        },
-        "expertise": {
-          "title": "Our Expertise in Social Media Marketing: What We Do",
-          "listItems": [
-            {
-              "title": "Social Media Strategy Development",
-              "description": "We create personalized solutions for social media that are in line with your business's goals, the target market, and the business's distinctive branding. Our plans of attack are custom-fitted for each type of platform, making your content highly appealing to the audience and thus ensuring their active involvement.",
-              "aosDelay": 100
-            },
-            {
-              "title": "Content Creation and Curation",
-              "description": "Content stands at the center of every successful social media campaign. We develop persuasive and on-brand content that appeals to the audience and creates a dialogue. We curate content that includes eye-catching graphics and engaging videos along with thoughtful posts and stories, which makes your audience come back for more.",
-              "aosDelay": 200
-            },
-            {
-              "title": "Platform Management",
-              "description": "Social network management can become a burden. From posting schedules and content calendars, we take care of all your business, and we also engage the audience and moderate the comments. Our team makes sure that your brand's online presence is uniform, clear, and integrates with the rest of the marketing strategy.",
-              "aosDelay": 300
-            },
-            {
-              "title": "Paid Social Advertising",
-              "description": "Strengthen your outreach using social media advertising. We build, maintain, and promote paid ad campaigns through various social media platforms so that you get the traffic you need and convert it in the most efficient manner.",
-              "aosDelay": 400
-            },
-            {
-              "title": "Community Building and Engagement",
-              "description": "The construction of a brand-loyal community is the main point of the brand's success in the long run. We connect with your followers by replying to comments and messages, and we instigate significant discussions that help build your brand image and grow your company's loyalty.",
-              "aosDelay": 500
-            },
-            {
-              "title": "Social Listening and Monitoring",
-              "description": "Knowing your audience's opinion about your brand is important. We use the latest AI-driven social listening methods to keep track of the brand mentions to get insights that will inform your strategy and help you stay ahead of trends.",
-              "aosDelay": 600
-            }
-          ]
-        },
-        "whyChooseUs": {
-          "title": "Why Choose Us for Your Social Media Marketing Needs?",
-          "listItems": [
-            {
-              "title": "Comprehensive Expertise",
-              "description": "Our crew of social media pro's has a considerable amount of experience across different platforms and industries. We study the intricacies of each and every platform and know how to develop strategies that will appeal to your audience."
-            },
-            {
-              "title": "Creative Content",
-              "description": "We boast of having exclusive, high-value content that attracts people's attention and makes them interact with us. The creative team, for their part, is always on the lookout for new concepts and formats to keep your social media channels vibrant and exciting."
-            },
-            {
-              "title": "Data-Driven Strategies",
-              "description": "We have faith in the data that can produce results. Our philosophy is to base our decisions on analytics, the way to ensure that all goal achievement decisions are guided by data."
-            },
-            {
-              "title": "Customized Solutions",
-              "description": "There are a number of companies that are similar and a number of companies that are different. Therefore, we provide social media strategies that match your brand's distinct characteristics, aims, and target audience to a great degree."
-            }
-          ]
-        },
-        "callToAction": {
-          "title": "Ready to Elevate Your Social Media Game?",
-          "buttonText": "Contact Us Now"
-        }
-      }
-    },
+
     {
       "image": "/images/services/seo-new-banner.webp",
       "iconName": "pe-7s-search bg-fc3549",
@@ -310,77 +377,6 @@
         "callToAction": {
           "title": "Ready to Improve Your Search Engine Rankings?",
           "buttonText": "Contact Us Now"
-        }
-      }
-    },
-    {
-      "image": "/images/services/pay-per-click-new-banner.webp",
-      "iconName": "pe-7s-cash bg-00d280",
-      "title": "PPC (Pay-Per-Click Advertising)",
-      "shortText": "PPC (Pay-Per-Click Advertising): Maximize your ROI with our tailored PPC campaigns. We design targeted ads to ensure that your customers will see them and buy from you. This way you get optimal return on each ad spend.",
-      "detailsLink": "/services/ppc-pay-per-click-advertising/",
-      "aosDelay": 500,
-      "servicesDetailsPageContent": {
-        "slug": "ppc-pay-per-click-advertising",
-        "heroTitle": "Maximize your Return on Investment with strategic PPC advertising. Utilize pay-per-click marketing to attract targeted traffic and achieve measurable outcomes.",
-
-        "approach": {
-          "title": "Our Approach to PPC Marketing",
-          "description": "PPC marketing at Adcrest is about sending the proper message to the proper audience at the proper moment, not just about running advertisements. Our method includes a thorough investigation of your target audience, corporate objectives, and competitive environment. We then create a thorough PPC plan using the capabilities of every advertising platform and your company's goals to get the best return on investment. From keyword research to campaign optimisation, our whole strategy guarantees that your PPC campaigns are successful and constantly changing to fit your company's requirements."
-        },
-        "expertise": {
-          "title": "Our Expertise in PPC Marketing: What We Do",
-          "listItems": [
-            {
-              "title": "PPC Strategy Development",
-              "description": "We develop custom PPC plans that fit your company's objectives, target market, and brand character. Our plans are tailored for every platform so your adverts find the correct audience and encourage significant interaction."
-            },
-            {
-              "title": "Keyword Search and Optimisation",
-              "description": "Any successful PPC campaign is built on keywords. To guarantee optimum relevance and reach, we investigate thoroughly to find high-performance keywords that appeal to your target and then optimise them throughout your campaigns."
-            },
-            {
-              "title": "Ad Creation and Copywriting",
-              "description": "Strong ad text is crucial for attracting attention and increasing clicks. Our staff creates on-brand, on-target, compelling ad language that appeals to your audience's demands and forces them to act. We produce material that converts, whether it's search, display, or video advertisements."
-            },
-            {
-              "title": "Campaign Planning",
-              "description": "Managing PPC advertising may take time and be difficult. We manage everything from launching ads to tracking results and applying data-driven changes. Our staff makes sure your initiatives provide consistent results and go smoothly."
-            },
-            {
-              "title": "Optimisation of Landing Pages",
-              "description": "A PPC campaign's success continues well beyond the click. We maximise your landing pages so they line up with your adverts, thereby offering a flawless user experience that raises the possibility of conversion."
-            },
-            {
-              "title": "Conversion Tracking and Reporting",
-              "description": "Knowing how your campaigns turn out is really vital. We monitor the success of your PPC ads using strong conversion tracking and give thorough reports with performance analysis to guide your choices."
-            }
-          ]
-        },
-        "whyChooseUs": {
-          "title": "Why Choose Us for Your PPC Marketing Needs?",
-          "listItems": [
-            {
-              "title": "Comprehensive Expertise",
-              "description": "Our staff of PPC professionals offers a great range of industry knowledge on several platforms. We are aware of the subtleties of PPC marketing and know how to create plans that show real results."
-            },
-            {
-              "title": "Creative Ad Copy",
-              "description": "We take pride in producing engaging, high-impact ad text that generates clicks and conversions. To keep your PPC campaigns innovative and successful, our creative staff is always investigating novel concepts and formats."
-            },
-            {
-              "title": "Data-Driven Strategies",
-              "description": "Data has a great ability to propel achievement. Our method is based on analytics, so every choice we make is based on facts and aimed at reaching your company's objectives."
-            },
-            {
-              "title": "Customised Solutions",
-              "description": "Our PPC approaches, and no two companies are exactly alike. We provide tailored PPC solutions that fit your audience, brand, and goals."
-            }
-          ]
-        },
-        "callToAction": {
-          "title": "Ready to Elevate Your PPC Marketing?",
-          "buttonText": "Contact Us"
         }
       }
     },

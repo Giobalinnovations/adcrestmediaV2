@@ -321,6 +321,24 @@ a {
     color: #fff;
   }
 }
+.default-btn-two-transparent {
+  border: 2px solid #f9004d;
+  background: #f9004d;
+  color: #fff;
+  border-radius: 6px;
+  text-align: center;
+  padding: 13px 30px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 15px;
+  transition: $transition;
+  &:hover,
+  &:focus {
+    border: 2px solid #000;
+    background: #000;
+    color: #fff;
+  }
+}
 
 /* section-title */
 .section-title {
