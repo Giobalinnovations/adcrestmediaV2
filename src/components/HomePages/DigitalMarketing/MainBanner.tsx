@@ -63,6 +63,7 @@ const MainBanner: React.FC = () => {
                   width={703}
                   height={652}
                   loading="lazy"
+                  className="rounded"
                 />
               </div>
             </div>

@@ -35,6 +35,7 @@ const MarketingProcess: React.FC = () => {
                       alt="image"
                       width={280}
                       height={228}
+                      className="rounded"
                     />
                     <h3>{value.title}</h3>
                     <p>{value?.shortText}</p>

@@ -18,7 +18,13 @@ const AboutContent: React.FC = () => {
                 data-aos-duration="1000"
                 data-aos-delay="100"
               >
-                <Image src={image} alt="image" width={658} height={591} />
+                <Image
+                  src={image}
+                  alt="image"
+                  width={658}
+                  height={591}
+                  className="rounded"
+                />
               </div>
             </div>
 
