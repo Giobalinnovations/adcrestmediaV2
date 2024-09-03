@@ -1,9 +1,11 @@
-"use client";
+'use client';
 
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
-const CtaAreaTwo: React.FC = () => {
+const CtaAreaTwo: React.FC<{ servicesDetailsPageContent?: any }> = ({
+  servicesDetailsPageContent,
+}) => {
   return (
     <>
       <div className="cta-area-two ptb-100">
@@ -21,7 +23,7 @@ const CtaAreaTwo: React.FC = () => {
               data-aos-duration="1000"
               data-aos-delay="200"
             >
-              Are You Ready? Let&apos;s get to work!
+              {servicesDetailsPageContent?.callToAction?.title}
             </h3>
           </div>
 

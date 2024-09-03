@@ -37,7 +37,7 @@ export default function ServicesDetailsPage({
 
       <ServiceDetailsContent service={servicesDetailsPageContent} />
 
-      <CtaAreaTwo />
+      <CtaAreaTwo servicesDetailsPageContent={servicesDetailsPageContent} />
 
       <Footer />
     </>

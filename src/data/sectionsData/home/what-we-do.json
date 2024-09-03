@@ -86,7 +86,76 @@
       "title": "Social Media Marketing",
       "shortText": "Involve your viewers and cultivate them as loyal members of your community using our dynamic social media strategies. We provide assistance in crafting posts as well as in promoting you on platforms such as Facebook, Instagram, LinkedIn, and Twitter through paid social ads.",
       "detailsLink": "/services/social-media-marketing/",
-      "aosDelay": 300
+      "aosDelay": 300,
+      "servicesDetailsPageContent": {
+        "slug": "social-media-marketing",
+        "heroTitle": "Amplify Your Brand's Voice with Strategic Social Media Marketing",
+        "heroBanner": "/images/page-banner1.jpg",
+        "approach": {
+          "title": "Our Approach to Social Media Marketing",
+          "description": "At Adcrest, we see that social media marketing is the creation of the community around your brand rather than just the publishing of content. Our approach is to examine the enterprise goals, the audience's demographics, and the industry landscape in detail. We then develop a comprehensive social media strategy that includes your brand's voice and values, using the different features of each outlet to gain maximum reach and interaction. Through content design to community management, our holistic approach guarantees that your social media channels are always active, interactive, and empowering, turning into real results for your business."
+        },
+        "expertise": {
+          "title": "Our Expertise in Social Media Marketing: What We Do",
+          "listItems": [
+            {
+              "title": "Social Media Strategy Development",
+              "description": "We create personalized solutions for social media that are in line with your business's goals, the target market, and the business's distinctive branding. Our plans of attack are custom-fitted for each type of platform, making your content highly appealing to the audience and thus ensuring their active involvement.",
+              "aosDelay": 100
+            },
+            {
+              "title": "Content Creation and Curation",
+              "description": "Content stands at the center of every successful social media campaign. We develop persuasive and on-brand content that appeals to the audience and creates a dialogue. We curate content that includes eye-catching graphics and engaging videos along with thoughtful posts and stories, which makes your audience come back for more.",
+              "aosDelay": 200
+            },
+            {
+              "title": "Platform Management",
+              "description": "Social network management can become a burden. From posting schedules and content calendars, we take care of all your business, and we also engage the audience and moderate the comments. Our team makes sure that your brand's online presence is uniform, clear, and integrates with the rest of the marketing strategy.",
+              "aosDelay": 300
+            },
+            {
+              "title": "Paid Social Advertising",
+              "description": "Strengthen your outreach using social media advertising. We build, maintain, and promote paid ad campaigns through various social media platforms so that you get the traffic you need and convert it in the most efficient manner.",
+              "aosDelay": 400
+            },
+            {
+              "title": "Community Building and Engagement",
+              "description": "The construction of a brand-loyal community is the main point of the brand's success in the long run. We connect with your followers by replying to comments and messages, and we instigate significant discussions that help build your brand image and grow your company's loyalty.",
+              "aosDelay": 500
+            },
+            {
+              "title": "Social Listening and Monitoring",
+              "description": "Knowing your audience's opinion about your brand is important. We use the latest AI-driven social listening methods to keep track of the brand mentions to get insights that will inform your strategy and help you stay ahead of trends.",
+              "aosDelay": 600
+            }
+          ]
+        },
+        "whyChooseUs": {
+          "title": "Why Choose Us for Your Social Media Marketing Needs?",
+          "listItems": [
+            {
+              "title": "Comprehensive Expertise",
+              "description": "Our crew of social media pro's has a considerable amount of experience across different platforms and industries. We study the intricacies of each and every platform and know how to develop strategies that will appeal to your audience."
+            },
+            {
+              "title": "Creative Content",
+              "description": "We boast of having exclusive, high-value content that attracts people's attention and makes them interact with us. The creative team, for their part, is always on the lookout for new concepts and formats to keep your social media channels vibrant and exciting."
+            },
+            {
+              "title": "Data-Driven Strategies",
+              "description": "We have faith in the data that can produce results. Our philosophy is to base our decisions on analytics, the way to ensure that all goal achievement decisions are guided by data."
+            },
+            {
+              "title": "Customized Solutions",
+              "description": "There are a number of companies that are similar and a number of companies that are different. Therefore, we provide social media strategies that match your brand's distinct characteristics, aims, and target audience to a great degree."
+            }
+          ]
+        },
+        "callToAction": {
+          "title": "Ready to Elevate Your Social Media Game?",
+          "buttonText": "Contact Us Now"
+        }
+      }
     },
     {
       "image": "/images/services/service1.jpg",
@@ -94,7 +163,76 @@
       "title": "SEO (Search Engine Optimization)",
       "shortText": "Through search engine optimization, your site will be more visible and will get more free traffic. Our marketing team adjusts your search engine rankings and brings your target audience through in-depth keyword research, proper on-page optimization, and quality backlink building.",
       "detailsLink": "/services/seo-search-engine-optimization/",
-      "aosDelay": 400
+      "aosDelay": 400,
+      "servicesDetailsPageContent": {
+        "slug": "seo-search-engine-optimization",
+        "heroTitle": "Turn Searches into Customers with Smart SEO Solutions",
+        "heroBanner": "/images/page-banner1.jpg",
+        "approach": {
+          "title": "Our Approach to Search Engine Optimization",
+          "description": "At Adcrest, growth is always a prime consideration in the way we prepare a long-term online strategy. We do SEO in a holistic and data-driven way; we learn about your business, your preferred audience, and the competitive landscape. We carry out a detailed SEO audit first to find the possibilities and areas of improvement. Thereafter, we develop a distinctive SEO plan that incorporates on-page optimization, technical SEO, and off-page tactics that promote the visibility and authority of your website. Our continued performance monitoring and the adjustment of your content to the ever-changing search engine algorithms confirm that your site is still optimized for success."
+        },
+        "expertise": {
+          "title": "Our Expertise in Search Engine Optimization: What We Do",
+          "listItems": [
+            {
+              "title": "SEO Audit and Analysis",
+              "description": "We start the process with a complete SEO audit to evaluate the actual state of your website by determining technical problems, keyword potential, and places to enhance. The ins and outs of this detailed analysis will be mainly relied upon for our SEO strategy.",
+              "aosDelay": 100
+            },
+            {
+              "title": "Keyword Research and Strategy",
+              "description": "What is essentially important is to know what potential customers are looking for in search engines. We carry out detailed keyword research to find high-value, relevant keywords, and then we devise a strategy that is in line with your business goals and attracts your target audience to your website.",
+              "aosDelay": 200
+            },
+            {
+              "title": "On-Page Optimization",
+              "description": "We optimize your website's content and meta tags to ensure search engines understand your pages' relevance and value. This includes optimizing titles, headers, meta descriptions, images, and internal linking structures to improve visibility and user experience.",
+              "aosDelay": 300
+            },
+            {
+              "title": "Technical SEO",
+              "description": "Our technical SEO services focus on improving your website's backend structure and performance. We address issues such as site speed, mobile responsiveness, XML sitemaps, crawl errors, and schema markup to ensure your site is easily accessible and indexable by search engines.",
+              "aosDelay": 400
+            },
+            {
+              "title": "Link Building and Off-Page SEO",
+              "description": "A good backlink profile is the key to SEO. To amass trustworthy links to your pages with high traffic, we design a link-building strategy that includes elements like link building to high-quality, authoritative backlinks from qualified domains.",
+              "aosDelay": 500
+            },
+            {
+              "title": "Local SEO",
+              "description": "We drive your online presence to ensure visibility in local search results for businesses that aim at the local population. Your Google My Business profile, brightening local citations, and creating an optimized site that uses local keywords are all part of the plan.",
+              "aosDelay": 600
+            }
+          ]
+        },
+        "whyChooseUs": {
+          "title": "Why Choose Us for Your Search Engine Optimization Needs?",
+          "listItems": [
+            {
+              "title": "Proven Expertise",
+              "description": "Our SEO team oozes experience in different areas. Definitely, we stay abreast of all of the newest SEO developments and algorithm evolutions to be sure your campaign is always a couple of steps ahead of what others are doing."
+            },
+            {
+              "title": "Comprehensive Approach",
+              "description": "We have a total strategy for SEO, right from the technical SEO to content production and link building. All our tactics aim at raising your rankings, attracting visitors, and boosting conversions."
+            },
+            {
+              "title": "Data-Driven Strategies",
+              "description": "No guesswork, only data-driven decision-making. Our strategies are infallibly designed based on exhaustive research and analysis, making sure that we target the right keywords, optimize the right pages, and achieve the best results."
+            },
+            {
+              "title": "Transparent Reporting",
+              "description": "Our reports are very straightforward, containing all the details of how the SEO strategy is and which way it is going. You'll always know what is working, what is not, and what we are doing to improve your results."
+            }
+          ]
+        },
+        "callToAction": {
+          "title": "Ready to Improve Your Search Engine Rankings?",
+          "buttonText": "Contact Us Now"
+        }
+      }
     },
     {
       "image": "/images/services/service2.jpg",
@@ -102,7 +240,70 @@
       "title": "PPC (Pay-Per-Click Advertising)",
       "shortText": "PPC (Pay-Per-Click Advertising): Maximize your ROI with our tailored PPC campaigns. We design targeted ads to ensure that your customers will see them and buy from you. This way you get optimal return on each ad spend.",
       "detailsLink": "/services/ppc-pay-per-click-advertising/",
-      "aosDelay": 500
+      "aosDelay": 500,
+      "servicesDetailsPageContent": {
+        "slug": "ppc-pay-per-click-advertising",
+        "heroTitle": "Maximize your Return on Investment with strategic PPC advertising. Utilize pay-per-click marketing to attract targeted traffic and achieve measurable outcomes.",
+
+        "approach": {
+          "title": "Our Approach to PPC Marketing",
+          "description": "PPC marketing at Adcrest is about sending the proper message to the proper audience at the proper moment, not just about running advertisements. Our method includes a thorough investigation of your target audience, corporate objectives, and competitive environment. We then create a thorough PPC plan using the capabilities of every advertising platform and your company's goals to get the best return on investment. From keyword research to campaign optimisation, our whole strategy guarantees that your PPC campaigns are successful and constantly changing to fit your company's requirements."
+        },
+        "expertise": {
+          "title": "Our Expertise in PPC Marketing: What We Do",
+          "listItems": [
+            {
+              "title": "PPC Strategy Development",
+              "description": "We develop custom PPC plans that fit your company's objectives, target market, and brand character. Our plans are tailored for every platform so your adverts find the correct audience and encourage significant interaction."
+            },
+            {
+              "title": "Keyword Search and Optimisation",
+              "description": "Any successful PPC campaign is built on keywords. To guarantee optimum relevance and reach, we investigate thoroughly to find high-performance keywords that appeal to your target and then optimise them throughout your campaigns."
+            },
+            {
+              "title": "Ad Creation and Copywriting",
+              "description": "Strong ad text is crucial for attracting attention and increasing clicks. Our staff creates on-brand, on-target, compelling ad language that appeals to your audience's demands and forces them to act. We produce material that converts, whether it's search, display, or video advertisements."
+            },
+            {
+              "title": "Campaign Planning",
+              "description": "Managing PPC advertising may take time and be difficult. We manage everything from launching ads to tracking results and applying data-driven changes. Our staff makes sure your initiatives provide consistent results and go smoothly."
+            },
+            {
+              "title": "Optimisation of Landing Pages",
+              "description": "A PPC campaign's success continues well beyond the click. We maximise your landing pages so they line up with your adverts, thereby offering a flawless user experience that raises the possibility of conversion."
+            },
+            {
+              "title": "Conversion Tracking and Reporting",
+              "description": "Knowing how your campaigns turn out is really vital. We monitor the success of your PPC ads using strong conversion tracking and give thorough reports with performance analysis to guide your choices."
+            }
+          ]
+        },
+        "whyChooseUs": {
+          "title": "Why Choose Us for Your PPC Marketing Needs?",
+          "listItems": [
+            {
+              "title": "Comprehensive Expertise",
+              "description": "Our staff of PPC professionals offers a great range of industry knowledge on several platforms. We are aware of the subtleties of PPC marketing and know how to create plans that show real results."
+            },
+            {
+              "title": "Creative Ad Copy",
+              "description": "We take pride in producing engaging, high-impact ad text that generates clicks and conversions. To keep your PPC campaigns innovative and successful, our creative staff is always investigating novel concepts and formats."
+            },
+            {
+              "title": "Data-Driven Strategies",
+              "description": "Data has a great ability to propel achievement. Our method is based on analytics, so every choice we make is based on facts and aimed at reaching your company's objectives."
+            },
+            {
+              "title": "Customised Solutions",
+              "description": "Our PPC approaches, and no two companies are exactly alike. We provide tailored PPC solutions that fit your audience, brand, and goals."
+            }
+          ]
+        },
+        "callToAction": {
+          "title": "Ready to Elevate Your PPC Marketing?",
+          "buttonText": "Contact Us"
+        }
+      }
     },
 
     {
@@ -111,7 +312,65 @@
       "title": "Content Marketing",
       "shortText": "Through content marketing services, you can share your brand story and win your audience over. We develop captivating blogs, videos, and infographics that are not only engaging but also get the customer to take action, thus improving your brand's authority and visibility on the internet.",
       "detailsLink": "/services/content-marketing",
-      "aosDelay": 700
+      "aosDelay": 700,
+      "servicesDetailsPageContent": {
+        "slug": "content-marketing",
+        "heroTitle": "Boost Your Brand with Engaging Content That Captivates and Converts",
+        "approach": {
+          "title": "Our Approach to Content Marketing",
+          "description": "In our view at Adcrest, content marketing is about offering value at every touchpoint, not just producing and distributing materials. Our method begins with a strong knowledge of your industry, audience, and brand. We then create a customised content strategy that directly addresses the requirements and interests of your audience and corresponds with your company goals. From blog entries to video scripts, we make sure every bit of material is attractive, purposeful, and performance-oriented."
+        },
+        "expertise": {
+          "title": "Our Expertise in Content Marketing: What We Do",
+          "listItems": [
+            {
+              "title": "Strategies for Content Development",
+              "description": "We create thorough content plans that fit your company objectives, target market, and brand voice. Our approaches are customised to every platform so your material reaches the correct audience immediately, increasing interaction and conversion."
+            },
+            {
+              "title": "Content Creation",
+              "description": "Great ideas define great content. Our staff of seasoned designers, writers, and videographers produces excellent material that grabs interest and stimulates action. Whether it's a visually striking infographic, a clever blog piece, or an exciting movie, we provide something your readers will find appealing."
+            },
+            {
+              "title": "Content Optimisation",
+              "description": "The first stage is creating material. We maximize every bit of material to guarantee it functions as it should. This covers keyword research, SEO optimisation, and data-driven changes to increase engagement and reach."
+            },
+            {
+              "title": "Content Distribution",
+              "description": "It's vital to get your material in front of the appropriate individuals. We divide your material using a multi-channel strategy across the platforms where your audience is most engaged. Whether via sponsored advertisements, email newsletters, or social media, this guarantees the best exposure and effect."
+            },
+            {
+              "title": "Content Performance Analysis",
+              "description": "We think data has a remarkable ability to produce outcomes. Our staff constantly monitors your material and offers thorough analysis along with suggestions for development. This lets us improve our plans and provide more consistent outcomes."
+            }
+          ]
+        },
+        "whyChooseUs": {
+          "title": "Why Choose Us for Your Content Marketing Needs?",
+          "listItems": [
+            {
+              "title": "Absolute Expertise",
+              "description": "Our staff of content marketing experts has extensive knowledge of several sectors and platforms. We understand the complex dynamics of content marketing and create plans that not only include your audience but also provide significant outcomes."
+            },
+            {
+              "title": "Mastering Creativity",
+              "description": "We are excited by material that grabs attention and forces action. Our creative staff is committed to stretching limits and regularly investigating original ideas and techniques to ensure that your material is current, relevant, and powerful."
+            },
+            {
+              "title": "Approach Based on Insight",
+              "description": "At Adcrest, we produce material that performs rather than just ideas. Our methods are based on facts and insights, which help us customise every bit of material to fit your company goals and guarantee the best return on investment."
+            },
+            {
+              "title": "Individualised Plans",
+              "description": "Since no two companies are identical, we customise our content marketing plans to fit your particular voice, objectives, and audience. Our customised approach guarantees that every piece of material speaks to your target market and complements your brand image."
+            }
+          ]
+        },
+        "callToAction": {
+          "title": "Ready to elevate your Content Marketing?",
+          "buttonText": "Contact Us"
+        }
+      }
     },
     {
       "image": "/images/services/service4.jpg",
@@ -119,7 +378,69 @@
       "title": "Email Marketing",
       "shortText": "Keep your audience informed and engaged with our personalized email marketing campaigns. We design and execute strategies that nurture leads and drive repeat business, turning prospects into loyal customers.",
       "detailsLink": "/services/email-marketing",
-      "aosDelay": 800
+      "aosDelay": 800,
+      "servicesDetailsPageContent": {
+        "slug": "email-marketing",
+        "heroTitle": "Unlock the Potential of Customised Communication with Strategic Email Marketing",
+        "approach": {
+          "title": "Our Approach to Email Marketing",
+          "description": "At Adcrest, email marketing is about developing connections rather than only delivering messages. Our strategy starts with thoroughly understanding your audience, company objectives, and brand identity. Then, we create customised email plans that precisely address your subscribers' requirements and interests. From engaging subject lines to creative content and design, our whole strategy guarantees your emails stand out in congested inboxes and provide tangible benefits for your company."
+        },
+        "expertise": {
+          "title": "Our Expertise in Email Marketing: What We Do",
+          "listItems": [
+            {
+              "title": "Email Strategy Development",
+              "description": "We develop tailored email marketing plans that fit your audience's tastes and corporate goals. Our plans are meant to deliver the correct message at the right moment, guaranteeing maximum involvement and influence."
+            },
+            {
+              "title": "Segmentation and List Building",
+              "description": "Good, carefully segmented lists form the cornerstone of successful email marketing. Focused list-building techniques and audience segmentation help expand your subscriber base and guarantee that your emails are always relevant and personalised."
+            },
+            {
+              "title": "Development of Content and Design",
+              "description": "In email marketing, content rules supremely. We create interesting, on-brand emails for your readership. Whether it's newsletters, advertising emails, or automated programs, we ensure your material looks great and complements your company's language."
+            },
+            {
+              "title": "Automation and Drip Campaigns",
+              "description": "The scalability of your email marketing initiatives depends on automation. To ensure that your email marketing runs for you around the clock, we configured automated processes and drip campaigns that nurture leads, re-engage consumers, and generate conversions."
+            },
+            {
+              "title": "A/B Testing and Optimisation",
+              "description": "We constantly evaluate and refine your email messages to improve performance. From call-to-actions to subject lines, we employ A/B testing to see what most connects with your audience and hone your plan for optimum outcomes."
+            },
+            {
+              "title": "Reporting and Analytics",
+              "description": "Ongoing success depends on your understanding of how well your email marketing functions. We provide comprehensive analytics and statistics tracking important benchmarks such as open rates, click-through rates, and conversions, thus providing you with a clear understanding of what is working and where to focus improvements."
+            }
+          ]
+        },
+        "whyChooseUs": {
+          "title": "Why Choose Us for Your Email Marketing Needs?",
+          "listItems": [
+            {
+              "title": "Deep Industry Expertise",
+              "description": "Our email marketing staff has a lot of knowledge about different platforms and sectors. We are skilled in developing programs that include your audience and provide quantifiable results, as we know the nuances of email marketing."
+            },
+            {
+              "title": "Creative Excellence",
+              "description": "We take great satisfaction in creating engaging and strong email messages that enthrall your readers and motivate significant responses. Our creative staff is constantly investigating new ideas and creative solutions to make sure your emails remain relevant and stand out."
+            },
+            {
+              "title": "Data-Driven Insights",
+              "description": "Data has a remarkable ability to propel achievement. Based on statistics, our approaches guarantee that every email we create is tailored to your company goals and performance criteria, enabling more successful and influential campaigns."
+            },
+            {
+              "title": "Tailored Solutions",
+              "description": "We understand that each company is different, as is our email marketing approach. We create tailored email campaigns that fit your business's character, objectives, and audience so that they are most relevant and successful for your particular situation."
+            }
+          ]
+        },
+        "callToAction": {
+          "title": "Ready to Elevate Your Email Marketing?",
+          "buttonText": "Contact Us"
+        }
+      }
     },
     {
       "image": "/images/services/service4.jpg",
@@ -127,7 +448,65 @@
       "title": "Influencer Marketing",
       "shortText": "With our Influencer Marketing services, you can totally give your company a fresh look by joining forces with celebrities who set the brand image. We make sure to connect you with personalities whose values are in line with those of your brand, as well as those who have a significant number of followers in your field. Using their reputation and power, we help you generate genuine content that is not only popular among the audience but also appeals to them. Starting from choosing the right influencers to executing collaborations and tracking the progress, we deliver comprehensive solutions that boost your brand awareness and help you meet your objectives.",
       "detailsLink": "/services/influencer-marketing",
-      "aosDelay": 900
+      "aosDelay": 900,
+      "servicesDetailsPageContent": {
+        "slug": "influencer-marketing",
+        "heroTitle": "Building genuine connections that your audience relates to.",
+        "approach": {
+          "title": "Our Approach to Influencer Marketing",
+          "description": "Not just as a fashionable strategy, influencer marketing is recognised by Adcrest as a potent instrument for developing trust and increasing conversion. We first really know your brand, audience, and objectives. We then find influencers with a real connection to their followers that fit your business values. Our method guarantees that the projects we start are genuine, engaging, and provide actual outcomes."
+        },
+        "expertise": {
+          "title": "Our Expertise in Influencer Marketing: What We Do",
+          "listItems": [
+            {
+              "title": "Outreach and Identification of Influencers",
+              "description": "We painstakingly find influencers who match your business exactly. Our staff looks at audience composition, participation rates, and content fit. After that, we manage outreach and work out agreements that benefit both your company and the influencer."
+            },
+            {
+              "title": "Campaign Planning and Strategy",
+              "description": "We create thorough influencer marketing plans complementing your company objectives. Our strategies guarantee that every cooperation is performed flawlessly and satisfies your expectations by including thorough campaign goals, content requirements, and deadlines."
+            },
+            {
+              "title": "Content Cooperation and Production",
+              "description": "We co-create interesting on-brand material with influencers closely under direction. Whether it's blog entries, YouTube videos, or Instagram posts, we make the material interesting and connect with the influencer's audience to produce the intended results."
+            },
+            {
+              "title": "Performance Monitoring and Analysis",
+              "description": "Our data-based method guarantees that we monitor and evaluate every influencer campaign. We monitor essential indicators, including engagement, reach, and conversions, to provide you with comprehensive analyses to assess return on investment and guide the next step."
+            },
+            {
+              "title": "Long-Term Relationship Development",
+              "description": "Our main goal is to build enduring connections with influencers capable of brand advocacy. These continuous alliances enable closer relationships with their consumers and, over time, provide constant value for your business."
+            }
+          ]
+        },
+        "whyChooseUs": {
+          "title": "Why Choose Us for Your Influencer Marketing Needs?",
+          "listItems": [
+            {
+              "title": "Extensive Industry Expertise",
+              "description": "Our team of influencer marketing experts has an in-depth understanding of several platforms and sectors. We know how to link your business with the appropriate voices to produce real and powerful campaigns, and we also know the subtleties of influencer relationships."
+            },
+            {
+              "title": "Creative Collaboration",
+              "description": "We take great satisfaction in developing original and exciting influencer marketing plans that fit your target market. Working closely with influencers, our creative team creates material that fits your business and enthralls and motivates its fans."
+            },
+            {
+              "title": "Data-Driven Decisions",
+              "description": "We use data to direct our influencer marketing efforts. Our method is based on statistics, so every influencer relationship and campaign choice maximises your business's goals and produces quantifiable results."
+            },
+            {
+              "title": "Customised Campaigns",
+              "description": "Our influencer marketing plans are as different as every business. Every campaign we create is based on your business's aims, character, and target demographic, thereby guaranteeing maximum relevance and efficiency in reaching your marketing goals."
+            }
+          ]
+        },
+        "callToAction": {
+          "title": "Ready to elevate your Influencer Marketing?",
+          "buttonText": "Contact Us"
+        }
+      }
     }
   ]
 }
