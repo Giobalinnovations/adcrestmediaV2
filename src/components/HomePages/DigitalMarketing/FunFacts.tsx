@@ -8,9 +8,9 @@ import borderImg from '../../../../public/images/digital-marketing/border1.png';
 const funFactsData = [
   {
     iconName: 'fa-solid fa-list-check',
-    number: '2546',
+    number: '100+',
     title: 'Project complete',
-    aosDelay: '100+',
+    aosDelay: '100',
   },
   {
     iconName: 'fa-solid fa-users',
@@ -20,9 +20,9 @@ const funFactsData = [
   },
   {
     iconName: 'fa-solid fa-people-group',
-    number: '',
+    number: '15',
     title: 'Qualified Staffs',
-    aosDelay: '15',
+    aosDelay: '300',
   },
 ];
 
