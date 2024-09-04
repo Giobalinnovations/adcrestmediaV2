@@ -1,10 +1,10 @@
 {
-  "pageTitle": "Contact Us",
-  "contactInfo": {
-    "title": "Get In Touch",
-    "description": "Want to succeed? We can show you the way. Contact us now to learn more about the individualised digital solutions we can provide to propel your company ahead.",
-    "email": "info@adcrestmedia.com",
-    "phone": "825-889-7071",
-    "address": "30 N Gould St Ste R Sheridan, WY 82801"
-  }
+    "pageTitle": "Contact Us",
+    "contactInfo": {
+        "title": "Get In Touch",
+        "description": "Want to succeed? We can show you the way. Contact us now to learn more about the individualised digital solutions we can provide to propel your company ahead.",
+        "email": "info@adcrestmedia.com",
+        "phone": "825-889-7071",
+        "address": "30 N Gould St Ste R Sheridan, WY 82801, USA"
+    }
 }
