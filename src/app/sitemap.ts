@@ -43,6 +43,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // priority: 0.8,
   }));
 
+  sitemap.push({
+    url: `${BASE_URL}/services/`,
+    lastModified: new Date(),
+    // priority: 0.7,
+  });
+
   services.cards.forEach(service => {
     sitemap.push({
       url: `${BASE_URL}/services/${service.servicesDetailsPageContent.slug}/`,
