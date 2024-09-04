@@ -36,7 +36,7 @@ import type { Metadata } from 'next';
 import { Inter, Saira } from 'next/font/google';
 import AosAnimation from '@/components/Layouts/AosAnimation';
 import GoTop from '@/components/Layouts/GoTop';
-
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
 // For all body text font
 const inter = Inter({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -55,6 +55,20 @@ const saira = Saira({
 export const metadata: Metadata = {
   title: 'Adcrest Media',
   description: 'Adcrest Media',
+  metadataBase: new URL('https://www.adcrestmedia.com'),
+
+  alternates: {
+    canonical: '/',
+  },
+  // keywords:
+  //   'visa application, apply for visa, online visa application, visa services, apply visa online, online visa, online visa services, e visa services, apply for e visa, Online visa services apply Today',
+
+  // openGraph: {
+  //   url: '/',
+  // },
+  verification: {
+    google: 'Qc3y83UBwkL-ik_NT222cOMI1rJJQRfuNiJ6Sb0x0ig',
+  },
 };
 
 export default function RootLayout({
@@ -71,6 +85,8 @@ export default function RootLayout({
 
         <GoTop />
         <ToastContainer />
+        <GoogleTagManager gtmId="G-V86SEW543P" />
+        <GoogleAnalytics gaId="G-V86SEW543P" />
       </body>
     </html>
   );
