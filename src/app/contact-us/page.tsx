@@ -3,9 +3,18 @@ import NavbarTwo from '../../components/Layouts/NavbarTwo';
 import PageBanner from '../../components/Common/PageBanner';
 import ContactInfo from '../../components/Contact/ContactInfo';
 import ContactForm from '../../components/Contact/ContactForm';
-import Newsletter from '../../components/Common/Newsletter';
 import Footer from '../../components/Layouts/Footer';
+import { Metadata } from 'next';
 
+export const metadata: Metadata = {
+  title: 'Adcrest Media -  Contact Us',
+  description: '',
+  metadataBase: new URL('https://www.adcrestmedia.com'),
+
+  alternates: {
+    canonical: '/contact-us/',
+  },
+};
 export default function Page() {
   return (
     <>

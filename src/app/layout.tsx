@@ -60,12 +60,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
-  // keywords:
-  //   'visa application, apply for visa, online visa application, visa services, apply visa online, online visa, online visa services, e visa services, apply for e visa, Online visa services apply Today',
 
-  // openGraph: {
-  //   url: '/',
-  // },
   verification: {
     google: 'Qc3y83UBwkL-ik_NT222cOMI1rJJQRfuNiJ6Sb0x0ig',
   },
