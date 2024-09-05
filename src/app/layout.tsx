@@ -53,12 +53,18 @@ const saira = Saira({
 });
 
 export const metadata: Metadata = {
-  title: 'Adcrest Media',
-  description: 'Adcrest Media',
+  title: 'Adcrest Media: Best Digital Marketing Company & Agency in USA',
+  description: `Adcrest Media is a US based digital marketing company & agency. We offer customized digital marketing services & ideas to grow your business. LET'S WORK TOGETHER FOR A BETTER GROWTH.`,
+  keywords:
+    'digital marketing agency, Digital Marketing Company, Marketing Agency, Digital Marketing Agencies, Digital Marketing Company in USA, best digital marketing agency in usa, digital marketing services in usa',
+
   metadataBase: new URL('https://www.adcrestmedia.com'),
 
   alternates: {
     canonical: '/',
+    languages: {
+      'en-us': 'https://www.adcrestmedia.com',
+    },
   },
 
   verification: {
@@ -72,7 +78,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en-us">
       <body className={`${inter.variable} ${saira.variable}`}>
         {children}
 
