@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
     languages: {
-      'en-us': 'https://www.adcrestmedia.com',
+      'en-US': 'https://www.adcrestmedia.com',
     },
   },
 
