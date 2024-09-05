@@ -25,7 +25,7 @@ export async function generateMetadata({
     }
 
     return {
-      title: `${service?.metadata?.title ?? service?.title} - Adcrest Media`,
+      title: `${service?.metadata?.title ?? service?.title}`,
       description: service?.metadata?.description ?? '',
       keywords: service?.metadata?.keywords ?? '',
       metadataBase: new URL('https://www.adcrestmedia.com'),
