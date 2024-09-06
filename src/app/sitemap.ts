@@ -7,7 +7,7 @@ const BASE_URL = 'https://www.adcrestmedia.com';
 function getPages(dir: string, baseRoute: string = ''): string[] {
   const files = fs.readdirSync(dir);
   let routes: string[] = [];
-
+  //
   for (const file of files) {
     const filePath = path.join(dir, file);
     const stat = fs.statSync(filePath);
