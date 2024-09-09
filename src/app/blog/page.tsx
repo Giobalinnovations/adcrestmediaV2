@@ -8,7 +8,7 @@ import { Blog, BlogResponse } from '@/lib/types';
 
 async function getBlogs(): Promise<BlogResponse> {
   try {
-    const res = await fetch('http://localhost:8090/api/v1/blogs', {
+    const res = await fetch(`${process.env.API_URL}/blogs/`, {
       next: { revalidate: 3600 }, // Revalidate every hour
     });
 
@@ -19,7 +19,8 @@ async function getBlogs(): Promise<BlogResponse> {
     return res.json();
   } catch (error) {
     console.error(error);
-    return { message: 'Error fetching blogs', results: 0, data: [] };
+    throw new Error('Failed to fetch blogs');
+    // return { message: 'Error fetching blogs', results: 0, data: [] };
   }
 }
 export default async function BlogsPage() {
@@ -29,7 +30,7 @@ export default async function BlogsPage() {
     <>
       <NavbarTwo />
 
-      <PageBanner pageTitle="Blog Grid" BGImage="/images/page-banner3.jpg" />
+      <PageBanner pageTitle="Blog" BGImage="/images/page-banner3.jpg" />
 
       <BlogGridThree blogs={blogs} />
 

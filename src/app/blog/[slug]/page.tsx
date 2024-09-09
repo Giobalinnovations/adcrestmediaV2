@@ -3,7 +3,7 @@ import NavbarTwo from '../../../components/Layouts/NavbarTwo';
 import PageBanner from '../../../components/Common/PageBanner';
 import BlogDetailsContent from '../../../components/Blog/BlogDetailsContent';
 import Footer from '../../../components/Layouts/Footer';
-import { Blog } from '@/lib/types';
+import { Blog, SingleBlogResponse } from '@/lib/types';
 
 // Define the type for the blog post
 interface BlogPost {
@@ -17,7 +17,7 @@ interface BlogPost {
 // This function gets called at build time and also on-demand
 export async function generateStaticParams() {
   // Fetch all blog post ids
-  const res = await fetch('http://localhost:8090/api/v1/blogs');
+  const res = await fetch(`${process.env.API_URL}/blogs`);
   const posts = await res.json();
 
   // Return an array of objects with slug params
@@ -27,8 +27,8 @@ export async function generateStaticParams() {
 }
 
 // This function gets called at build time and also on-demand
-async function getBlogPost(slug: string): Promise<Blog> {
-  const res = await fetch(`http://localhost:8090/api/v1/blogs/${slug}`, {
+async function getBlogPost(slug: string): Promise<SingleBlogResponse> {
+  const res = await fetch(`${process.env.API_URL}/blogs/${slug}`, {
     next: { revalidate: 60 }, // Revalidate every 60 seconds
   });
 
@@ -50,7 +50,10 @@ export default async function BlogsDetailsPage({
     <>
       <NavbarTwo />
 
-      <PageBanner pageTitle={post.title} BGImage="/images/page-banner2.jpg" />
+      <PageBanner
+        pageTitle={post?.data?.title}
+        BGImage="/images/page-banner2.jpg"
+      />
 
       <BlogDetailsContent post={post} />
 

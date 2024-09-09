@@ -1,4 +1,4 @@
-'use client';
+// 'use client';
 
 import React from 'react';
 import Link from 'next/link';
@@ -7,9 +7,11 @@ import Image from 'next/image';
 
 import { SingleBlogResponse } from '@/lib/types';
 
-const BlogRightSidebar = ({ post }: { post: SingleBlogResponse }) => {
-  console.log(post);
-
+export default function BlogRightSidebar({
+  post,
+}: {
+  post: SingleBlogResponse;
+}) {
   return (
     <>
       <div className="blog-area ptb-100">
@@ -43,7 +45,7 @@ const BlogRightSidebar = ({ post }: { post: SingleBlogResponse }) => {
                   />
 
                   {/* Category */}
-                  <ul className="category">
+                  {/* <ul className="category">
                     <li>
                       <span>Tags:</span>
                     </li>
@@ -59,19 +61,19 @@ const BlogRightSidebar = ({ post }: { post: SingleBlogResponse }) => {
                     <li>
                       <Link href="/blog">Design</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
 
               {/* Post controls */}
-              <div className="post-controls-buttons">
+              {/* <div className="post-controls-buttons">
                 <div>
                   <Link href="#">Prev Post</Link>
                 </div>
                 <div>
                   <Link href="#">Next Post</Link>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="col-lg-4 col-md-12">
@@ -84,6 +86,4 @@ const BlogRightSidebar = ({ post }: { post: SingleBlogResponse }) => {
       </div>
     </>
   );
-};
-
-export default BlogRightSidebar;
+}

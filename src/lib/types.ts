@@ -34,3 +34,22 @@ export type SingleBlogResponse = {
   message: string;
   data: Blog;
 };
+
+export type Category = {
+  _id: string;
+  name: string;
+  blogs: string[];
+  createdAt?: Date;
+  updatedAt?: Date;
+  __v?: number;
+};
+
+export type CategoryResponse = {
+  message: string;
+  data: Category[];
+};
+
+export type SingCategoryResponse = {
+  message: string;
+  data: Category[];
+};

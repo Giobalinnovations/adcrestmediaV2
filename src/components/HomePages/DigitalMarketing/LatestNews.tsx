@@ -8,7 +8,7 @@ import { Blog, BlogResponse } from '@/lib/types';
 
 async function getBlogs(): Promise<BlogResponse> {
   try {
-    const res = await fetch('http://localhost:8090/api/v1/blogs', {
+    const res = await fetch(`${process.env.API_URL}/blogs`, {
       next: { revalidate: 3600 }, // Revalidate every hour
     });
 
@@ -22,39 +22,6 @@ async function getBlogs(): Promise<BlogResponse> {
     return { message: 'Error fetching blogs', results: 0, data: [] };
   }
 }
-
-const latestNewsData = [
-  {
-    image: '/images/blog/blog7.jpg',
-    title: 'The Most Popular New top Business Apps',
-    date: 'Feb 15, 2023',
-    category: 'Technology',
-    shortText:
-      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.',
-    detailsLink: '/blog/blog-details/',
-    aosDelay: '100',
-  },
-  {
-    image: '/images/blog/blog8.jpg',
-    title: 'The Best Marketing top use Management Tools',
-    date: 'Feb 16, 2023',
-    category: 'Agency',
-    shortText:
-      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.',
-    detailsLink: '/blog/blog-details/',
-    aosDelay: '200',
-  },
-  {
-    image: '/images/blog/blog9.jpg',
-    title: '3 WooCommerce Plugins to Boost Sales',
-    date: 'Feb 17, 2023',
-    category: 'IT Agency',
-    shortText:
-      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.',
-    detailsLink: '/blog/blog-details/',
-    aosDelay: '300',
-  },
-];
 
 const LatestNews = async () => {
   const blogs = await getBlogs();
