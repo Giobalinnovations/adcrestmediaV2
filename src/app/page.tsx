@@ -7,6 +7,7 @@ import FunFacts from '../components/HomePages/DigitalMarketing/FunFacts';
 import CtaArea from '../components/Common/CtaArea';
 import Footer from '../components/Layouts/Footer';
 import BestServices from '@/components/HomePages/StartupAgency/BestServices';
+import LatestNews from '@/components/HomePages/DigitalMarketing/LatestNews';
 
 export default function HomePage() {
   return (
@@ -23,6 +24,7 @@ export default function HomePage() {
 
       <FunFacts />
 
+      <LatestNews />
       <CtaArea />
 
       <Footer />
