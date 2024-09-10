@@ -45,7 +45,7 @@ export default async function BlogsDetailsPage({
   params: { slug: string };
 }) {
   const post = await getBlogPost(params.slug);
-  console.log(post);
+
   return (
     <>
       <NavbarTwo />

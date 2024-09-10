@@ -6,7 +6,6 @@ import Image from 'next/image';
 import { Blog, BlogResponse } from '@/lib/types';
 
 const BlogGrid = ({ blogs }: { blogs: BlogResponse }) => {
-  console.log(blogs.data);
   return (
     <>
       <div className="blog-area ptb-100">
