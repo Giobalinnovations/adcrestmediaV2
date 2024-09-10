@@ -35,12 +35,16 @@ const NavbarTwo: React.FC = () => {
 
   return (
     <>
-      <div id="navbar" className="navbar-area navbar-style-2">
+      <div
+        id="navbar"
+        className="navbar-area navbar-style-2"
+        style={{ zIndex: '10000' }}
+      >
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container-fluid">
             <Link
               href="/"
-              className="navbar-brand"
+              className="navbar-brand position-relative"
               style={{ width: '135px', height: 'auto' }}
             >
               <Image

@@ -1,155 +1,160 @@
 {
-    "app": {
-        "name": "AdcrestMedia",
-        "version": "1.0.0"
-    },
+  "app": {
+    "name": "AdcrestMedia",
+    "version": "1.0.0"
+  },
 
-    "siteSettings": {
-        "siteName": "AdcrestMedia",
-        "siteDescription": "AdcrestMedia",
-        "bgImage": "/img/bg.jpg",
-        "maintenanceMode": false,
-        "features": {
-            "darkMode": true,
-            "newsletter": true,
-            "blog": true
-        },
-        "socialMedia": {
-            "facebook": "https://www.facebook.com/people/Adcrest-Media/61564646192912/",
-            "twitter": "https://x.com/adcrestmedia",
-            "linkedin": "https://www.linkedin.com/posts/adcrest-media-235234324_affiliatemarketing-businessgrowth-marketingstrategy-activity-7234458248978845697-0zov?utm_source=share&utm_medium=member_desktop",
-            "instagram": "https://www.instagram.com/adcrestmedia/"
-        },
-        "contactInfo": {
-            "email": "info@adcrestmedia.com",
-            "phone": "+1 (825) 889-7071",
-            "address": "30 N Gould St Ste R Sheridan, WY 82801, USA"
-        }
+  "siteSettings": {
+    "siteName": "AdcrestMedia",
+    "siteDescription": "AdcrestMedia",
+    "bgImage": "/img/bg.jpg",
+    "maintenanceMode": false,
+    "features": {
+      "darkMode": true,
+      "newsletter": true,
+      "blog": true
     },
-    "branding": {
-        "logo": {
-            "src": "/images/logo.png",
-            "alt": "::APP_NAME:: Logo",
-            "width": 150,
-            "height": 50
-        }
+    "socialMedia": {
+      "facebook": "https://www.facebook.com/people/Adcrest-Media/61564646192912/",
+      "twitter": "https://x.com/adcrestmedia",
+      "linkedin": "https://www.linkedin.com/posts/adcrest-media-235234324_affiliatemarketing-businessgrowth-marketingstrategy-activity-7234458248978845697-0zov?utm_source=share&utm_medium=member_desktop",
+      "instagram": "https://www.instagram.com/adcrestmedia/"
+    },
+    "contactInfo": {
+      "email": "info@adcrestmedia.com",
+      "phone": "+1 (825) 889-7071",
+      "address": "30 N Gould St Ste R Sheridan, WY 82801, USA"
+    }
+  },
+  "branding": {
+    "logo": {
+      "src": "/images/logo.png",
+      "alt": "::APP_NAME:: Logo",
+      "width": 150,
+      "height": 50
+    }
+  },
+  "menu": {
+    "items": [
+      {
+        "id": "home",
+        "label": "Home",
+        "link": "/"
+      },
+      {
+        "id": "services",
+        "label": "Services",
+        "link": "/services",
+        "submenu": [
+          {
+            "label": "Affiliate Marketing",
+            "link": "/services/affiliate-marketing"
+          },
+          {
+            "label": "Lead Generation",
+            "link": "/services/lead-generation"
+          },
+          {
+            "label": "PPC (Pay-Per-Call)",
+            "link": "/services/ppc-pay-per-call"
+          },
+          {
+            "label": "Website Design and Development",
+            "link": "/services/website-design-and-development"
+          },
+          {
+            "label": "SEO (Search Engine Optimization)",
+            "link": "/services/seo-search-engine-optimization"
+          },
+
+          {
+            "label": "Content Marketing",
+            "link": "/services/content-marketing/"
+          },
+          {
+            "label": "Email Marketing",
+            "link": "/services/email-marketing/"
+          },
+          {
+            "label": "Influencer Marketing",
+            "link": "/services/influencer-marketing/"
+          }
+        ]
+      },
+      {
+        "id": "about",
+        "label": "About Us",
+        "link": "/about"
+      },
+
+      {
+        "id": "contact",
+        "label": "Contact",
+        "link": "/contact-us"
+      },
+      {
+        "id": "blog",
+        "label": "Blog",
+        "link": "/blog"
+      }
+    ]
+  },
+  "footer": {
+    "about": {
+      "description": "Enhancing your brand with creative digital marketing ideas"
     },
     "menu": {
-        "items": [
-            {
-                "id": "home",
-                "label": "Home",
-                "link": "/"
-            },
-            {
-                "id": "services",
-                "label": "Services",
-                "link": "/services",
-                "submenu": [
-                    {
-                        "label": "Affiliate Marketing",
-                        "link": "/services/affiliate-marketing"
-                    },
-                    {
-                        "label": "Lead Generation",
-                        "link": "/services/lead-generation"
-                    },
-                    {
-                        "label": "PPC (Pay-Per-Call)",
-                        "link": "/services/ppc-pay-per-call"
-                    },
-                    {
-                        "label": "Website Design and Development",
-                        "link": "/services/website-design-and-development"
-                    },
-                    {
-                        "label": "SEO (Search Engine Optimization)",
-                        "link": "/services/seo-search-engine-optimization"
-                    },
-
-                    {
-                        "label": "Content Marketing",
-                        "link": "/services/content-marketing/"
-                    },
-                    {
-                        "label": "Email Marketing",
-                        "link": "/services/email-marketing/"
-                    },
-                    {
-                        "label": "Influencer Marketing",
-                        "link": "/services/influencer-marketing/"
-                    }
-                ]
-            },
-            {
-                "id": "about",
-                "label": "About Us",
-                "link": "/about"
-            },
-
-            {
-                "id": "contact",
-                "label": "Contact",
-                "link": "/contact-us"
-            }
-        ]
+      "explore": [
+        {
+          "label": "Home",
+          "link": "/"
+        },
+        {
+          "label": "About",
+          "link": "/about/"
+        },
+        {
+          "label": "Services",
+          "link": "/services/"
+        }
+      ],
+      "quickLinks": [
+        {
+          "label": "Contact Us",
+          "link": "/contact-us/"
+        },
+        {
+          "label": "Privacy Policy",
+          "link": "/privacy-policy/"
+        },
+        {
+          "label": "Terms & Conditions",
+          "link": "/terms-conditions/"
+        }
+      ]
     },
-    "footer": {
-        "about": {
-            "description": "Enhancing your brand with creative digital marketing ideas"
-        },
-        "menu": {
-            "explore": [
-                {
-                    "label": "Home",
-                    "link": "/"
-                },
-                {
-                    "label": "About",
-                    "link": "/about/"
-                },
-                {
-                    "label": "Services",
-                    "link": "/services/"
-                }
-            ],
-            "quickLinks": [
-                {
-                    "label": "Contact Us",
-                    "link": "/contact-us/"
-                },
-                {
-                    "label": "Privacy Policy",
-                    "link": "/privacy-policy/"
-                },
-                {
-                    "label": "Terms & Conditions",
-                    "link": "/terms-conditions/"
-                }
-            ]
-        },
-        "copyright": "© 2024 AdcrestMedia. All rights reserved.",
-        "socialLinks": [
-            {
-                "platform": "Facebook",
-                "url": "https://www.facebook.com/people/Adcrest-Media/61564646192912/",
-                "icon": "fa-brands fa-facebook-f"
-            },
-            {
-                "platform": "Twitter",
-                "url": "https://x.com/adcrestmedia",
-                "icon": "fa-brands fa-twitter"
-            },
-            {
-                "platform": "LinkedIn",
-                "url": "https://www.linkedin.com/posts/adcrest-media-235234324_affiliatemarketing-businessgrowth-marketingstrategy-activity-7234458248978845697-0zov?utm_source=share&utm_medium=member_desktop",
-                "icon": "fa-brands fa-linkedin-in"
-            },
-            {
-                "platform": "Instagram",
-                "url": "https://www.instagram.com/adcrestmedia/",
-                "icon": "fa-brands fa-instagram"
-            }
-        ]
-    }
+    "copyright": "© 2024 AdcrestMedia. All rights reserved.",
+    "socialLinks": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/people/Adcrest-Media/61564646192912/",
+        "icon": "fa-brands fa-facebook-f"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://x.com/adcrestmedia",
+        "icon": "fa-brands fa-twitter"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/posts/adcrest-media-235234324_affiliatemarketing-businessgrowth-marketingstrategy-activity-7234458248978845697-0zov?utm_source=share&utm_medium=member_desktop",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/adcrestmedia/",
+        "icon": "fa-brands fa-instagram"
+      }
+    ]
+  }
 }
