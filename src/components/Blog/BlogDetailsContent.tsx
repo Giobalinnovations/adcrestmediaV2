@@ -1,11 +1,11 @@
 // 'use client';
 
 import React from 'react';
-import Link from 'next/link';
 import BlogSidebar from './BlogSidebar';
 import Image from 'next/image';
 
 import { SingleBlogResponse } from '@/lib/types';
+import FaqContent from '../Faq/FaqContent';
 
 export default function BlogRightSidebar({
   post,
@@ -80,6 +80,14 @@ export default function BlogRightSidebar({
               <div className="pl-20">
                 <BlogSidebar />
               </div>
+            </div>
+
+            <div className="col-12">
+              <div className="text-center pt-5">
+                <span className="app-sub-title">FAQ</span>
+                <h2>Frequently Asked Question</h2>
+              </div>
+              <FaqContent faqs={post?.data?.faqs ?? []} />
             </div>
           </div>
         </div>
