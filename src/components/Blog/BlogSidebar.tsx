@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Blog, BlogResponse, Category, CategoryResponse } from '@/lib/types';
-
+// import ContactForm from '@/components/Contact/ContactForm';
 async function getRecentBlogs(): Promise<BlogResponse> {
   try {
     const res = await fetch(
@@ -77,6 +77,8 @@ export default async function BlogSidebar() {
               </li>
             ))}
           </ul>
+
+          {/* <ContactForm /> */}
         </div>
       </div>
     </>

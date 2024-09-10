@@ -27,6 +27,10 @@ export type Blog = {
   count: number;
   createdAt: string;
   updatedAt: string;
+  faqs: {
+    question: string;
+    answer: string;
+  }[];
   __v: number;
 };
 
