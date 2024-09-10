@@ -4,15 +4,8 @@ import PageBanner from '../../../components/Common/PageBanner';
 import BlogDetailsContent from '../../../components/Blog/BlogDetailsContent';
 import Footer from '../../../components/Layouts/Footer';
 import { Blog, SingleBlogResponse } from '@/lib/types';
-
-// Define the type for the blog post
-interface BlogPost {
-  message: string;
-  success: boolean;
-  data: Blog;
-
-  // Add other fields as needed
-}
+import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 
 // This function gets called at build time and also on-demand
 export async function generateStaticParams() {
@@ -39,6 +32,30 @@ async function getBlogPost(slug: string): Promise<SingleBlogResponse> {
   return res.json();
 }
 
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  const post = await getBlogPost(params.slug);
+
+  if (!post) {
+    return notFound();
+  }
+
+  return {
+    title: post.data.title,
+    description: post.data.description || 'Read our latest blog post',
+    keywords: '',
+
+    metadataBase: new URL('https://www.adcrestmedia.com'),
+
+    alternates: {
+      canonical: `/blog/${post.data.slug}/`,
+    },
+  };
+}
+
 export default async function BlogsDetailsPage({
   params,
 }: {
@@ -50,10 +67,7 @@ export default async function BlogsDetailsPage({
     <>
       <NavbarTwo />
 
-      <PageBanner
-        pageTitle={post?.data?.title}
-        BGImage="/images/page-banner2.jpg"
-      />
+      <PageBanner pageTitle="" BGImage="" className="pb-8 pt-0" />
 
       <BlogDetailsContent post={post} />
 
