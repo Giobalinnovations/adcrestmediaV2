@@ -55,6 +55,7 @@ const NavbarTwo: React.FC = () => {
                 alt="logo"
                 style={{ objectFit: 'cover' }}
               />
+              {/*  */}
             </Link>
 
             {/* Toggle navigation */}
