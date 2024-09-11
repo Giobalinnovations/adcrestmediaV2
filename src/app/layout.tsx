@@ -37,6 +37,7 @@ import { Inter, Saira } from 'next/font/google';
 import AosAnimation from '@/components/Layouts/AosAnimation';
 import GoTop from '@/components/Layouts/GoTop';
 import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
+import Script from 'next/script';
 // For all body text font
 const inter = Inter({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -88,6 +89,83 @@ export default function RootLayout({
         <ToastContainer />
         <GoogleTagManager gtmId="G-V86SEW543P" />
         <GoogleAnalytics gaId="G-V86SEW543P" />
+        <Script
+          id="structured-data"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify([
+              {
+                '@context': 'https://schema.org',
+                '@type': 'Organization',
+                name: 'Adcrest Media',
+                url: 'https://www.adcrestmedia.com',
+                logo: 'https://www.adcrestmedia.com/logo.png',
+                contactPoint: {
+                  '@type': 'ContactPoint',
+                  telephone: '+1-800-123-4567',
+                  contactType: 'Customer Service',
+                  areaServed: 'US',
+                  availableLanguage: 'English',
+                },
+                sameAs: [
+                  'https://www.facebook.com/adcrestmedia',
+                  'https://www.linkedin.com/company/adcrest-media',
+                  'https://twitter.com/adcrestmedia',
+                ],
+                founder: {
+                  '@type': 'Person',
+                  name: 'Founder Name',
+                },
+                address: {
+                  '@type': 'PostalAddress',
+                  streetAddress: '1234 Digital Lane',
+                  addressLocality: 'New York',
+                  addressRegion: 'NY',
+                  postalCode: '10001',
+                  addressCountry: 'US',
+                },
+              },
+              {
+                '@context': 'https://schema.org',
+                '@type': 'Service',
+                serviceType: 'Digital Marketing Services',
+                provider: {
+                  '@type': 'Organization',
+                  name: 'AdCrest Media',
+                  url: 'https://www.adcrestmedia.com',
+                  logo: 'https://www.adcrestmedia.com/logo.png',
+                  contactPoint: {
+                    '@type': 'ContactPoint',
+                    telephone: '+1-123-456-7890',
+                    contactType: 'Customer Service',
+                    areaServed: 'US',
+                    availableLanguage: 'English',
+                  },
+                  sameAs: [
+                    'https://www.facebook.com/adcrestmedia',
+                    'https://www.linkedin.com/company/adcrestmedia',
+                  ],
+                },
+                description:
+                  'AdCrest Media offers comprehensive digital marketing services, including SEO, PPC, social media marketing, and web design to help businesses grow their online presence.',
+                areaServed: {
+                  '@type': 'Place',
+                  name: 'United States',
+                },
+                offers: {
+                  '@type': 'Offer',
+                  priceCurrency: 'USD',
+                  price: '',
+                  url: 'https://www.adcrestmedia.com/services',
+                  eligibleRegion: {
+                    '@type': 'Place',
+                    name: 'United States',
+                  },
+                },
+              },
+            ]),
+          }}
+        />
       </body>
     </html>
   );
