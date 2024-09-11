@@ -6185,6 +6185,16 @@ span.new {
 
 // blog content
 .blog-details {
+  a {
+    text-decoration: underline;
+    color: $main-color !important;
+    & > * {
+      color: $main-color !important;
+    }
+    span {
+      color: $main-color !important;
+    }
+  }
   h1,
   h2,
   h3,
