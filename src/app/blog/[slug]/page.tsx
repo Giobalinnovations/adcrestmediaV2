@@ -45,9 +45,9 @@ export async function generateMetadata({
   }
 
   return {
-    title: post.data.title,
-    description: post.data.description || 'Read our latest blog post',
-    keywords: '',
+    title: post?.data?.title ?? '',
+    description: post?.data?.description ?? '',
+    keywords: post?.data?.keywords ?? '',
 
     metadataBase: new URL('https://www.adcrestmedia.com'),
 
