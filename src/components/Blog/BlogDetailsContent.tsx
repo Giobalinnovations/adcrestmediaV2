@@ -38,6 +38,12 @@ export default function BlogRightSidebar({
                     </li>
                   </ul>
 
+                  {/* H1 heading */}
+                  <h1>
+                    <strong>{post?.data?.heading}</strong>
+                  </h1>
+                  {/* H1 heading code end here */}
+
                   <div
                     dangerouslySetInnerHTML={{
                       __html: post?.data?.content ?? '',

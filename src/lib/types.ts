@@ -31,6 +31,8 @@ export type Blog = {
     question: string;
     answer: string;
   }[];
+  keywords: string;
+  heading: string;
   __v: number;
 };
 
