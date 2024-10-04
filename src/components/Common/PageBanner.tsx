@@ -20,7 +20,7 @@ const PageBanner: React.FC<PageBannerProps> = ({
         <div className="d-table">
           <div className="d-table-cell">
             <div className="container">
-              <h2>{pageTitle}</h2>
+              <h1 className="text-white">{pageTitle}</h1>
             </div>
           </div>
         </div>
