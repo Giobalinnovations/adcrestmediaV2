@@ -69,7 +69,7 @@ export default function ServicesDetailsPage({
         pageTitle={servicesDetailsPageContent?.heroTitle ?? ''}
         BGImage={service?.image ?? ''}
       />
-
+      {/*  */}
       <ServiceDetailsContent service={servicesDetailsPageContent} />
 
       <CtaAreaTwo servicesDetailsPageContent={servicesDetailsPageContent} />
