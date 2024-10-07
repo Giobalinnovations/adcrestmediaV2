@@ -5,11 +5,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Blog, BlogResponse } from '@/lib/types';
 // import { Blog } from '@/types/blog';
-
+export const revalidate = 10;
 async function getBlogs(): Promise<BlogResponse> {
   try {
     const res = await fetch(`${process.env.API_URL}/blogs`, {
-      next: { revalidate: 3600 }, // Revalidate every hour
+      // next: { revalidate: 10 }, // Revalidate every hour
+      cache: 'no-store',
     });
 
     if (!res.ok) {
@@ -67,10 +68,18 @@ const LatestNews = async () => {
                         {new Date(blog?.createdAt).toLocaleDateString()}
                       </span>
                       <h3 style={{ textTransform: 'capitalize' }}>
-                        <Link href={`/blog/${blog.slug}/`}>{blog.title}</Link>
+                        <Link href={`/blog/${blog.slug}/`}>
+                          {blog.title.length > 50
+                            ? blog.title.slice(0, 50) + '...'
+                            : blog.title}
+                        </Link>
                       </h3>
 
-                      <p>{blog?.excerpt}</p>
+                      <p>
+                        {blog?.excerpt?.length > 160
+                          ? blog?.excerpt?.slice(0, 160) + '...'
+                          : blog?.excerpt}
+                      </p>
 
                       <Link
                         href={`/blog/${blog.slug}/`}
