@@ -16,20 +16,20 @@
                 "heroTitle": "Affiliate Marketing Services in USA ",
                 "heroBanner": "/images/page-banner1.jpg",
                 "approach": {
-                    "title": "Our Approach to Affiliate Marketing",
-                    "description": "At Adcrest Media, our team works closely with you to develop a customized affiliate marketing strategy that aligns with your business goals and target audience. We handle every aspect of your affiliate program, from recruiting top-performing affiliates to managing relationships and optimizing performance."
+                    "title": "What is Affiliate marketing?",
+                    "description": "Affiliate marketing is the process of actually partnering with affiliates to drive business. It is a performance-based technique that will help companies reach wider audiences by offering them commission after sales or leads garnered by the affiliate. From this angle, it can be looked at as a form of 'cost-effective' traffic building, brand awareness, and revenue generation through trusted partnership arrangements."
                 },
                 "expertise": {
-                    "title": "We deliver expertise",
+                    "title": "Our Approach to Affiliate Marketing",
                     "listItems": [
                         {
-                            "title": "Data-Driven Tactic",
-                            "description": "Our affiliates at Adcrest Media use data-driven approaches to create affiliate marketing programs. Using analytics and insights, we help develop solutions that can work for your company in meeting those specific needs or objectives in a campaign",
+                            "title": "Data-Driven Tactics",
+                            "description": "Our affiliates at Adcrest Media use data-driven approaches to create affiliate marketing programs. Using analytics and insights, we help develop solutions that can work for your company in meeting those specific needs or objectives in a campaign. ",
                             "aosDelay": 100
                         },
                         {
-                            "title": "Affiliates with High-Performance Capabilitie",
-                            "description": "We strive to develop and maintain great relationships with high-performance affiliates. So, you will be getting partnerships that ensure growth, credibility, and maximum reach for your affiliate marketing campaign.",
+                            "title": "Affiliates with High-Performance Capabilities",
+                            "description": "We strive to develop and maintain great relationships with high-performance affiliates. So, you will be getting partnerships that ensure growth, credibility, and maximum reach for your affiliate marketing campaign. ",
                             "aosDelay": 200
                         },
                         {
@@ -38,8 +38,8 @@
                             "aosDelay": 300
                         },
                         {
-                            "title": "Quality and Integrity Commitmen",
-                            "description": "Quality and integrity lie at the very heart of who we are: we take carefully managed affiliate programs and channels to drive impactful results for you. Sustainable growth for your business is a result of this kind of commitmen",
+                            "title": "Quality and Integrity Commitment",
+                            "description": "Quality and integrity lie at the very heart of who we are: we take carefully managed affiliate programs and channels to drive impactful results for you. Sustainable growth for your business is a result of this kind of commitment",
                             "aosDelay": 400
                         }
                     ]
