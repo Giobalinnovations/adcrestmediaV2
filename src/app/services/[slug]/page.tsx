@@ -25,10 +25,10 @@ export async function generateMetadata({
     }
 
     return {
-      title: `${service?.title} - Adcrest Media`,
-      description: '',
+      title: `${service?.metadata?.title ?? service?.title}`,
+      description: service?.metadata?.description ?? '',
+      keywords: service?.metadata?.keywords ?? '',
       metadataBase: new URL('https://www.adcrestmedia.com'),
-
       alternates: {
         canonical: `/services/${
           service?.servicesDetailsPageContent?.slug ?? ''
@@ -69,7 +69,7 @@ export default function ServicesDetailsPage({
         pageTitle={servicesDetailsPageContent?.heroTitle ?? ''}
         BGImage={service?.image ?? ''}
       />
-
+      {/*  */}
       <ServiceDetailsContent service={servicesDetailsPageContent} />
 
       <CtaAreaTwo servicesDetailsPageContent={servicesDetailsPageContent} />

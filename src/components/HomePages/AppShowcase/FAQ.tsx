@@ -1,17 +1,17 @@
-"use client";
+'use client';
 
-import React from "react";
+import React from 'react';
 import {
   Accordion,
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,
   AccordionItemPanel,
-} from "react-accessible-accordion";
-import Link from "next/link";
-import Image from "next/image";
+} from 'react-accessible-accordion';
+import Link from 'next/link';
+import Image from 'next/image';
 
-import faqApp from "../../../../public/images/app/faq-app.jpg";
+import faqApp from '../../../../public/images/app/faq-app.jpg';
 
 const FAQ: React.FC = () => {
   return (
@@ -31,12 +31,7 @@ const FAQ: React.FC = () => {
                 data-aos-duration="1000"
                 data-aos-delay="100"
               >
-                <Image
-                  src={faqApp}
-                  alt="Image"
-                  width={1000}
-                  height={857}
-                />
+                <Image src={faqApp} alt="Image" width={1000} height={857} />
 
                 <Link href="/contact-us/" className="app-default-btn">
                   Have you any question?
@@ -51,7 +46,7 @@ const FAQ: React.FC = () => {
                 data-aos-duration="1000"
                 data-aos-delay="200"
               >
-                <Accordion allowZeroExpanded preExpanded={["a"]}>
+                <Accordion allowZeroExpanded preExpanded={['a']}>
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
                       <AccordionItemButton>
@@ -62,8 +57,8 @@ const FAQ: React.FC = () => {
                       <p>
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
-                        industry&apos;s standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type.
+                        industry&apos;s standard dummy text ever since the
+                        1500s, when an unknown printer took a galley of type.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -78,8 +73,8 @@ const FAQ: React.FC = () => {
                       <p>
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
-                        industry&apos;s standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type.
+                        industry&apos;s standard dummy text ever since the
+                        1500s, when an unknown printer took a galley of type.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -94,8 +89,8 @@ const FAQ: React.FC = () => {
                       <p>
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
-                        industry&apos;s standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type.
+                        industry&apos;s standard dummy text ever since the
+                        1500s, when an unknown printer took a galley of type.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -110,8 +105,8 @@ const FAQ: React.FC = () => {
                       <p>
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
-                        industry&apos;s standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type.
+                        industry&apos;s standard dummy text ever since the
+                        1500s, when an unknown printer took a galley of type.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -126,8 +121,8 @@ const FAQ: React.FC = () => {
                       <p>
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
-                        industry&apos;s standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type.
+                        industry&apos;s standard dummy text ever since the
+                        1500s, when an unknown printer took a galley of type.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>

@@ -2,8 +2,10 @@ import { MetadataRoute } from 'next';
 import fs from 'fs';
 import path from 'path';
 import services from '../../src/data/sectionsData/home/what-we-do.json';
+import { BlogResponse } from '@/lib/types';
+
 const BASE_URL = 'https://www.adcrestmedia.com';
-// TODO: Handle dynamic blog slug same as serices page slug
+
 function getPages(dir: string, baseRoute: string = ''): string[] {
   const files = fs.readdirSync(dir);
   let routes: string[] = [];
@@ -17,7 +19,8 @@ function getPages(dir: string, baseRoute: string = ''): string[] {
         file !== 'api' &&
         !file.startsWith('_') &&
         !file.startsWith('.') &&
-        file !== 'services'
+        file !== 'services' &&
+        file !== 'blog'
       ) {
         routes = routes.concat(getPages(filePath, path.join(baseRoute, file)));
       }
@@ -33,28 +36,66 @@ function getPages(dir: string, baseRoute: string = ''): string[] {
   return routes;
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
+async function getBlogs(): Promise<BlogResponse> {
+  try {
+    const res = await fetch(`${process.env.API_URL}/blogs/`, {
+      next: { revalidate: 3600 }, // Revalidate every hour
+    });
+
+    if (!res.ok) {
+      throw new Error('Failed to fetch blogs');
+    }
+
+    return res.json();
+  } catch (error) {
+    console.error('Error fetching blogs:', error);
+    return { message: 'Error fetching blogs', results: 0, data: [] };
+  }
+}
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  let blogs: BlogResponse;
+  try {
+    blogs = await getBlogs();
+  } catch (error) {
+    console.error('Error in sitemap generation:', error);
+    blogs = { message: 'Error fetching blogs', results: 0, data: [] };
+  }
+
   const appDir = path.join(process.cwd(), 'src/app');
   const routes = getPages(appDir);
 
   const sitemap: MetadataRoute.Sitemap = routes.map(route => ({
     url: `${BASE_URL}${route === '' ? '/' : `/${route}/`}`,
     lastModified: new Date(),
-    // priority: 0.8,
   }));
+
+  blogs.data.forEach(blog => {
+    sitemap.push({
+      url: `${BASE_URL}/blog/${blog.slug}/`,
+      lastModified: new Date(),
+    });
+  });
 
   sitemap.push({
     url: `${BASE_URL}/services/`,
     lastModified: new Date(),
-    // priority: 0.7,
+  });
+  sitemap.push({
+    url: `${BASE_URL}/blog/`,
+    lastModified: new Date(),
   });
 
   services.cards.forEach(service => {
-    sitemap.push({
-      url: `${BASE_URL}/services/${service.servicesDetailsPageContent.slug}/`,
-      lastModified: new Date(),
-      // priority: 0.7,
-    });
+    if (
+      service.servicesDetailsPageContent &&
+      service.servicesDetailsPageContent.slug
+    ) {
+      sitemap.push({
+        url: `${BASE_URL}/services/${service.servicesDetailsPageContent.slug}/`,
+        lastModified: new Date(),
+      });
+    }
   });
 
   return sitemap;
