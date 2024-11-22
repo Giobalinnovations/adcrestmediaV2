@@ -15,6 +15,7 @@ const PageBanner: React.FC<PageBannerProps> = ({
 }) => {
   return (
     <>
+      {/*  */}
       <div
         className={`page-title-area ${className}`}
         style={{ backgroundImage: `url(${BGImage})` }}
