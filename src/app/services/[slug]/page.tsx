@@ -67,6 +67,7 @@ export default function ServicesDetailsPage({
 
       <PageBanner
         pageTitle={servicesDetailsPageContent?.heroTitle ?? ''}
+        pageDescription={servicesDetailsPageContent?.heroDescription ?? ''}
         BGImage={service?.image ?? ''}
       />
       {/*  */}
