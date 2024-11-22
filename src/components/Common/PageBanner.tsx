@@ -3,7 +3,7 @@
 interface PageBannerProps {
   pageTitle: string;
   BGImage: string;
-  pageDescription: string;
+  pageDescription?: string;
   className?: string;
 }
 
