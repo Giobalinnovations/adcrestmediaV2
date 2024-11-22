@@ -10,20 +10,46 @@ const ServiceDetailsContent = ({ service }: any) => {
             <div className="col-md-12">
               <div className="services-details-desc">
                 <div className="section-title mb-0">
+                  <h2>{service?.about?.title}</h2>
+                </div>
+                <p>{service?.about?.description}</p>
+              </div>
+            </div>
+            <div className="col-md-12">
+              <div className="services-details-desc">
+                <div className="section-title mb-0">
                   <h2>{service?.approach?.title}</h2>
                 </div>
-                <p>{service?.approach?.description}</p>
               </div>
+
+              {service?.approach?.listItems?.length > 0 ? (
+                <div className="approach-list">
+                  <div className="approach-grid">
+                    {service?.approach?.listItems.map(
+                      (item: any, index: number) => (
+                        <div
+                          key={index}
+                          className="approach-item"
+                          data-aos="fade-up"
+                          data-aos-duration="1000"
+                          data-aos-delay={index * 100}
+                        >
+                          <div className="approach-number">{index + 1}</div>
+                          <div className="approach-content">
+                            <h3>{item.title}</h3>
+                            <p>{item.description}</p>
+                          </div>
+                        </div>
+                      )
+                    )}
+                  </div>
+                </div>
+              ) : null}
             </div>
 
             <div className="col-md-12">
-              <div className="services-details-desc">
-                <ServiceSolutions expertise={service?.expertise} />
-              </div>
-            </div>
-            <div className="col-md-12">
-              <div className="services-details-desc">
-                <WhyChooseUs data={service?.whyChooseUs} />
+              <div className="services-details-desc pb-5">
+                <ServiceSolutions expertise={service?.whyChooseUs} />
               </div>
             </div>
           </div>
