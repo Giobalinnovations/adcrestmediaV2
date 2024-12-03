@@ -12,9 +12,9 @@ const CtaArea: React.FC = () => {
             <div className="col-lg-7 col-md-8">
               <div
                 className="cta-content"
-                data-aos="fade-in"
-                data-aos-duration="1000"
-                data-aos-delay="200"
+                // data-aos="fade-in"
+                // data-aos-duration="1000"
+                // data-aos-delay="200"
               >
                 <h3>
                   Ready to grow your business with expert digital marketing??
@@ -25,9 +25,9 @@ const CtaArea: React.FC = () => {
 
             <div
               className="col-lg-5 col-md-4"
-              data-aos="fade-in"
-              data-aos-duration="1000"
-              data-aos-delay="300"
+              // data-aos="fade-in"
+              // data-aos-duration="1000"
+              // data-aos-delay="300"
             >
               <div className="cta-btn-box">
                 <Link href="/contact-us/" className="btn btn-primary">

@@ -74,7 +74,7 @@ const Navbar: React.FC = () => {
                 alt="logo"
                 // width={140}
                 // height={30}
-
+                priority
                 style={{ objectFit: 'cover' }}
               />
             </Link>
