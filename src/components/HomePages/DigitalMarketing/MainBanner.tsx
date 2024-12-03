@@ -15,25 +15,25 @@ const MainBanner: React.FC = () => {
               <div className="marketing-banner-content">
                 <span
                   className="sub-title"
-                  data-aos="fade-in"
-                  data-aos-duration="1000"
-                  data-aos-delay="100"
+                  // data-aos="fade-in"
+                  // data-aos-duration="1000"
+                  // data-aos-delay="100"
                 >
                   {heroData?.subtitle}
                 </span>
 
                 <h1
-                  data-aos="fade-in"
-                  data-aos-duration="1000"
-                  data-aos-delay="200"
+                // data-aos="fade-in"
+                // data-aos-duration="1000"
+                // data-aos-delay="200"
                 >
                   {heroData?.title}
                 </h1>
 
                 <p
-                  data-aos="fade-in"
-                  data-aos-duration="1000"
-                  data-aos-delay="300"
+                  // data-aos="fade-in"
+                  // data-aos-duration="1000"
+                  // data-aos-delay="300"
                   dangerouslySetInnerHTML={{ __html: heroData?.description }}
                 >
                   {/* {heroData?.description} */}
@@ -43,9 +43,9 @@ const MainBanner: React.FC = () => {
                   <Link
                     href={heroData?.button?.linkTwo}
                     className="default-btn-two"
-                    data-aos="fade-in"
-                    data-aos-duration="1000"
-                    data-aos-delay="400"
+                    // data-aos="fade-in"
+                    // data-aos-duration="1000"
+                    // data-aos-delay="400"
                   >
                     {heroData?.button?.labelTwo}
                     <i className="fas fa-chevron-right"></i>
@@ -53,9 +53,9 @@ const MainBanner: React.FC = () => {
                   <Link
                     href={heroData?.button?.link}
                     className="default-btn-two"
-                    data-aos="fade-in"
-                    data-aos-duration="1000"
-                    data-aos-delay="400"
+                    // data-aos="fade-in"
+                    // data-aos-duration="1000"
+                    // data-aos-delay="400"
                   >
                     {heroData?.button?.label}{' '}
                     <i className="fas fa-chevron-right"></i>
@@ -67,15 +67,15 @@ const MainBanner: React.FC = () => {
             <div className="col-lg-6 col-md-12">
               <div
                 className="marketing-banner-image"
-                data-aos="fade-up"
-                data-aos-duration="1000"
+                // data-aos="fade-up"
+                // data-aos-duration="1000"
               >
                 <Image
                   src={heroData?.banner?.bannerImage ?? ''}
                   alt={heroData?.banner?.bannerImageAlt ?? ''}
                   width={703}
                   height={652}
-                  loading="lazy"
+                  priority
                   className="rounded"
                 />
               </div>
@@ -83,14 +83,15 @@ const MainBanner: React.FC = () => {
           </div>
         </div>
 
-        <div className="dm-shape1">
+        {/* <div className="dm-shape1">
           <Image
             src={heroData?.banner?.shapeImage ?? ''}
             alt={heroData?.banner?.shapeImageAlt ?? ''}
             width={600}
             height={533}
+            priority
           />
-        </div>
+        </div> */}
       </div>
     </>
   );

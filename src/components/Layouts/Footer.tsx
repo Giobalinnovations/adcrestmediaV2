@@ -19,9 +19,9 @@ const Footer: React.FC = () => {
             <div className="col-lg-3 col-sm-6">
               <div
                 className="single-footer-widget"
-                data-aos="fade-in"
-                data-aos-duration="1000"
-                data-aos-delay="100"
+                // data-aos="fade-in"
+                // data-aos-duration="1000"
+                // data-aos-delay="100"
               >
                 <div className="logo">
                   <Link href="/">
@@ -46,9 +46,9 @@ const Footer: React.FC = () => {
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div
                 className="single-footer-widget ml-4 pl-5"
-                data-aos="fade-in"
-                data-aos-duration="1000"
-                data-aos-delay="200"
+                // data-aos="fade-in"
+                // data-aos-duration="1000"
+                // data-aos-delay="200"
               >
                 <h3>Explore</h3>
 
@@ -66,9 +66,9 @@ const Footer: React.FC = () => {
             <div className="col-lg-3 col-sm-6">
               <div
                 className="single-footer-widget ml-4"
-                data-aos="fade-in"
-                data-aos-duration="1000"
-                data-aos-delay="300"
+                // data-aos="fade-in"
+                // data-aos-duration="1000"
+                // data-aos-delay="300"
               >
                 <h3>Quick Links</h3>
 
@@ -86,9 +86,9 @@ const Footer: React.FC = () => {
             <div className="col-lg-3 col-sm-6">
               <div
                 className="single-footer-widget"
-                data-aos="fade-in"
-                data-aos-duration="1000"
-                data-aos-delay="400"
+                // data-aos="fade-in"
+                // data-aos-duration="1000"
+                // data-aos-delay="400"
               >
                 <h3>Get in Touch</h3>
 
