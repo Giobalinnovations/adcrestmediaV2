@@ -72,7 +72,7 @@ const MainBanner: React.FC = () => {
               >
                 <div className="d-none d-md-block">
                   <Image
-                    src="https://res.cloudinary.com/datdyxl7o/image/upload/q_auto,c_fill,w_546,h_546/v1733202994/digital-marketing-solutions_qm4wgy.webp"
+                    src={heroData?.banner?.bannerImage ?? ''}
                     alt={heroData?.banner?.bannerImageAlt ?? ''}
                     width={546}
                     height={546}
@@ -82,7 +82,7 @@ const MainBanner: React.FC = () => {
                 </div>
                 <div className="d-block d-md-none">
                   <Image
-                    src="https://res.cloudinary.com/datdyxl7o/image/upload/q_auto,c_fill,w_310,h_310/v1733202994/digital-marketing-solutions_qm4wgy.webp"
+                    src={heroData?.banner?.bannerImageMobile ?? ''}
                     alt={heroData?.banner?.bannerImageAlt ?? ''}
                     width={310}
                     height={310}
