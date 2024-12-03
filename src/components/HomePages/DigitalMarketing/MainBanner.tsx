@@ -76,7 +76,7 @@ const MainBanner: React.FC = () => {
                     alt={heroData?.banner?.bannerImageAlt ?? ''}
                     width={546}
                     height={546}
-                    priority
+                    loading="lazy"
                     className="rounded"
                   />
                 </div>
@@ -86,7 +86,7 @@ const MainBanner: React.FC = () => {
                     alt={heroData?.banner?.bannerImageAlt ?? ''}
                     width={310}
                     height={310}
-                    priority
+                    loading="lazy"
                     className="rounded"
                   />
                 </div>
