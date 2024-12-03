@@ -79,7 +79,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en-us">
+    <html lang="en-US">
       <body className={`${inter.variable} ${saira.variable}`}>
         {children}
 
