@@ -70,26 +70,26 @@ const MainBanner: React.FC = () => {
                 // data-aos="fade-up"
                 // data-aos-duration="1000"
               >
-                <div className="d-none d-md-block">
-                  <Image
-                    src={heroData?.banner?.bannerImage ?? ''}
-                    alt={heroData?.banner?.bannerImageAlt ?? ''}
-                    width={546}
-                    height={546}
-                    loading="lazy"
-                    className="rounded"
-                  />
-                </div>
-                <div className="d-block d-md-none">
+                {/* <div className="d-none d-md-block"> */}
+                <Image
+                  src={heroData?.banner?.bannerImage ?? ''}
+                  alt={heroData?.banner?.bannerImageAlt ?? ''}
+                  width={546}
+                  height={546}
+                  priority
+                  className="rounded"
+                />
+                {/* </div> */}
+                {/* <div className="d-block d-md-none">
                   <Image
                     src={heroData?.banner?.bannerImageMobile ?? ''}
                     alt={heroData?.banner?.bannerImageAlt ?? ''}
                     width={310}
                     height={310}
-                    loading="lazy"
+                    priority
                     className="rounded"
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
