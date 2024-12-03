@@ -4,6 +4,7 @@
   "description": "At <strong> <span class='primary-text'  style={{ color: '#f9004dQ!important' }}>Adcrest Media</span> </strong>, we drive growth and maximize ROI through innovative, data-driven marketing strategies tailored just for you.",
   "banner": {
     "bannerImage": "/images/services/digital-marketing-solutions.webp",
+    "bannerImageMobile": "/images/services/digital-marketing-solutions-mobile.webp",
     "bannerImageAlt": "banner image",
     "shapeImage": "/images/digital-marketing/shape1.png",
     "shapeImageAlt": "shape image"
