@@ -26,9 +26,9 @@ const MarketingProcess: React.FC = () => {
                 >
                   <div
                     className="dm-process-box flex-grow-1"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay={value.aosDelay}
+                    // data-aos="fade-up"
+                    // data-aos-duration="1000"
+                    // data-aos-delay={value.aosDelay}
                   >
                     <Image
                       src={value.image}

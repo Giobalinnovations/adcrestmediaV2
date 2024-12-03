@@ -14,9 +14,9 @@ const AboutContent: React.FC = () => {
             <div className="col-lg-6 col-md-12">
               <div
                 className="marketing-about-image"
-                data-aos="fade-in"
-                data-aos-duration="1000"
-                data-aos-delay="100"
+                // data-aos="fade-in"
+                // data-aos-duration="1000"
+                // data-aos-delay="100"
               >
                 <Image
                   src={image}
@@ -31,9 +31,9 @@ const AboutContent: React.FC = () => {
             <div className="col-lg-6 col-md-12">
               <div
                 className="marketing-about-content"
-                data-aos="fade-in"
-                data-aos-duration="1000"
-                data-aos-delay="200"
+                // data-aos="fade-in"
+                // data-aos-duration="1000"
+                // data-aos-delay="200"
               >
                 <span className="sub-title">{subtitle}</span>
                 <h2 dangerouslySetInnerHTML={{ __html: title }} />

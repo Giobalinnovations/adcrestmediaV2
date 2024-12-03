@@ -37,9 +37,9 @@ const FunFacts: React.FC = () => {
                 <div className="col-lg-3 col-sm-6 col-md-6" key={i}>
                   <div
                     className="dm-funfacts-box"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay={value.aosDelay}
+                    // data-aos="fade-up"
+                    // data-aos-duration="1000"
+                    // data-aos-delay={value.aosDelay}
                   >
                     <i className={value.iconName}></i>
                     <h3>{value.number}</h3>

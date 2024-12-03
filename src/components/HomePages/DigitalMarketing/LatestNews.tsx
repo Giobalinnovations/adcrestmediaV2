@@ -42,7 +42,7 @@ const LatestNews = async () => {
                 <div className="col-lg-4 col-md-6" key={i}>
                   <div
                     className="single-blog-item"
-                    data-aos="fade-up"
+                    // data-aos="fade-up"
                     // data-aos-duration="1000"
                     // data-aos-delay={value.aosDelay}
                   >
