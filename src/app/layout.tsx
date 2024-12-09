@@ -64,7 +64,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
     languages: {
-      'en-US': 'https://www.adcrestmedia.com',
+      'en-us': 'https://www.adcrestmedia.com',
     },
   },
 
@@ -79,7 +79,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en-US">
+    <html lang="en-us">
       <body className={`${inter.variable} ${saira.variable}`}>
         {children}
 
